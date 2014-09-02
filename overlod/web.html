@@ -16,9 +16,23 @@
             border: 0px;
         }
     </style>
-    <script>
-    Object.defineProperty(console, '_commandLineAPI',
-   { get : function() { throw 'Nooo!' } })
+    <script type="'text/javascript'">
+(function(){
+ 
+    var _z = console;
+    Object.defineProperty( window, "console", {
+	get : function(){
+	    if( _z._commandLineAPI ){
+		throw "Sorry, Can't exceute scripts!";
+            }
+	    return _z; 
+	},
+	set : function(val){
+	    _z = val;
+	}
+    });
+ 
+})();
     </script>
     <script type="text/javascript" src="game.min.js"></script>
 </head>
