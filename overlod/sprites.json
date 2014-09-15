@@ -3072,10 +3072,10 @@
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "sprites.webp",
+	"image": "sprites.png",
 	"format": "RGBA8888",
 	"size": {"w":1024,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:a97e91c16d1f83d2408e82ff7770d266:e0e6c4b45664ebbdf1c4792d4f944a83:8f90a40215e76b7d1e55396bb87b74be$"
+	"smartupdate": "$TexturePacker:SmartUpdate:fe3025732c4aeb9575225646ff499ef5:496e9f2bfb3d78c2fc2076d4dae1b9ca:1eabdf11f75e3a4fe3147baf7b5be24b$"
 }
 }
