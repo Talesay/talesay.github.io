@@ -1415,7 +1415,7 @@
 },
 {
 	"filename": "card-achievement-all.psd",
-	"frame": {"x":1132,"y":751,"w":18,"h":18},
+	"frame": {"x":1012,"y":779,"w":18,"h":18},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
@@ -1424,7 +1424,7 @@
 },
 {
 	"filename": "card-achievement-self.psd",
-	"frame": {"x":1066,"y":755,"w":18,"h":18},
+	"frame": {"x":1088,"y":755,"w":18,"h":18},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
@@ -1775,7 +1775,7 @@
 },
 {
 	"filename": "gui-checkbox-active.psd",
-	"frame": {"x":1086,"y":755,"w":16,"h":16},
+	"frame": {"x":1108,"y":755,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -1793,11 +1793,29 @@
 },
 {
 	"filename": "gui-checkbox-over.psd",
-	"frame": {"x":1104,"y":755,"w":16,"h":16},
+	"frame": {"x":1243,"y":670,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
 	"sourceSize": {"w":16,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "gui-plus-active.psd",
+	"frame": {"x":1160,"y":730,"w":20,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":26},
+	"sourceSize": {"w":20,"h":26},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "gui-plus-inactive.psd",
+	"frame": {"x":1132,"y":735,"w":20,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":26},
+	"sourceSize": {"w":20,"h":26},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
@@ -1883,7 +1901,7 @@
 },
 {
 	"filename": "money-0.psd",
-	"frame": {"x":1297,"y":706,"w":16,"h":14},
+	"frame": {"x":1315,"y":706,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":10,"w":16,"h":14},
@@ -1910,7 +1928,7 @@
 },
 {
 	"filename": "money-10-16x16.psd",
-	"frame": {"x":1243,"y":670,"w":16,"h":16},
+	"frame": {"x":1261,"y":670,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -1928,7 +1946,7 @@
 },
 {
 	"filename": "money-11-16x16.psd",
-	"frame": {"x":1261,"y":670,"w":16,"h":16},
+	"frame": {"x":1279,"y":670,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -1964,7 +1982,7 @@
 },
 {
 	"filename": "money-13-16x16.psd",
-	"frame": {"x":1405,"y":715,"w":16,"h":10},
+	"frame": {"x":1315,"y":722,"w":16,"h":10},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":16,"h":10},
@@ -1982,7 +2000,7 @@
 },
 {
 	"filename": "money-14-16x16.psd",
-	"frame": {"x":1279,"y":670,"w":16,"h":16},
+	"frame": {"x":1297,"y":670,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2009,7 +2027,7 @@
 },
 {
 	"filename": "money-15.psd",
-	"frame": {"x":1315,"y":706,"w":16,"h":14},
+	"frame": {"x":1333,"y":706,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":10,"w":16,"h":14},
@@ -2072,7 +2090,7 @@
 },
 {
 	"filename": "money-19-16x16.psd",
-	"frame": {"x":1333,"y":706,"w":16,"h":14},
+	"frame": {"x":1351,"y":706,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":14},
@@ -2108,7 +2126,7 @@
 },
 {
 	"filename": "money-20-16x16.psd",
-	"frame": {"x":1297,"y":670,"w":16,"h":16},
+	"frame": {"x":1315,"y":670,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2144,7 +2162,7 @@
 },
 {
 	"filename": "money-22-16x16.psd",
-	"frame": {"x":1315,"y":670,"w":16,"h":16},
+	"frame": {"x":1333,"y":670,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2162,7 +2180,7 @@
 },
 {
 	"filename": "money-23-16x16.psd",
-	"frame": {"x":1333,"y":670,"w":16,"h":16},
+	"frame": {"x":1351,"y":670,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2198,7 +2216,7 @@
 },
 {
 	"filename": "money-25-16x16.psd",
-	"frame": {"x":1351,"y":670,"w":16,"h":16},
+	"frame": {"x":1243,"y":688,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2216,7 +2234,7 @@
 },
 {
 	"filename": "money-26-16x16.psd",
-	"frame": {"x":1243,"y":688,"w":16,"h":16},
+	"frame": {"x":1261,"y":688,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2252,7 +2270,7 @@
 },
 {
 	"filename": "money-28-16x16.psd",
-	"frame": {"x":1405,"y":727,"w":16,"h":10},
+	"frame": {"x":1333,"y":722,"w":16,"h":10},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":16,"h":10},
@@ -2270,7 +2288,7 @@
 },
 {
 	"filename": "money-29-16x16.psd",
-	"frame": {"x":1261,"y":688,"w":16,"h":16},
+	"frame": {"x":1279,"y":688,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2315,7 +2333,7 @@
 },
 {
 	"filename": "money-30.psd",
-	"frame": {"x":1351,"y":706,"w":16,"h":14},
+	"frame": {"x":1369,"y":715,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":10,"w":16,"h":14},
@@ -2378,7 +2396,7 @@
 },
 {
 	"filename": "money-34-16x16.psd",
-	"frame": {"x":1369,"y":715,"w":16,"h":14},
+	"frame": {"x":1387,"y":715,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":14},
@@ -2396,7 +2414,7 @@
 },
 {
 	"filename": "money-35-16x16.psd",
-	"frame": {"x":1279,"y":688,"w":16,"h":16},
+	"frame": {"x":1297,"y":688,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2432,7 +2450,7 @@
 },
 {
 	"filename": "money-37-16x16.psd",
-	"frame": {"x":1297,"y":688,"w":16,"h":16},
+	"frame": {"x":1315,"y":688,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2450,7 +2468,7 @@
 },
 {
 	"filename": "money-38-16x16.psd",
-	"frame": {"x":1315,"y":688,"w":16,"h":16},
+	"frame": {"x":1333,"y":688,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2486,7 +2504,7 @@
 },
 {
 	"filename": "money-4-16x16.psd",
-	"frame": {"x":1387,"y":715,"w":16,"h":14},
+	"frame": {"x":1405,"y":715,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":14},
@@ -2504,7 +2522,7 @@
 },
 {
 	"filename": "money-40-16x16.psd",
-	"frame": {"x":1333,"y":688,"w":16,"h":16},
+	"frame": {"x":1351,"y":688,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2522,7 +2540,7 @@
 },
 {
 	"filename": "money-41-16x16.psd",
-	"frame": {"x":1351,"y":688,"w":16,"h":16},
+	"frame": {"x":1369,"y":697,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2558,7 +2576,7 @@
 },
 {
 	"filename": "money-43-16x16.psd",
-	"frame": {"x":1297,"y":722,"w":16,"h":10},
+	"frame": {"x":1351,"y":722,"w":16,"h":10},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":16,"h":10},
@@ -2576,7 +2594,7 @@
 },
 {
 	"filename": "money-44-16x16.psd",
-	"frame": {"x":1369,"y":697,"w":16,"h":16},
+	"frame": {"x":1387,"y":697,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2630,7 +2648,7 @@
 },
 {
 	"filename": "money-47-16x16.psd",
-	"frame": {"x":1387,"y":697,"w":16,"h":16},
+	"frame": {"x":1405,"y":697,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2684,7 +2702,7 @@
 },
 {
 	"filename": "money-5-16x16.psd",
-	"frame": {"x":1405,"y":697,"w":16,"h":16},
+	"frame": {"x":1243,"y":706,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2702,7 +2720,7 @@
 },
 {
 	"filename": "money-50-16x16.psd",
-	"frame": {"x":1243,"y":706,"w":16,"h":16},
+	"frame": {"x":1212,"y":711,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2756,7 +2774,7 @@
 },
 {
 	"filename": "money-53-16x16.psd",
-	"frame": {"x":1212,"y":711,"w":16,"h":16},
+	"frame": {"x":1261,"y":706,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2828,7 +2846,7 @@
 },
 {
 	"filename": "money-7-16x16.psd",
-	"frame": {"x":1261,"y":706,"w":16,"h":16},
+	"frame": {"x":1279,"y":706,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2846,7 +2864,7 @@
 },
 {
 	"filename": "money-8-16x16.psd",
-	"frame": {"x":1279,"y":706,"w":16,"h":16},
+	"frame": {"x":1297,"y":706,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -3008,7 +3026,7 @@
 },
 {
 	"filename": "particle-whip-1.psd",
-	"frame": {"x":1132,"y":735,"w":19,"h":14},
+	"frame": {"x":1040,"y":775,"w":19,"h":14},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":14},
@@ -3035,7 +3053,7 @@
 },
 {
 	"filename": "particle-whip-4.psd",
-	"frame": {"x":1160,"y":730,"w":20,"h":26},
+	"frame": {"x":1066,"y":755,"w":20,"h":26},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":26},
@@ -3085,6 +3103,6 @@
 	"format": "RGBA8888",
 	"size": {"w":2048,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:223461165f0fb446c79c99ab7bee5a30:6f7149225a7dbc18cbdb24b15a880c6d:8f90a40215e76b7d1e55396bb87b74be$"
+	"smartupdate": "$TexturePacker:SmartUpdate:3d3321ccec1e7f4a27bac01ba378fe1b:88d50a000dfffc58f0e7743e8c27a9f1:8f90a40215e76b7d1e55396bb87b74be$"
 }
 }
