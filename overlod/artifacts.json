@@ -30,8 +30,8 @@
 		"power": 250
 	},
 	"sandsoftime": {
-		"description": "Sands of Time:\n Earn 250 times\n more gold when idling",
+		"description": "Sands of Time:\n Earn 350 times\n more gold when idling",
 		"cost": 1,
-		"power": 250
+		"power": 350
 	}
 }
