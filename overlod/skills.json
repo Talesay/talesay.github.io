@@ -1,0 +1,250 @@
+{
+	"skeleton": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "02",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "03",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "04",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "05",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "06",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "07",
+			"description": "",
+			"cost": 16000
+		}
+	],
+	"bat": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "08",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "09",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "10",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "11",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "12",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "13",
+			"description": "",
+			"cost": 16000
+		}
+	],
+	"slime": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "14",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "15",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "16",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "17",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "18",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "19",
+			"description": "",
+			"cost": 16000
+		}
+	],
+	"zombie": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "20",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "21",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "22",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "23",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "24",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "25",
+			"description": "",
+			"cost": 16000
+		}
+	],
+	"lizardman": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "26",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "27",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "28",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "29",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "30",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "31",
+			"description": "",
+			"cost": 16000
+		}
+	],
+	"mummy": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "32",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "33",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "34",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "35",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "36",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "37",
+			"description": "",
+			"cost": 16000
+		}
+	],
+	"wizard": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "38",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "39",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "40",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "41",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "42",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "43",
+			"description": "",
+			"cost": 16000
+		}
+	],
+	"demon": [
+		{
+			"name": "Well Read",
+			"description": "Wizards loot speed +1000%",
+			"cost": 10
+		}, {
+			"name": "44",
+			"description": "",
+			"cost": 100
+		}, {
+			"name": "45",
+			"description": "",
+			"cost": 1000
+		}, {
+			"name": "46",
+			"description": "",
+			"cost": 2000
+		}, {
+			"name": "47",
+			"description": "",
+			"cost": 4000
+		}, {
+			"name": "48",
+			"description": "",
+			"cost": 8000
+		}, {
+			"name": "49",
+			"description": "",
+			"cost": 16000
+		}
+	]
+}
