@@ -14,32 +14,32 @@
 			"name": "- Fancy Scythes -",
 			"description": "Skeletons loot:\n x",
 			"cost": 200000000000000000000,
-			"power": 500
+			"power": 100
 		}, {
 			"name": "- Happier Squeletons -",
 			"description": "Skeletons loot:\n x",
 			"cost": 200000000000000000000000000,
-			"power": 5000
+			"power": 500
 		}, {
 			"name": "- Cure Osteoporosis -",
 			"description": "Skeletons loot:\n x",
 			"cost": 200000000000000000000000000000000,
-			"power": 50000
+			"power": 5000
 		}, {
 			"name": "- Recruit Bikers -",
 			"description": "Skeletons loot:\n x",
 			"cost": 200000000000000000000000000000000000000,
-			"power": 500000
+			"power": 50000
 		}, {
 			"name": "- Danse Macabre -",
 			"description": "Skeletons loot:\n x",
 			"cost": 200000000000000000000000000000000000000000000,
-			"power": 5000000
+			"power": 500000
 		}, {
 			"name": "- Jurassic Allies -",
 			"description": "Skeletons loot:\n x",
 			"cost": 200000000000000000000000000000000000000000000000000,
-			"power": 50000000
+			"power": 5000000
 		}
 	],
 	"bat": [
@@ -57,32 +57,32 @@
 			"name": "- Winged Calamity -",
 			"description": "Bats loot:\n x",
 			"cost": 300000000000000000000,
-			"power": 300
+			"power": 100
 		}, {
 			"name": "- Bloody Rain -",
 			"description": "Bats loot:\n x",
 			"cost": 300000000000000000000000000,
-			"power": 3000
+			"power": 300
 		}, {
 			"name": "- Mortal Gust -",
 			"description": "Bats loot:\n x",
 			"cost": 300000000000000000000000000000000,
-			"power": 30000
+			"power": 3000
 		}, {
 			"name": "- Celene Requiem -",
 			"description": "Bats loot:\n x",
 			"cost": 300000000000000000000000000000000000000,
-			"power": 300000
+			"power": 30000
 		}, {
 			"name": "- Eclipse -",
 			"description": "Bats loot:\n x",
 			"cost": 300000000000000000000000000000000000000000000,
-			"power": 10
+			"power": 300000
 		}, {
 			"name": "- Sonic Pain -",
 			"description": "Bats loot:\n x",
 			"cost": 300000000000000000000000000000000000000000000000000,
-			"power": 30000000
+			"power": 3000000
 		}
 	],
 	"slime": [
@@ -100,32 +100,32 @@
 			"name": "- Juice of Hebona -",
 			"description": "Slimes loot:\n x",
 			"cost": 400000000000000000000,
-			"power": 20
+			"power": 50
 		}, {
 			"name": "- Cocytus Breath -",
 			"description": "Slimes loot:\n x",
 			"cost": 400000000000000000000000000,
-			"power": 200
+			"power": 100
 		}, {
 			"name": "- Toxic Burst -",
 			"description": "Slimes loot:\n x",
 			"cost": 400000000000000000000000000000000,
-			"power": 2000
+			"power": 200
 		}, {
 			"name": "- Putrid Waste -",
 			"description": "Slimes loot:\n x",
 			"cost": 400000000000000000000000000000000000000,
-			"power": 20000
+			"power": 2000
 		}, {
 			"name": "- Hemlock Brew -",
 			"description": "Slimes loot:\n x",
 			"cost": 400000000000000000000000000000000000000000000,
-			"power": 200000
+			"power": 20000
 		}, {
 			"name": "- Ricin Laugh -",
 			"description": "Slimes loot:\n x",
 			"cost": 400000000000000000000000000000000000000000000000000,
-			"power": 2000000
+			"power": 200000
 		}
 	],
 	"zombie": [
@@ -148,27 +148,27 @@
 			"name": "- Titan Outburst -",
 			"description": "Zombies loot:\n x",
 			"cost": 500000000000000000000000000,
-			"power": 100
+			"power": 50
 		}, {
 			"name": "- Ignis Fatuus -",
 			"description": "Zombies loot:\n x",
 			"cost": 500000000000000000000000000000000,
-			"power": 1000
+			"power": 100
 		}, {
 			"name": "- Brain Dissection -",
 			"description": "Zombies loot:\n x",
 			"cost": 500000000000000000000000000000000000000,
-			"power": 10000
+			"power": 1000
 		}, {
 			"name": "- Electroshock -",
 			"description": "Zombies loot:\n x",
 			"cost": 500000000000000000000000000000000000000000000,
-			"power": 100000
+			"power": 10000
 		}, {
 			"name": "- Hurting Howl -",
 			"description": "Zombies loot:\n x",
 			"cost": 500000000000000000000000000000000000000000000000000,
-			"power": 1000000
+			"power": 100000
 		}
 	],
 	"lizardman": [
@@ -186,32 +186,32 @@
 			"name": "- Dragon Rage -",
 			"description": "Lizardmen loot:\n x",
 			"cost": 600000000000000000000,
-			"power": 25
+			"power": 15
 		}, {
 			"name": "- Black Omen -",
 			"description": "Lizardmen loot:\n x",
 			"cost": 600000000000000000000000000,
-			"power": 50
+			"power": 25
 		}, {
 			"name": "- Rex Fury -",
 			"description": "Lizardmen loot:\n x",
 			"cost": 600000000000000000000000000000000,
-			"power": 500
+			"power": 50
 		}, {
 			"name": "- Serpent Blaze -",
 			"description": "Lizardmen loot:\n x",
 			"cost": 600000000000000000000000000000000000000,
-			"power": 5000
+			"power": 500
 		}, {
 			"name": "- Dual Flame -",
 			"description": "Lizardmen loot:\n x",
 			"cost": 600000000000000000000000000000000000000000000,
-			"power": 50000
+			"power": 5000
 		}, {
 			"name": "- Reign of Fire -",
 			"description": "Lizardmen loot:\n x",
 			"cost": 600000000000000000000000000000000000000000000000000,
-			"power": 500000
+			"power": 50000
 		}
 	],
 	"mummy": [
@@ -234,27 +234,27 @@
 			"name": "- Book of the Dead -",
 			"description": "Mummies loot:\n x",
 			"cost": 700000000000000000000000000,
-			"power": 40
+			"power": 25
 		}, {
 			"name": "- Eye of Horus -",
 			"description": "Mummies loot:\n x",
 			"cost": 700000000000000000000000000000000,
-			"power": 400
+			"power": 40
 		}, {
 			"name": "- Kephri's Storm -",
 			"description": "Mummies loot:\n x",
 			"cost": 700000000000000000000000000000000000000,
-			"power": 4000
+			"power": 400
 		}, {
 			"name": "- Necronomicon -",
 			"description": "Mummies loot:\n x",
 			"cost": 700000000000000000000000000000000000000000000,
-			"power": 40000
+			"power": 4000
 		}, {
 			"name": "- Key of Life -",
 			"description": "Mummies loot:\n x",
 			"cost": 700000000000000000000000000000000000000000000000000,
-			"power": 400000
+			"power": 40000
 		}
 	],
 	"wizard": [
@@ -277,27 +277,27 @@
 			"name": "- Sage Sight -",
 			"description": "Wizards loot:\n x",
 			"cost": 800000000000000000000000000,
-			"power": 20
+			"power": 15
 		}, {
 			"name": "- Wizard Tower -",
 			"description": "Wizards loot:\n x",
 			"cost": 800000000000000000000000000000000,
-			"power": 200
+			"power": 20
 		}, {
 			"name": "- Sorcerer Staff -",
 			"description": "Wizards loot:\n x",
 			"cost": 800000000000000000000000000000000000000,
-			"power": 2000
+			"power": 200
 		}, {
 			"name": "- Forbidden Grimoire -",
 			"description": "Wizards loot:\n x",
 			"cost": 800000000000000000000000000000000000000000000,
-			"power": 20000
+			"power": 2000
 		}, {
 			"name": "- Dark Shroud -",
 			"description": "Wizards loot:\n x",
 			"cost": 800000000000000000000000000000000000000000000000000,
-			"power": 200000
+			"power": 20000
 		}
 	],
 	"demon": [
@@ -320,27 +320,27 @@
 			"name": "- The Void -",
 			"description": "Demons loot:\n x",
 			"cost": 900000000000000000000000000,
-			"power": 10
+			"power": 25
 		}, {
 			"name": "- Doom Gaze -",
 			"description": "Demons loot:\n x",
 			"cost": 900000000000000000000000000000000,
-			"power": 100
+			"power": 50
 		}, {
 			"name": "- Delusional Despair -",
 			"description": "Demons loot:\n x",
 			"cost": 900000000000000000000000000000000000000,
-			"power": 1000
+			"power": 100
 		}, {
 			"name": "- Profane Pentagram -",
 			"description": "Demons loot:\n x",
 			"cost": 900000000000000000000000000000000000000000000,
-			"power": 10000
+			"power": 1000
 		}, {
 			"name": "- The Beast -",
 			"description": "Demons loot:\n x",
 			"cost": 900000000000000000000000000000000000000000000000000,
-			"power": 100000
+			"power": 10000
 		}
 	]
 }
