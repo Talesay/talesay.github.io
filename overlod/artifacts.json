@@ -4,6 +4,11 @@
 		"cost": 1,
 		"power": 99
 	},
+	"sandsoftime": {
+		"description": "Sands of Time:\n Earn 350 times\n more gold when idling",
+		"cost": 1,
+		"power": 350
+	},
 	"midasglove": {
 		"description": "Midas Glove:\n Earn 100 times\n more gold",
 		"cost": 2,
@@ -11,27 +16,27 @@
 	},
 	"vladsarmor": {
 		"description": "Vlad's Armor:\n Hiring Bosses is\n 250 times cheaper",
-		"cost": 4,
-		"power": 250
-	},
-	"tricorn": {
-		"description": "Hades Helm:\n COMING SOON",
-		"cost": 32,
-		"power": 250
-	},
-	"btardsword": {
-		"description": "Muramasa:\n COMING SOON",
-		"cost": 16,
+		"cost": 2,
 		"power": 250
 	},
 	"deathrattle": {
 		"description": "Death Rattle:\n Hiring Minions is\n 250 times cheaper",
-		"cost": 8,
+		"cost": 4,
 		"power": 250
 	},
-	"sandsoftime": {
-		"description": "Sands of Time:\n Earn 350 times\n more gold when idling",
-		"cost": 1,
-		"power": 350
+	"tricorn": {
+		"description": "Hades Helm:\n Ritual costs\n are halved",
+		"cost": 4,
+		"power": 2
+	},
+	"amanitaring": {
+		"description": "Faery Ring:\n Ritual effects\n are doubled",
+		"cost": 8,
+		"power": 2
+	},
+	"btardsword": {
+		"description": "Muramasa:\n COMING SOON",
+		"cost": 8,
+		"power": 250
 	}
 }
