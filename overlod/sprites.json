@@ -2,7 +2,7 @@
 
 {
 	"filename": "artifact-amanitaring.psd",
-	"frame": {"x":1024,"y":765,"w":30,"h":30},
+	"frame": {"x":666,"y":869,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":2,"w":30,"h":30},
@@ -11,7 +11,7 @@
 },
 {
 	"filename": "artifact-bar.psd",
-	"frame": {"x":802,"y":451,"w":360,"h":54},
+	"frame": {"x":1407,"y":707,"w":360,"h":54},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":54},
@@ -20,7 +20,7 @@
 },
 {
 	"filename": "artifact-btardsword.psd",
-	"frame": {"x":648,"y":660,"w":32,"h":32},
+	"frame": {"x":1967,"y":638,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -29,7 +29,7 @@
 },
 {
 	"filename": "artifact-deathrattle.psd",
-	"frame": {"x":682,"y":660,"w":32,"h":32},
+	"frame": {"x":1967,"y":672,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -38,7 +38,7 @@
 },
 {
 	"filename": "artifact-explanation.psd",
-	"frame": {"x":1802,"y":571,"w":216,"h":217},
+	"frame": {"x":448,"y":469,"w":216,"h":217},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":217},
@@ -47,7 +47,7 @@
 },
 {
 	"filename": "artifact-ironflogger.psd",
-	"frame": {"x":2020,"y":726,"w":26,"h":32},
+	"frame": {"x":2000,"y":318,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -56,7 +56,7 @@
 },
 {
 	"filename": "artifact-midasglove.psd",
-	"frame": {"x":2020,"y":760,"w":26,"h":32},
+	"frame": {"x":1305,"y":736,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":32},
@@ -65,7 +65,7 @@
 },
 {
 	"filename": "artifact-sandsoftime.psd",
-	"frame": {"x":1138,"y":775,"w":24,"h":32},
+	"frame": {"x":2001,"y":678,"w":24,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":24,"h":32},
@@ -74,7 +74,7 @@
 },
 {
 	"filename": "artifact-tricorn.psd",
-	"frame": {"x":546,"y":698,"w":30,"h":32},
+	"frame": {"x":1374,"y":755,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":0,"w":30,"h":32},
@@ -83,7 +83,7 @@
 },
 {
 	"filename": "artifact-vladsarmor.psd",
-	"frame": {"x":1198,"y":742,"w":32,"h":30},
+	"frame": {"x":1409,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -92,16 +92,16 @@
 },
 {
 	"filename": "bkg.psd",
-	"frame": {"x":2,"y":22,"w":798,"h":446},
+	"frame": {"x":2,"y":22,"w":797,"h":445},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":3,"w":798,"h":446},
+	"spriteSourceSize": {"x":0,"y":4,"w":797,"h":445},
 	"sourceSize": {"w":800,"h":450},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "boss-bat-1-1.psd",
-	"frame": {"x":796,"y":799,"w":28,"h":30},
+	"frame": {"x":1302,"y":906,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -110,7 +110,7 @@
 },
 {
 	"filename": "boss-bat-1-2.psd",
-	"frame": {"x":716,"y":660,"w":32,"h":32},
+	"frame": {"x":1967,"y":706,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -119,7 +119,7 @@
 },
 {
 	"filename": "boss-bat-2-1.psd",
-	"frame": {"x":750,"y":660,"w":32,"h":32},
+	"frame": {"x":1992,"y":746,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -128,7 +128,7 @@
 },
 {
 	"filename": "boss-bat-2-2.psd",
-	"frame": {"x":826,"y":799,"w":28,"h":30},
+	"frame": {"x":1302,"y":938,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -137,7 +137,7 @@
 },
 {
 	"filename": "boss-bat-3-1.psd",
-	"frame": {"x":1232,"y":742,"w":32,"h":30},
+	"frame": {"x":1443,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":30},
@@ -146,7 +146,7 @@
 },
 {
 	"filename": "boss-bat-3-2.psd",
-	"frame": {"x":1412,"y":851,"w":28,"h":28},
+	"frame": {"x":96,"y":856,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":28},
@@ -155,7 +155,7 @@
 },
 {
 	"filename": "boss-bat-4-1.psd",
-	"frame": {"x":1442,"y":851,"w":28,"h":28},
+	"frame": {"x":126,"y":856,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":28},
@@ -164,7 +164,7 @@
 },
 {
 	"filename": "boss-bat-4-2.psd",
-	"frame": {"x":1266,"y":742,"w":32,"h":30},
+	"frame": {"x":1477,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -173,7 +173,7 @@
 },
 {
 	"filename": "boss-bat-5-1.psd",
-	"frame": {"x":1300,"y":742,"w":32,"h":30},
+	"frame": {"x":1511,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -182,7 +182,7 @@
 },
 {
 	"filename": "boss-bat-5-2.psd",
-	"frame": {"x":1472,"y":851,"w":28,"h":28},
+	"frame": {"x":156,"y":856,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":28},
@@ -191,7 +191,7 @@
 },
 {
 	"filename": "boss-bat-6-1.psd",
-	"frame": {"x":1056,"y":765,"w":30,"h":30},
+	"frame": {"x":730,"y":883,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -200,7 +200,7 @@
 },
 {
 	"filename": "boss-bat-6-2.psd",
-	"frame": {"x":648,"y":694,"w":32,"h":32},
+	"frame": {"x":1992,"y":780,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -209,7 +209,7 @@
 },
 {
 	"filename": "boss-bat-7-1.psd",
-	"frame": {"x":682,"y":694,"w":32,"h":32},
+	"frame": {"x":1371,"y":857,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -218,7 +218,7 @@
 },
 {
 	"filename": "boss-bat-7-2.psd",
-	"frame": {"x":856,"y":799,"w":28,"h":30},
+	"frame": {"x":1302,"y":970,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -227,7 +227,7 @@
 },
 {
 	"filename": "boss-bat-8-1.psd",
-	"frame": {"x":1519,"y":320,"w":28,"h":32},
+	"frame": {"x":1234,"y":730,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":32},
@@ -236,7 +236,7 @@
 },
 {
 	"filename": "boss-bat-8-2.psd",
-	"frame": {"x":886,"y":799,"w":28,"h":30},
+	"frame": {"x":636,"y":788,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -245,7 +245,7 @@
 },
 {
 	"filename": "boss-demon-1-1.psd",
-	"frame": {"x":578,"y":698,"w":30,"h":32},
+	"frame": {"x":1374,"y":789,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -254,7 +254,7 @@
 },
 {
 	"filename": "boss-demon-1-2.psd",
-	"frame": {"x":610,"y":698,"w":30,"h":32},
+	"frame": {"x":1374,"y":823,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -263,7 +263,7 @@
 },
 {
 	"filename": "boss-demon-2-1.psd",
-	"frame": {"x":444,"y":720,"w":30,"h":32},
+	"frame": {"x":700,"y":819,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -272,7 +272,7 @@
 },
 {
 	"filename": "boss-demon-2-2.psd",
-	"frame": {"x":476,"y":720,"w":30,"h":32},
+	"frame": {"x":766,"y":861,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -281,7 +281,7 @@
 },
 {
 	"filename": "boss-demon-3-1.psd",
-	"frame": {"x":508,"y":720,"w":30,"h":32},
+	"frame": {"x":210,"y":764,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -290,7 +290,7 @@
 },
 {
 	"filename": "boss-demon-3-2.psd",
-	"frame": {"x":1198,"y":774,"w":32,"h":30},
+	"frame": {"x":1545,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -299,7 +299,7 @@
 },
 {
 	"filename": "boss-demon-4-1.psd",
-	"frame": {"x":716,"y":694,"w":32,"h":32},
+	"frame": {"x":1370,"y":891,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -308,7 +308,7 @@
 },
 {
 	"filename": "boss-demon-4-2.psd",
-	"frame": {"x":750,"y":694,"w":32,"h":32},
+	"frame": {"x":2014,"y":854,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -317,7 +317,7 @@
 },
 {
 	"filename": "boss-demon-5-1.psd",
-	"frame": {"x":800,"y":697,"w":32,"h":32},
+	"frame": {"x":2014,"y":888,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -326,7 +326,7 @@
 },
 {
 	"filename": "boss-demon-5-2.psd",
-	"frame": {"x":1232,"y":774,"w":32,"h":30},
+	"frame": {"x":1579,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -335,7 +335,7 @@
 },
 {
 	"filename": "boss-demon-6-1.psd",
-	"frame": {"x":834,"y":697,"w":32,"h":32},
+	"frame": {"x":2014,"y":922,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -344,7 +344,7 @@
 },
 {
 	"filename": "boss-demon-6-2.psd",
-	"frame": {"x":1266,"y":774,"w":32,"h":30},
+	"frame": {"x":1613,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -353,7 +353,7 @@
 },
 {
 	"filename": "boss-demon-7-1.psd",
-	"frame": {"x":642,"y":728,"w":30,"h":32},
+	"frame": {"x":74,"y":790,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -362,7 +362,7 @@
 },
 {
 	"filename": "boss-demon-7-2.psd",
-	"frame": {"x":1088,"y":765,"w":30,"h":30},
+	"frame": {"x":698,"y":887,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -371,7 +371,7 @@
 },
 {
 	"filename": "boss-demon-8-1.psd",
-	"frame": {"x":868,"y":697,"w":32,"h":32},
+	"frame": {"x":1370,"y":925,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -380,7 +380,7 @@
 },
 {
 	"filename": "boss-demon-8-2.psd",
-	"frame": {"x":1300,"y":774,"w":32,"h":30},
+	"frame": {"x":1647,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -389,7 +389,7 @@
 },
 {
 	"filename": "boss-lizardman-1-1.psd",
-	"frame": {"x":902,"y":697,"w":32,"h":32},
+	"frame": {"x":1370,"y":959,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -398,7 +398,7 @@
 },
 {
 	"filename": "boss-lizardman-1-2.psd",
-	"frame": {"x":1164,"y":776,"w":30,"h":30},
+	"frame": {"x":762,"y":895,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -407,7 +407,7 @@
 },
 {
 	"filename": "boss-lizardman-2-1.psd",
-	"frame": {"x":936,"y":697,"w":32,"h":32},
+	"frame": {"x":1370,"y":993,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -416,7 +416,7 @@
 },
 {
 	"filename": "boss-lizardman-2-2.psd",
-	"frame": {"x":1024,"y":797,"w":30,"h":30},
+	"frame": {"x":730,"y":915,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -425,7 +425,7 @@
 },
 {
 	"filename": "boss-lizardman-3-1.psd",
-	"frame": {"x":1900,"y":900,"w":28,"h":32},
+	"frame": {"x":1234,"y":764,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":28,"h":32},
@@ -434,7 +434,7 @@
 },
 {
 	"filename": "boss-lizardman-3-2.psd",
-	"frame": {"x":1354,"y":704,"w":26,"h":30},
+	"frame": {"x":704,"y":723,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":2,"w":26,"h":30},
@@ -443,7 +443,7 @@
 },
 {
 	"filename": "boss-lizardman-4-1.psd",
-	"frame": {"x":970,"y":697,"w":32,"h":32},
+	"frame": {"x":2013,"y":956,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -452,7 +452,7 @@
 },
 {
 	"filename": "boss-lizardman-4-2.psd",
-	"frame": {"x":1056,"y":797,"w":30,"h":30},
+	"frame": {"x":202,"y":798,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -461,7 +461,7 @@
 },
 {
 	"filename": "boss-lizardman-5-1.psd",
-	"frame": {"x":1004,"y":697,"w":32,"h":32},
+	"frame": {"x":2012,"y":990,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -470,7 +470,7 @@
 },
 {
 	"filename": "boss-lizardman-5-2.psd",
-	"frame": {"x":2,"y":698,"w":32,"h":30},
+	"frame": {"x":1726,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -479,7 +479,7 @@
 },
 {
 	"filename": "boss-lizardman-6-1.psd",
-	"frame": {"x":1088,"y":797,"w":30,"h":30},
+	"frame": {"x":68,"y":824,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -488,7 +488,7 @@
 },
 {
 	"filename": "boss-lizardman-6-2.psd",
-	"frame": {"x":1502,"y":851,"w":28,"h":28},
+	"frame": {"x":226,"y":830,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":4,"w":28,"h":28},
@@ -497,7 +497,7 @@
 },
 {
 	"filename": "boss-lizardman-7-1.psd",
-	"frame": {"x":540,"y":732,"w":30,"h":32},
+	"frame": {"x":36,"y":794,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -506,7 +506,7 @@
 },
 {
 	"filename": "boss-lizardman-7-2.psd",
-	"frame": {"x":36,"y":698,"w":32,"h":30},
+	"frame": {"x":1760,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -515,7 +515,7 @@
 },
 {
 	"filename": "boss-lizardman-8-1.psd",
-	"frame": {"x":572,"y":732,"w":30,"h":32},
+	"frame": {"x":2,"y":798,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -524,7 +524,7 @@
 },
 {
 	"filename": "boss-lizardman-8-2.psd",
-	"frame": {"x":1196,"y":806,"w":30,"h":30},
+	"frame": {"x":34,"y":828,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -533,7 +533,7 @@
 },
 {
 	"filename": "boss-mummy-1-1.psd",
-	"frame": {"x":1382,"y":451,"w":26,"h":32},
+	"frame": {"x":1305,"y":770,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -542,7 +542,7 @@
 },
 {
 	"filename": "boss-mummy-1-2.psd",
-	"frame": {"x":1382,"y":723,"w":26,"h":30},
+	"frame": {"x":770,"y":701,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":26,"h":30},
@@ -551,7 +551,7 @@
 },
 {
 	"filename": "boss-mummy-2-1.psd",
-	"frame": {"x":604,"y":732,"w":30,"h":32},
+	"frame": {"x":106,"y":790,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -560,7 +560,7 @@
 },
 {
 	"filename": "boss-mummy-2-2.psd",
-	"frame": {"x":1164,"y":808,"w":30,"h":30},
+	"frame": {"x":2,"y":832,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -569,7 +569,7 @@
 },
 {
 	"filename": "boss-mummy-3-1.psd",
-	"frame": {"x":674,"y":728,"w":30,"h":32},
+	"frame": {"x":138,"y":790,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -578,7 +578,7 @@
 },
 {
 	"filename": "boss-mummy-3-2.psd",
-	"frame": {"x":706,"y":728,"w":30,"h":32},
+	"frame": {"x":170,"y":790,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -587,7 +587,7 @@
 },
 {
 	"filename": "boss-mummy-4-1.psd",
-	"frame": {"x":738,"y":728,"w":30,"h":32},
+	"frame": {"x":242,"y":764,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -596,7 +596,7 @@
 },
 {
 	"filename": "boss-mummy-4-2.psd",
-	"frame": {"x":636,"y":762,"w":30,"h":32},
+	"frame": {"x":274,"y":764,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -605,7 +605,7 @@
 },
 {
 	"filename": "boss-mummy-5-1.psd",
-	"frame": {"x":668,"y":762,"w":30,"h":32},
+	"frame": {"x":306,"y":764,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -614,7 +614,7 @@
 },
 {
 	"filename": "boss-mummy-5-2.psd",
-	"frame": {"x":1228,"y":806,"w":30,"h":30},
+	"frame": {"x":100,"y":824,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -623,7 +623,7 @@
 },
 {
 	"filename": "boss-mummy-6-1.psd",
-	"frame": {"x":700,"y":762,"w":30,"h":32},
+	"frame": {"x":338,"y":764,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -632,7 +632,7 @@
 },
 {
 	"filename": "boss-mummy-6-2.psd",
-	"frame": {"x":1260,"y":806,"w":30,"h":30},
+	"frame": {"x":132,"y":824,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -641,7 +641,7 @@
 },
 {
 	"filename": "boss-mummy-7-1.psd",
-	"frame": {"x":1900,"y":934,"w":28,"h":32},
+	"frame": {"x":1234,"y":798,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":32},
@@ -650,7 +650,7 @@
 },
 {
 	"filename": "boss-mummy-7-2.psd",
-	"frame": {"x":1352,"y":736,"w":28,"h":32},
+	"frame": {"x":1234,"y":832,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":32},
@@ -659,7 +659,7 @@
 },
 {
 	"filename": "boss-mummy-8-1.psd",
-	"frame": {"x":732,"y":762,"w":30,"h":32},
+	"frame": {"x":370,"y":764,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -668,7 +668,7 @@
 },
 {
 	"filename": "boss-mummy-8-2.psd",
-	"frame": {"x":1292,"y":806,"w":30,"h":30},
+	"frame": {"x":164,"y":824,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -677,7 +677,7 @@
 },
 {
 	"filename": "boss-skeleton-1-1.psd",
-	"frame": {"x":1382,"y":485,"w":26,"h":32},
+	"frame": {"x":1305,"y":804,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -686,7 +686,7 @@
 },
 {
 	"filename": "boss-skeleton-1-2.psd",
-	"frame": {"x":1382,"y":755,"w":26,"h":30},
+	"frame": {"x":770,"y":733,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":26,"h":30},
@@ -695,7 +695,7 @@
 },
 {
 	"filename": "boss-skeleton-2-1.psd",
-	"frame": {"x":1382,"y":519,"w":26,"h":32},
+	"frame": {"x":1305,"y":838,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -704,7 +704,7 @@
 },
 {
 	"filename": "boss-skeleton-2-2.psd",
-	"frame": {"x":1382,"y":787,"w":26,"h":30},
+	"frame": {"x":770,"y":765,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":26,"h":30},
@@ -713,7 +713,7 @@
 },
 {
 	"filename": "boss-skeleton-3-1.psd",
-	"frame": {"x":1382,"y":553,"w":26,"h":32},
+	"frame": {"x":420,"y":540,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -722,7 +722,7 @@
 },
 {
 	"filename": "boss-skeleton-3-2.psd",
-	"frame": {"x":1382,"y":819,"w":26,"h":30},
+	"frame": {"x":704,"y":755,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":26,"h":30},
@@ -731,7 +731,7 @@
 },
 {
 	"filename": "boss-skeleton-4-1.psd",
-	"frame": {"x":1138,"y":809,"w":24,"h":32},
+	"frame": {"x":2001,"y":712,"w":24,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":24,"h":32},
@@ -740,7 +740,7 @@
 },
 {
 	"filename": "boss-skeleton-4-2.psd",
-	"frame": {"x":1617,"y":896,"w":24,"h":30},
+	"frame": {"x":775,"y":569,"w":24,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":24,"h":30},
@@ -749,7 +749,7 @@
 },
 {
 	"filename": "boss-skeleton-5-1.psd",
-	"frame": {"x":1382,"y":587,"w":26,"h":32},
+	"frame": {"x":420,"y":574,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -758,7 +758,7 @@
 },
 {
 	"filename": "boss-skeleton-5-2.psd",
-	"frame": {"x":1382,"y":621,"w":26,"h":32},
+	"frame": {"x":420,"y":608,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -767,7 +767,7 @@
 },
 {
 	"filename": "boss-skeleton-6-1.psd",
-	"frame": {"x":1382,"y":655,"w":26,"h":32},
+	"frame": {"x":420,"y":642,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -776,7 +776,7 @@
 },
 {
 	"filename": "boss-skeleton-6-2.psd",
-	"frame": {"x":1324,"y":818,"w":26,"h":30},
+	"frame": {"x":770,"y":797,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":26,"h":30},
@@ -785,7 +785,7 @@
 },
 {
 	"filename": "boss-skeleton-7-1.psd",
-	"frame": {"x":1038,"y":697,"w":32,"h":32},
+	"frame": {"x":2012,"y":1024,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -794,7 +794,7 @@
 },
 {
 	"filename": "boss-skeleton-7-2.psd",
-	"frame": {"x":70,"y":698,"w":32,"h":30},
+	"frame": {"x":1794,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -803,7 +803,7 @@
 },
 {
 	"filename": "boss-skeleton-8-1.psd",
-	"frame": {"x":1968,"y":932,"w":26,"h":32},
+	"frame": {"x":420,"y":676,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":26,"h":32},
@@ -812,7 +812,7 @@
 },
 {
 	"filename": "boss-skeleton-8-2.psd",
-	"frame": {"x":1324,"y":850,"w":26,"h":30},
+	"frame": {"x":420,"y":710,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":26,"h":30},
@@ -821,7 +821,7 @@
 },
 {
 	"filename": "boss-slime-1-1.psd",
-	"frame": {"x":1114,"y":837,"w":22,"h":22},
+	"frame": {"x":1697,"y":294,"w":22,"h":22},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":6,"w":22,"h":22},
@@ -830,7 +830,7 @@
 },
 {
 	"filename": "boss-slime-1-2.psd",
-	"frame": {"x":1312,"y":968,"w":22,"h":18},
+	"frame": {"x":594,"y":820,"w":22,"h":18},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":10,"w":22,"h":18},
@@ -839,7 +839,7 @@
 },
 {
 	"filename": "boss-slime-2-1.psd",
-	"frame": {"x":1530,"y":924,"w":22,"h":22},
+	"frame": {"x":2003,"y":592,"w":22,"h":22},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":6,"w":22,"h":22},
@@ -848,7 +848,7 @@
 },
 {
 	"filename": "boss-slime-2-2.psd",
-	"frame": {"x":1669,"y":902,"w":22,"h":18},
+	"frame": {"x":610,"y":872,"w":22,"h":18},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":10,"w":22,"h":18},
@@ -857,7 +857,7 @@
 },
 {
 	"filename": "boss-slime-3-1.psd",
-	"frame": {"x":1500,"y":931,"w":22,"h":22},
+	"frame": {"x":2003,"y":616,"w":22,"h":22},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":4,"w":22,"h":22},
@@ -866,7 +866,7 @@
 },
 {
 	"filename": "boss-slime-3-2.psd",
-	"frame": {"x":1693,"y":902,"w":22,"h":18},
+	"frame": {"x":610,"y":892,"w":22,"h":18},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":8,"w":22,"h":18},
@@ -875,7 +875,7 @@
 },
 {
 	"filename": "boss-slime-4-1.psd",
-	"frame": {"x":1938,"y":403,"w":30,"h":24},
+	"frame": {"x":490,"y":832,"w":30,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":30,"h":24},
@@ -884,7 +884,7 @@
 },
 {
 	"filename": "boss-slime-4-2.psd",
-	"frame": {"x":1292,"y":870,"w":30,"h":20},
+	"frame": {"x":586,"y":840,"w":30,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":8,"w":30,"h":20},
@@ -893,7 +893,7 @@
 },
 {
 	"filename": "boss-slime-5-1.psd",
-	"frame": {"x":1532,"y":851,"w":28,"h":28},
+	"frame": {"x":256,"y":830,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":28},
@@ -902,7 +902,7 @@
 },
 {
 	"filename": "boss-slime-5-2.psd",
-	"frame": {"x":1322,"y":914,"w":28,"h":24},
+	"frame": {"x":484,"y":890,"w":28,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":6,"w":28,"h":24},
@@ -911,7 +911,7 @@
 },
 {
 	"filename": "boss-slime-6-1.psd",
-	"frame": {"x":1840,"y":357,"w":32,"h":28},
+	"frame": {"x":40,"y":764,"w":32,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":28},
@@ -920,7 +920,7 @@
 },
 {
 	"filename": "boss-slime-6-2.psd",
-	"frame": {"x":1802,"y":403,"w":32,"h":24},
+	"frame": {"x":74,"y":764,"w":32,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":6,"w":32,"h":24},
@@ -929,7 +929,7 @@
 },
 {
 	"filename": "boss-slime-7-1.psd",
-	"frame": {"x":1470,"y":933,"w":22,"h":22},
+	"frame": {"x":774,"y":633,"w":22,"h":22},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":6,"w":22,"h":22},
@@ -938,7 +938,7 @@
 },
 {
 	"filename": "boss-slime-7-2.psd",
-	"frame": {"x":1438,"y":935,"w":22,"h":20},
+	"frame": {"x":774,"y":657,"w":22,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":8,"w":22,"h":20},
@@ -947,7 +947,7 @@
 },
 {
 	"filename": "boss-slime-8-1.psd",
-	"frame": {"x":1643,"y":896,"w":24,"h":30},
+	"frame": {"x":775,"y":601,"w":24,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":24,"h":30},
@@ -956,7 +956,7 @@
 },
 {
 	"filename": "boss-slime-8-2.psd",
-	"frame": {"x":1587,"y":907,"w":24,"h":26},
+	"frame": {"x":707,"y":639,"w":24,"h":26},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":6,"w":24,"h":26},
@@ -965,7 +965,7 @@
 },
 {
 	"filename": "boss-wizard-1-1.psd",
-	"frame": {"x":1072,"y":697,"w":32,"h":32},
+	"frame": {"x":2012,"y":1058,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -974,7 +974,7 @@
 },
 {
 	"filename": "boss-wizard-1-2.psd",
-	"frame": {"x":104,"y":698,"w":32,"h":30},
+	"frame": {"x":1828,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -983,7 +983,7 @@
 },
 {
 	"filename": "boss-wizard-2-1.psd",
-	"frame": {"x":800,"y":765,"w":30,"h":32},
+	"frame": {"x":402,"y":776,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -992,7 +992,7 @@
 },
 {
 	"filename": "boss-wizard-2-2.psd",
-	"frame": {"x":1196,"y":838,"w":30,"h":30},
+	"frame": {"x":234,"y":798,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -1001,7 +1001,7 @@
 },
 {
 	"filename": "boss-wizard-3-1.psd",
-	"frame": {"x":1140,"y":707,"w":22,"h":32},
+	"frame": {"x":2003,"y":524,"w":22,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":22,"h":32},
@@ -1010,7 +1010,7 @@
 },
 {
 	"filename": "boss-wizard-3-2.psd",
-	"frame": {"x":1140,"y":741,"w":22,"h":32},
+	"frame": {"x":2003,"y":558,"w":22,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":22,"h":32},
@@ -1019,7 +1019,7 @@
 },
 {
 	"filename": "boss-wizard-4-1.psd",
-	"frame": {"x":1138,"y":843,"w":24,"h":32},
+	"frame": {"x":775,"y":535,"w":24,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":24,"h":32},
@@ -1028,7 +1028,7 @@
 },
 {
 	"filename": "boss-wizard-4-2.psd",
-	"frame": {"x":1561,"y":907,"w":24,"h":30},
+	"frame": {"x":707,"y":607,"w":24,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":24,"h":30},
@@ -1037,7 +1037,7 @@
 },
 {
 	"filename": "boss-wizard-5-1.psd",
-	"frame": {"x":764,"y":770,"w":30,"h":32},
+	"frame": {"x":434,"y":798,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -1046,7 +1046,7 @@
 },
 {
 	"filename": "boss-wizard-5-2.psd",
-	"frame": {"x":1164,"y":840,"w":30,"h":30},
+	"frame": {"x":266,"y":798,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -1055,7 +1055,7 @@
 },
 {
 	"filename": "boss-wizard-6-1.psd",
-	"frame": {"x":1562,"y":851,"w":28,"h":28},
+	"frame": {"x":286,"y":830,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":28},
@@ -1064,7 +1064,7 @@
 },
 {
 	"filename": "boss-wizard-6-2.psd",
-	"frame": {"x":1382,"y":883,"w":28,"h":26},
+	"frame": {"x":454,"y":862,"w":28,"h":26},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":6,"w":28,"h":26},
@@ -1073,7 +1073,7 @@
 },
 {
 	"filename": "boss-wizard-7-1.psd",
-	"frame": {"x":916,"y":799,"w":28,"h":30},
+	"frame": {"x":636,"y":820,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":2,"w":28,"h":30},
@@ -1082,7 +1082,7 @@
 },
 {
 	"filename": "boss-wizard-7-2.psd",
-	"frame": {"x":1592,"y":851,"w":28,"h":28},
+	"frame": {"x":316,"y":830,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":4,"w":28,"h":28},
@@ -1091,7 +1091,7 @@
 },
 {
 	"filename": "boss-wizard-8-1.psd",
-	"frame": {"x":1106,"y":697,"w":32,"h":32},
+	"frame": {"x":40,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -1100,7 +1100,7 @@
 },
 {
 	"filename": "boss-wizard-8-2.psd",
-	"frame": {"x":1164,"y":708,"w":32,"h":32},
+	"frame": {"x":74,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -1109,7 +1109,7 @@
 },
 {
 	"filename": "boss-zombie-1-1.psd",
-	"frame": {"x":946,"y":799,"w":28,"h":30},
+	"frame": {"x":636,"y":852,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -1118,7 +1118,7 @@
 },
 {
 	"filename": "boss-zombie-1-2.psd",
-	"frame": {"x":1622,"y":866,"w":28,"h":28},
+	"frame": {"x":346,"y":830,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":28},
@@ -1127,7 +1127,7 @@
 },
 {
 	"filename": "boss-zombie-2-1.psd",
-	"frame": {"x":832,"y":765,"w":30,"h":32},
+	"frame": {"x":466,"y":798,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -1136,7 +1136,7 @@
 },
 {
 	"filename": "boss-zombie-2-2.psd",
-	"frame": {"x":1228,"y":838,"w":30,"h":30},
+	"frame": {"x":298,"y":798,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -1145,7 +1145,7 @@
 },
 {
 	"filename": "boss-zombie-3-1.psd",
-	"frame": {"x":864,"y":765,"w":30,"h":32},
+	"frame": {"x":498,"y":798,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":30,"h":32},
@@ -1154,7 +1154,7 @@
 },
 {
 	"filename": "boss-zombie-3-2.psd",
-	"frame": {"x":1260,"y":838,"w":30,"h":30},
+	"frame": {"x":330,"y":798,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":30,"h":30},
@@ -1163,7 +1163,7 @@
 },
 {
 	"filename": "boss-zombie-4-1.psd",
-	"frame": {"x":1352,"y":770,"w":28,"h":32},
+	"frame": {"x":1234,"y":866,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":32},
@@ -1172,7 +1172,7 @@
 },
 {
 	"filename": "boss-zombie-4-2.psd",
-	"frame": {"x":976,"y":799,"w":28,"h":30},
+	"frame": {"x":490,"y":858,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -1181,7 +1181,7 @@
 },
 {
 	"filename": "boss-zombie-5-1.psd",
-	"frame": {"x":1352,"y":804,"w":28,"h":32},
+	"frame": {"x":1302,"y":872,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":32},
@@ -1190,7 +1190,7 @@
 },
 {
 	"filename": "boss-zombie-5-2.psd",
-	"frame": {"x":1024,"y":829,"w":28,"h":30},
+	"frame": {"x":520,"y":858,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -1199,7 +1199,7 @@
 },
 {
 	"filename": "boss-zombie-6-1.psd",
-	"frame": {"x":1054,"y":829,"w":28,"h":30},
+	"frame": {"x":550,"y":858,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -1208,7 +1208,7 @@
 },
 {
 	"filename": "boss-zombie-6-2.psd",
-	"frame": {"x":770,"y":736,"w":28,"h":32},
+	"frame": {"x":1234,"y":900,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":32},
@@ -1217,7 +1217,7 @@
 },
 {
 	"filename": "boss-zombie-7-1.psd",
-	"frame": {"x":1198,"y":708,"w":32,"h":32},
+	"frame": {"x":108,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -1226,7 +1226,7 @@
 },
 {
 	"filename": "boss-zombie-7-2.psd",
-	"frame": {"x":1232,"y":708,"w":32,"h":32},
+	"frame": {"x":142,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -1235,7 +1235,7 @@
 },
 {
 	"filename": "boss-zombie-8-1.psd",
-	"frame": {"x":896,"y":765,"w":30,"h":32},
+	"frame": {"x":530,"y":798,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -1244,7 +1244,7 @@
 },
 {
 	"filename": "boss-zombie-8-2.psd",
-	"frame": {"x":1292,"y":838,"w":30,"h":30},
+	"frame": {"x":362,"y":798,"w":30,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":30,"h":30},
@@ -1253,7 +1253,7 @@
 },
 {
 	"filename": "btn-artifacts-active.psd",
-	"frame": {"x":1952,"y":277,"w":78,"h":39},
+	"frame": {"x":1949,"y":277,"w":78,"h":39},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":39},
@@ -1262,7 +1262,7 @@
 },
 {
 	"filename": "btn-artifacts-inactive.psd",
-	"frame": {"x":1947,"y":318,"w":78,"h":33},
+	"frame": {"x":1887,"y":638,"w":78,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":33},
@@ -1271,7 +1271,7 @@
 },
 {
 	"filename": "btn-artifacts-over.psd",
-	"frame": {"x":1947,"y":353,"w":78,"h":33},
+	"frame": {"x":1887,"y":673,"w":78,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":33},
@@ -1280,7 +1280,7 @@
 },
 {
 	"filename": "btn-boss-active.psd",
-	"frame": {"x":1866,"y":790,"w":68,"h":39},
+	"frame": {"x":1265,"y":584,"w":68,"h":39},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":39},
@@ -1289,7 +1289,7 @@
 },
 {
 	"filename": "btn-boss-inactive.psd",
-	"frame": {"x":1794,"y":825,"w":68,"h":33},
+	"frame": {"x":1265,"y":625,"w":68,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":33},
@@ -1298,7 +1298,7 @@
 },
 {
 	"filename": "btn-boss-over.psd",
-	"frame": {"x":1936,"y":790,"w":68,"h":33},
+	"frame": {"x":1265,"y":660,"w":68,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":33},
@@ -1307,7 +1307,7 @@
 },
 {
 	"filename": "btn-campaign-active.psd",
-	"frame": {"x":1952,"y":166,"w":85,"h":39},
+	"frame": {"x":1949,"y":166,"w":85,"h":39},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":39},
@@ -1316,7 +1316,7 @@
 },
 {
 	"filename": "btn-campaign-inactive.psd",
-	"frame": {"x":1952,"y":207,"w":85,"h":33},
+	"frame": {"x":1949,"y":207,"w":85,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":33},
@@ -1325,7 +1325,7 @@
 },
 {
 	"filename": "btn-campaign-over.psd",
-	"frame": {"x":1952,"y":242,"w":85,"h":33},
+	"frame": {"x":1949,"y":242,"w":85,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":33},
@@ -1334,7 +1334,7 @@
 },
 {
 	"filename": "btn-library-active.psd",
-	"frame": {"x":1936,"y":825,"w":66,"h":39},
+	"frame": {"x":1265,"y":695,"w":66,"h":39},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":39},
@@ -1343,7 +1343,7 @@
 },
 {
 	"filename": "btn-library-inactive.psd",
-	"frame": {"x":1864,"y":831,"w":66,"h":33},
+	"frame": {"x":666,"y":469,"w":66,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":33},
@@ -1352,7 +1352,7 @@
 },
 {
 	"filename": "btn-library-over.psd",
-	"frame": {"x":1756,"y":860,"w":66,"h":33},
+	"frame": {"x":666,"y":504,"w":66,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":33},
@@ -1361,7 +1361,7 @@
 },
 {
 	"filename": "btn-minion-active.psd",
-	"frame": {"x":1628,"y":788,"w":70,"h":41},
+	"frame": {"x":1335,"y":642,"w":70,"h":41},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":41},
@@ -1370,7 +1370,7 @@
 },
 {
 	"filename": "btn-minion-inactive.psd",
-	"frame": {"x":1628,"y":831,"w":70,"h":33},
+	"frame": {"x":1335,"y":685,"w":70,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":33},
@@ -1379,7 +1379,7 @@
 },
 {
 	"filename": "btn-minion-over.psd",
-	"frame": {"x":1794,"y":790,"w":70,"h":33},
+	"frame": {"x":1333,"y":720,"w":70,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":33},
@@ -1388,7 +1388,7 @@
 },
 {
 	"filename": "btn-new-game-active.psd",
-	"frame": {"x":1452,"y":40,"w":107,"h":39},
+	"frame": {"x":1450,"y":40,"w":107,"h":39},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":39},
@@ -1397,7 +1397,7 @@
 },
 {
 	"filename": "btn-new-game-inactive.psd",
-	"frame": {"x":1615,"y":319,"w":107,"h":33},
+	"frame": {"x":1450,"y":81,"w":107,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":33},
@@ -1406,7 +1406,7 @@
 },
 {
 	"filename": "btn-new-game-over.psd",
-	"frame": {"x":1410,"y":320,"w":107,"h":33},
+	"frame": {"x":1450,"y":116,"w":107,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":33},
@@ -1414,8 +1414,260 @@
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
+	"filename": "campaign-city-0-active.psd",
+	"frame": {"x":1409,"y":70,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-0-inactive.psd",
+	"frame": {"x":1409,"y":111,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-0-over.psd",
+	"frame": {"x":1409,"y":152,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-1-active.psd",
+	"frame": {"x":1367,"y":487,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-1-inactive.psd",
+	"frame": {"x":1367,"y":528,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-1-over.psd",
+	"frame": {"x":734,"y":535,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-2-active.psd",
+	"frame": {"x":734,"y":576,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-2-inactive.psd",
+	"frame": {"x":666,"y":607,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-2-over.psd",
+	"frame": {"x":733,"y":617,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-3-active.psd",
+	"frame": {"x":666,"y":648,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-3-inactive.psd",
+	"frame": {"x":733,"y":658,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-3-over.psd",
+	"frame": {"x":1016,"y":680,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-4-active.psd",
+	"frame": {"x":1057,"y":680,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-4-inactive.psd",
+	"frame": {"x":1098,"y":680,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-4-over.psd",
+	"frame": {"x":1139,"y":680,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-5-active.psd",
+	"frame": {"x":1264,"y":736,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-5-inactive.psd",
+	"frame": {"x":1333,"y":755,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-5-over.psd",
+	"frame": {"x":1264,"y":777,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-6-active.psd",
+	"frame": {"x":1406,"y":763,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-6-inactive.psd",
+	"frame": {"x":1333,"y":796,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-6-over.psd",
+	"frame": {"x":1264,"y":818,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-7-active.psd",
+	"frame": {"x":1447,"y":763,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-7-inactive.psd",
+	"frame": {"x":1488,"y":763,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-7-over.psd",
+	"frame": {"x":1529,"y":763,"w":39,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":39,"h":39},
+	"sourceSize": {"w":41,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-8-active.psd",
+	"frame": {"x":1336,"y":569,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":71,"h":71},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-8-inactive.psd",
+	"frame": {"x":1192,"y":584,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":71,"h":71},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-city-8-over.psd",
+	"frame": {"x":1192,"y":657,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":71,"h":71},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "campaign-map.psd",
+	"frame": {"x":1409,"y":333,"w":476,"h":372},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":476,"h":372},
+	"sourceSize": {"w":476,"h":372},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
 	"filename": "card-achievement-all.psd",
-	"frame": {"x":1142,"y":687,"w":18,"h":18},
+	"frame": {"x":2027,"y":718,"w":18,"h":18},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
@@ -1424,7 +1676,7 @@
 },
 {
 	"filename": "card-achievement-self.psd",
-	"frame": {"x":1334,"y":708,"w":18,"h":18},
+	"frame": {"x":2027,"y":738,"w":18,"h":18},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
@@ -1433,16 +1685,16 @@
 },
 {
 	"filename": "card-achievements-bkg.psd",
-	"frame": {"x":1410,"y":357,"w":203,"h":29},
+	"frame": {"x":1192,"y":451,"w":202,"h":28},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":1,"w":203,"h":29},
+	"spriteSourceSize": {"x":2,"y":2,"w":202,"h":28},
 	"sourceSize": {"w":205,"h":31},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "card-bkg-active.psd",
-	"frame": {"x":1730,"y":2,"w":221,"h":69},
+	"frame": {"x":1728,"y":2,"w":221,"h":69},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":69},
@@ -1451,7 +1703,7 @@
 },
 {
 	"filename": "card-bkg-artifact-active.psd",
-	"frame": {"x":1729,"y":73,"w":221,"h":69},
+	"frame": {"x":1726,"y":73,"w":221,"h":69},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":69},
@@ -1460,7 +1712,7 @@
 },
 {
 	"filename": "card-bkg-artifact-inactive.psd",
-	"frame": {"x":1729,"y":144,"w":221,"h":69},
+	"frame": {"x":1726,"y":144,"w":221,"h":69},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":69},
@@ -1469,7 +1721,7 @@
 },
 {
 	"filename": "card-bkg-artifact-over.psd",
-	"frame": {"x":1729,"y":215,"w":221,"h":69},
+	"frame": {"x":1726,"y":215,"w":221,"h":69},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":69},
@@ -1478,7 +1730,7 @@
 },
 {
 	"filename": "card-bkg-boss-active.psd",
-	"frame": {"x":1724,"y":286,"w":221,"h":69},
+	"frame": {"x":1769,"y":740,"w":221,"h":69},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":69},
@@ -1487,7 +1739,7 @@
 },
 {
 	"filename": "card-bkg-boss-inactive.psd",
-	"frame": {"x":1802,"y":429,"w":221,"h":69},
+	"frame": {"x":2,"y":469,"w":221,"h":69},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":69},
@@ -1496,7 +1748,7 @@
 },
 {
 	"filename": "card-bkg-inactive.psd",
-	"frame": {"x":1802,"y":500,"w":221,"h":69},
+	"frame": {"x":225,"y":469,"w":221,"h":69},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":69},
@@ -1505,7 +1757,7 @@
 },
 {
 	"filename": "card-cost-bkg.psd",
-	"frame": {"x":1615,"y":354,"w":107,"h":24},
+	"frame": {"x":1450,"y":151,"w":107,"h":24},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":24},
@@ -1514,7 +1766,7 @@
 },
 {
 	"filename": "card-hire-active.psd",
-	"frame": {"x":1448,"y":81,"w":114,"h":29},
+	"frame": {"x":1887,"y":483,"w":114,"h":29},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":29},
@@ -1523,7 +1775,7 @@
 },
 {
 	"filename": "card-hire-inactive.psd",
-	"frame": {"x":1724,"y":357,"w":114,"h":29},
+	"frame": {"x":1887,"y":514,"w":114,"h":29},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":29},
@@ -1532,7 +1784,7 @@
 },
 {
 	"filename": "card-hire-over.psd",
-	"frame": {"x":1628,"y":695,"w":114,"h":29},
+	"frame": {"x":1887,"y":545,"w":114,"h":29},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":29},
@@ -1541,7 +1793,7 @@
 },
 {
 	"filename": "card-portrait-bat-01.psd",
-	"frame": {"x":1084,"y":829,"w":28,"h":30},
+	"frame": {"x":580,"y":862,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -1550,7 +1802,7 @@
 },
 {
 	"filename": "card-portrait-bat-02.psd",
-	"frame": {"x":1266,"y":708,"w":32,"h":32},
+	"frame": {"x":176,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -1559,7 +1811,7 @@
 },
 {
 	"filename": "card-portrait-bat-inactive.psd",
-	"frame": {"x":1164,"y":872,"w":28,"h":30},
+	"frame": {"x":634,"y":884,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":28,"h":30},
@@ -1568,7 +1820,7 @@
 },
 {
 	"filename": "card-portrait-demon-01.psd",
-	"frame": {"x":1382,"y":851,"w":28,"h":30},
+	"frame": {"x":664,"y":901,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":30},
@@ -1577,7 +1829,7 @@
 },
 {
 	"filename": "card-portrait-demon-02.psd",
-	"frame": {"x":1652,"y":866,"w":28,"h":28},
+	"frame": {"x":394,"y":840,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":28},
@@ -1586,7 +1838,7 @@
 },
 {
 	"filename": "card-portrait-demon-inactive.psd",
-	"frame": {"x":1352,"y":872,"w":28,"h":30},
+	"frame": {"x":694,"y":919,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":30},
@@ -1595,7 +1847,7 @@
 },
 {
 	"filename": "card-portrait-lizardman-01.psd",
-	"frame": {"x":1320,"y":940,"w":26,"h":26},
+	"frame": {"x":658,"y":933,"w":26,"h":26},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":26,"h":26},
@@ -1604,7 +1856,7 @@
 },
 {
 	"filename": "card-portrait-lizardman-02.psd",
-	"frame": {"x":1412,"y":881,"w":28,"h":28},
+	"frame": {"x":424,"y":862,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":28},
@@ -1613,7 +1865,7 @@
 },
 {
 	"filename": "card-portrait-lizardman-inactive.psd",
-	"frame": {"x":1410,"y":911,"w":26,"h":26},
+	"frame": {"x":484,"y":916,"w":26,"h":26},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":2,"w":26,"h":26},
@@ -1622,7 +1874,7 @@
 },
 {
 	"filename": "card-portrait-mummy-01.psd",
-	"frame": {"x":1352,"y":838,"w":28,"h":32},
+	"frame": {"x":1234,"y":934,"w":28,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":32},
@@ -1631,7 +1883,7 @@
 },
 {
 	"filename": "card-portrait-mummy-02.psd",
-	"frame": {"x":1292,"y":892,"w":28,"h":30},
+	"frame": {"x":196,"y":830,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":28,"h":30},
@@ -1640,7 +1892,7 @@
 },
 {
 	"filename": "card-portrait-mummy-inactive.psd",
-	"frame": {"x":1260,"y":896,"w":28,"h":30},
+	"frame": {"x":66,"y":856,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":28,"h":30},
@@ -1649,7 +1901,7 @@
 },
 {
 	"filename": "card-portrait-skeleton-01.psd",
-	"frame": {"x":1968,"y":966,"w":26,"h":32},
+	"frame": {"x":638,"y":688,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":32},
@@ -1658,7 +1910,7 @@
 },
 {
 	"filename": "card-portrait-skeleton-02.psd",
-	"frame": {"x":1324,"y":882,"w":26,"h":30},
+	"frame": {"x":638,"y":756,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":26,"h":30},
@@ -1667,7 +1919,7 @@
 },
 {
 	"filename": "card-portrait-skeleton-inactive.psd",
-	"frame": {"x":1354,"y":670,"w":26,"h":32},
+	"frame": {"x":638,"y":722,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":32},
@@ -1676,7 +1928,7 @@
 },
 {
 	"filename": "card-portrait-slime-01.psd",
-	"frame": {"x":1970,"y":403,"w":30,"h":24},
+	"frame": {"x":522,"y":832,"w":30,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":30,"h":24},
@@ -1685,7 +1937,7 @@
 },
 {
 	"filename": "card-portrait-slime-02.psd",
-	"frame": {"x":1874,"y":357,"w":32,"h":28},
+	"frame": {"x":2,"y":768,"w":32,"h":28},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":28},
@@ -1694,7 +1946,7 @@
 },
 {
 	"filename": "card-portrait-slime-inactive.psd",
-	"frame": {"x":1260,"y":870,"w":30,"h":24},
+	"frame": {"x":554,"y":832,"w":30,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":30,"h":24},
@@ -1703,7 +1955,7 @@
 },
 {
 	"filename": "card-portrait-wizard-01.psd",
-	"frame": {"x":928,"y":765,"w":30,"h":32},
+	"frame": {"x":562,"y":798,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -1712,7 +1964,7 @@
 },
 {
 	"filename": "card-portrait-wizard-02.psd",
-	"frame": {"x":960,"y":765,"w":30,"h":32},
+	"frame": {"x":666,"y":835,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -1721,7 +1973,7 @@
 },
 {
 	"filename": "card-portrait-wizard-inactive.psd",
-	"frame": {"x":992,"y":765,"w":30,"h":32},
+	"frame": {"x":698,"y":853,"w":30,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
@@ -1730,7 +1982,7 @@
 },
 {
 	"filename": "card-portrait-zombie-01.psd",
-	"frame": {"x":1502,"y":899,"w":26,"h":30},
+	"frame": {"x":704,"y":787,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":26,"h":30},
@@ -1739,7 +1991,7 @@
 },
 {
 	"filename": "card-portrait-zombie-02.psd",
-	"frame": {"x":1382,"y":689,"w":26,"h":32},
+	"frame": {"x":704,"y":689,"w":26,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":32},
@@ -1748,7 +2000,7 @@
 },
 {
 	"filename": "card-portrait-zombie-inactive.psd",
-	"frame": {"x":1472,"y":901,"w":26,"h":30},
+	"frame": {"x":770,"y":829,"w":26,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":26,"h":30},
@@ -1757,7 +2009,7 @@
 },
 {
 	"filename": "card-purchase-active.psd",
-	"frame": {"x":1628,"y":726,"w":114,"h":29},
+	"frame": {"x":1887,"y":576,"w":114,"h":29},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":29},
@@ -1766,7 +2018,7 @@
 },
 {
 	"filename": "card-purchase-inactive.psd",
-	"frame": {"x":1628,"y":757,"w":114,"h":29},
+	"frame": {"x":1887,"y":607,"w":114,"h":29},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":29},
@@ -1775,7 +2027,7 @@
 },
 {
 	"filename": "gui-checkbox-active.psd",
-	"frame": {"x":1738,"y":878,"w":16,"h":16},
+	"frame": {"x":1917,"y":333,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -1784,7 +2036,7 @@
 },
 {
 	"filename": "gui-checkbox-inactive.psd",
-	"frame": {"x":2041,"y":36,"w":1,"h":1},
+	"frame": {"x":2038,"y":94,"w":1,"h":1},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
@@ -1793,7 +2045,7 @@
 },
 {
 	"filename": "gui-checkbox-over.psd",
-	"frame": {"x":1738,"y":896,"w":16,"h":16},
+	"frame": {"x":1935,"y":333,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -1802,7 +2054,7 @@
 },
 {
 	"filename": "gui-explanation-box.psd",
-	"frame": {"x":1164,"y":451,"w":216,"h":217},
+	"frame": {"x":798,"y":680,"w":216,"h":217},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":217},
@@ -1811,7 +2063,7 @@
 },
 {
 	"filename": "gui-plus-active.psd",
-	"frame": {"x":1142,"y":603,"w":20,"h":26},
+	"frame": {"x":596,"y":942,"w":20,"h":26},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":26},
@@ -1820,7 +2072,7 @@
 },
 {
 	"filename": "gui-plus-inactive.psd",
-	"frame": {"x":1142,"y":631,"w":20,"h":26},
+	"frame": {"x":618,"y":946,"w":20,"h":26},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":26},
@@ -1829,34 +2081,34 @@
 },
 {
 	"filename": "gui-tooltip-short.psd",
-	"frame": {"x":1952,"y":103,"w":86,"h":61},
+	"frame": {"x":1949,"y":103,"w":85,"h":61},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":73,"y":40,"w":86,"h":61},
+	"spriteSourceSize": {"x":74,"y":40,"w":85,"h":61},
 	"sourceSize": {"w":234,"h":105},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "gui-tooltip-wide.psd",
-	"frame": {"x":1628,"y":632,"w":128,"h":61},
+	"frame": {"x":1887,"y":420,"w":127,"h":61},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":52,"y":40,"w":128,"h":61},
+	"spriteSourceSize": {"x":53,"y":40,"w":127,"h":61},
 	"sourceSize": {"w":234,"h":105},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "gui-tooltip.psd",
-	"frame": {"x":1953,"y":2,"w":86,"h":99},
+	"frame": {"x":1951,"y":2,"w":85,"h":99},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":73,"y":2,"w":86,"h":99},
+	"spriteSourceSize": {"x":74,"y":2,"w":85,"h":99},
 	"sourceSize": {"w":234,"h":105},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "library-btn-money-active.psd",
-	"frame": {"x":1410,"y":112,"w":142,"h":33},
+	"frame": {"x":1409,"y":193,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":142,"h":33},
@@ -1865,7 +2117,7 @@
 },
 {
 	"filename": "library-btn-money-inactive.psd",
-	"frame": {"x":1410,"y":147,"w":142,"h":33},
+	"frame": {"x":1409,"y":228,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":142,"h":33},
@@ -1874,7 +2126,7 @@
 },
 {
 	"filename": "library-btn-rituals-active.psd",
-	"frame": {"x":1410,"y":182,"w":142,"h":33},
+	"frame": {"x":1553,"y":251,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":142,"h":33},
@@ -1883,7 +2135,7 @@
 },
 {
 	"filename": "library-btn-rituals-inactive.psd",
-	"frame": {"x":1410,"y":217,"w":142,"h":33},
+	"frame": {"x":1192,"y":549,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":142,"h":33},
@@ -1892,7 +2144,7 @@
 },
 {
 	"filename": "library-money.psd",
-	"frame": {"x":802,"y":70,"w":606,"h":379},
+	"frame": {"x":801,"y":70,"w":606,"h":379},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":606,"h":379},
@@ -1901,7 +2153,7 @@
 },
 {
 	"filename": "library-separator.psd",
-	"frame": {"x":2027,"y":345,"w":18,"h":379},
+	"frame": {"x":2028,"y":337,"w":18,"h":379},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":379},
@@ -1910,16 +2162,16 @@
 },
 {
 	"filename": "money-0-16x16.psd",
-	"frame": {"x":1554,"y":160,"w":8,"h":8},
+	"frame": {"x":2038,"y":50,"w":8,"h":7},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":4,"y":4,"w":8,"h":8},
+	"spriteSourceSize": {"x":4,"y":5,"w":8,"h":7},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-0.psd",
-	"frame": {"x":1524,"y":948,"w":16,"h":14},
+	"frame": {"x":1471,"y":177,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":10,"w":16,"h":14},
@@ -1928,7 +2180,7 @@
 },
 {
 	"filename": "money-1-16x16.psd",
-	"frame": {"x":1572,"y":953,"w":14,"h":8},
+	"frame": {"x":388,"y":870,"w":14,"h":8},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":4,"w":14,"h":8},
@@ -1937,7 +2189,7 @@
 },
 {
 	"filename": "money-1.psd",
-	"frame": {"x":1502,"y":881,"w":28,"h":16},
+	"frame": {"x":1887,"y":333,"w":28,"h":16},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":9,"w":28,"h":16},
@@ -1946,7 +2198,7 @@
 },
 {
 	"filename": "money-10-16x16.psd",
-	"frame": {"x":1334,"y":728,"w":16,"h":16},
+	"frame": {"x":1953,"y":333,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -1955,7 +2207,7 @@
 },
 {
 	"filename": "money-10.psd",
-	"frame": {"x":1300,"y":708,"w":32,"h":32},
+	"frame": {"x":210,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -1964,7 +2216,7 @@
 },
 {
 	"filename": "money-11-16x16.psd",
-	"frame": {"x":1334,"y":746,"w":16,"h":16},
+	"frame": {"x":1971,"y":333,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -1973,7 +2225,7 @@
 },
 {
 	"filename": "money-11.psd",
-	"frame": {"x":800,"y":731,"w":32,"h":32},
+	"frame": {"x":244,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -1982,16 +2234,16 @@
 },
 {
 	"filename": "money-12-16x16.psd",
-	"frame": {"x":1744,"y":695,"w":12,"h":10},
+	"frame": {"x":1396,"y":451,"w":11,"h":10},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":3,"w":12,"h":10},
+	"spriteSourceSize": {"x":3,"y":3,"w":11,"h":10},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-12.psd",
-	"frame": {"x":1410,"y":939,"w":22,"h":20},
+	"frame": {"x":707,"y":667,"w":22,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":6,"w":22,"h":20},
@@ -2000,7 +2252,7 @@
 },
 {
 	"filename": "money-13-16x16.psd",
-	"frame": {"x":1753,"y":929,"w":16,"h":10},
+	"frame": {"x":334,"y":860,"w":16,"h":10},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":16,"h":10},
@@ -2009,7 +2261,7 @@
 },
 {
 	"filename": "money-13.psd",
-	"frame": {"x":444,"y":698,"w":32,"h":20},
+	"frame": {"x":1439,"y":263,"w":32,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":6,"w":32,"h":20},
@@ -2018,16 +2270,16 @@
 },
 {
 	"filename": "money-14-16x16.psd",
-	"frame": {"x":1334,"y":764,"w":16,"h":16},
+	"frame": {"x":568,"y":950,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-14.psd",
-	"frame": {"x":138,"y":698,"w":32,"h":30},
+	"frame": {"x":1862,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2036,16 +2288,16 @@
 },
 {
 	"filename": "money-15-16x16.psd",
-	"frame": {"x":1554,"y":170,"w":8,"h":8},
+	"frame": {"x":2038,"y":59,"w":8,"h":7},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":4,"y":4,"w":8,"h":8},
+	"spriteSourceSize": {"x":4,"y":5,"w":8,"h":7},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-15.psd",
-	"frame": {"x":1494,"y":955,"w":16,"h":14},
+	"frame": {"x":1489,"y":177,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":10,"w":16,"h":14},
@@ -2054,16 +2306,16 @@
 },
 {
 	"filename": "money-16-16x16.psd",
-	"frame": {"x":1647,"y":944,"w":14,"h":10},
+	"frame": {"x":351,"y":872,"w":14,"h":9},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":3,"w":14,"h":10},
+	"spriteSourceSize": {"x":1,"y":4,"w":14,"h":9},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-16.psd",
-	"frame": {"x":1472,"y":881,"w":28,"h":18},
+	"frame": {"x":1336,"y":549,"w":28,"h":18},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":8,"w":28,"h":18},
@@ -2072,7 +2324,7 @@
 },
 {
 	"filename": "money-17-16x16.psd",
-	"frame": {"x":784,"y":708,"w":14,"h":12},
+	"frame": {"x":552,"y":942,"w":14,"h":12},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":2,"w":14,"h":12},
@@ -2081,7 +2333,7 @@
 },
 {
 	"filename": "money-17.psd",
-	"frame": {"x":1290,"y":924,"w":28,"h":24},
+	"frame": {"x":514,"y":890,"w":28,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":24},
@@ -2090,7 +2342,7 @@
 },
 {
 	"filename": "money-18-16x16.psd",
-	"frame": {"x":1554,"y":112,"w":8,"h":14},
+	"frame": {"x":2038,"y":2,"w":8,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":1,"w":8,"h":14},
@@ -2099,7 +2351,7 @@
 },
 {
 	"filename": "money-18.psd",
-	"frame": {"x":1738,"y":788,"w":16,"h":28},
+	"frame": {"x":2029,"y":277,"w":16,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":2,"w":16,"h":28},
@@ -2108,16 +2360,16 @@
 },
 {
 	"filename": "money-19-16x16.psd",
-	"frame": {"x":1631,"y":928,"w":16,"h":14},
+	"frame": {"x":1525,"y":177,"w":15,"h":14},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":14},
+	"spriteSourceSize": {"x":0,"y":1,"w":15,"h":14},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-19.psd",
-	"frame": {"x":1908,"y":357,"w":30,"h":28},
+	"frame": {"x":394,"y":810,"w":30,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":2,"w":30,"h":28},
@@ -2126,7 +2378,7 @@
 },
 {
 	"filename": "money-2-16x16.psd",
-	"frame": {"x":784,"y":722,"w":14,"h":12},
+	"frame": {"x":552,"y":956,"w":14,"h":12},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":2,"w":14,"h":12},
@@ -2135,7 +2387,7 @@
 },
 {
 	"filename": "money-2.psd",
-	"frame": {"x":1254,"y":928,"w":28,"h":24},
+	"frame": {"x":544,"y":890,"w":28,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":24},
@@ -2144,7 +2396,7 @@
 },
 {
 	"filename": "money-20-16x16.psd",
-	"frame": {"x":1334,"y":782,"w":16,"h":16},
+	"frame": {"x":618,"y":764,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2153,7 +2405,7 @@
 },
 {
 	"filename": "money-20.psd",
-	"frame": {"x":834,"y":731,"w":32,"h":32},
+	"frame": {"x":278,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2162,16 +2414,16 @@
 },
 {
 	"filename": "money-21-16x16.psd",
-	"frame": {"x":1744,"y":731,"w":10,"h":16},
+	"frame": {"x":2036,"y":103,"w":10,"h":15},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":0,"w":10,"h":16},
+	"spriteSourceSize": {"x":3,"y":1,"w":10,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-21.psd",
-	"frame": {"x":1142,"y":507,"w":20,"h":30},
+	"frame": {"x":2026,"y":758,"w":20,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":2,"w":20,"h":30},
@@ -2180,16 +2432,16 @@
 },
 {
 	"filename": "money-22-16x16.psd",
-	"frame": {"x":1334,"y":800,"w":16,"h":16},
+	"frame": {"x":534,"y":960,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-22.psd",
-	"frame": {"x":172,"y":698,"w":32,"h":30},
+	"frame": {"x":1896,"y":286,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2198,16 +2450,16 @@
 },
 {
 	"filename": "money-23-16x16.psd",
-	"frame": {"x":1120,"y":765,"w":16,"h":16},
+	"frame": {"x":568,"y":967,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-23.psd",
-	"frame": {"x":206,"y":698,"w":32,"h":30},
+	"frame": {"x":1769,"y":708,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2216,16 +2468,16 @@
 },
 {
 	"filename": "money-24-16x16.psd",
-	"frame": {"x":2032,"y":313,"w":14,"h":14},
+	"frame": {"x":1871,"y":724,"w":13,"h":14},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":14},
+	"spriteSourceSize": {"x":1,"y":0,"w":13,"h":14},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-24.psd",
-	"frame": {"x":1442,"y":905,"w":26,"h":28},
+	"frame": {"x":574,"y":894,"w":26,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":26,"h":28},
@@ -2234,7 +2486,7 @@
 },
 {
 	"filename": "money-25-16x16.psd",
-	"frame": {"x":1120,"y":783,"w":16,"h":16},
+	"frame": {"x":618,"y":782,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2243,7 +2495,7 @@
 },
 {
 	"filename": "money-25.psd",
-	"frame": {"x":868,"y":731,"w":32,"h":32},
+	"frame": {"x":312,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2252,7 +2504,7 @@
 },
 {
 	"filename": "money-26-16x16.psd",
-	"frame": {"x":1120,"y":801,"w":16,"h":16},
+	"frame": {"x":618,"y":800,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2261,7 +2513,7 @@
 },
 {
 	"filename": "money-26.psd",
-	"frame": {"x":902,"y":731,"w":32,"h":32},
+	"frame": {"x":346,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2270,16 +2522,16 @@
 },
 {
 	"filename": "money-27-16x16.psd",
-	"frame": {"x":1744,"y":707,"w":12,"h":10},
+	"frame": {"x":1396,"y":463,"w":11,"h":10},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":3,"w":12,"h":10},
+	"spriteSourceSize": {"x":3,"y":3,"w":11,"h":10},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-27.psd",
-	"frame": {"x":1380,"y":941,"w":22,"h":20},
+	"frame": {"x":774,"y":679,"w":22,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":6,"w":22,"h":20},
@@ -2288,7 +2540,7 @@
 },
 {
 	"filename": "money-28-16x16.psd",
-	"frame": {"x":1735,"y":932,"w":16,"h":10},
+	"frame": {"x":352,"y":860,"w":16,"h":10},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":16,"h":10},
@@ -2297,7 +2549,7 @@
 },
 {
 	"filename": "money-28.psd",
-	"frame": {"x":478,"y":698,"w":32,"h":20},
+	"frame": {"x":1473,"y":263,"w":32,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":6,"w":32,"h":20},
@@ -2306,16 +2558,16 @@
 },
 {
 	"filename": "money-29-16x16.psd",
-	"frame": {"x":1120,"y":819,"w":16,"h":16},
+	"frame": {"x":586,"y":970,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-29.psd",
-	"frame": {"x":240,"y":698,"w":32,"h":30},
+	"frame": {"x":1803,"y":708,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2324,7 +2576,7 @@
 },
 {
 	"filename": "money-3-16x16.psd",
-	"frame": {"x":1554,"y":128,"w":8,"h":14},
+	"frame": {"x":2038,"y":18,"w":8,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":1,"w":8,"h":14},
@@ -2333,7 +2585,7 @@
 },
 {
 	"filename": "money-3.psd",
-	"frame": {"x":1738,"y":818,"w":16,"h":28},
+	"frame": {"x":2029,"y":307,"w":16,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":2,"w":16,"h":28},
@@ -2342,16 +2594,16 @@
 },
 {
 	"filename": "money-30-16x16.psd",
-	"frame": {"x":1554,"y":180,"w":8,"h":8},
+	"frame": {"x":2038,"y":68,"w":8,"h":7},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":4,"y":4,"w":8,"h":8},
+	"spriteSourceSize": {"x":4,"y":5,"w":8,"h":7},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-30.psd",
-	"frame": {"x":1649,"y":928,"w":16,"h":14},
+	"frame": {"x":1507,"y":177,"w":16,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":10,"w":16,"h":14},
@@ -2360,7 +2612,7 @@
 },
 {
 	"filename": "money-31-16x16.psd",
-	"frame": {"x":1605,"y":946,"w":14,"h":10},
+	"frame": {"x":552,"y":970,"w":14,"h":10},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":3,"w":14,"h":10},
@@ -2369,25 +2621,25 @@
 },
 {
 	"filename": "money-31.psd",
-	"frame": {"x":1442,"y":881,"w":28,"h":22},
+	"frame": {"x":1409,"y":263,"w":28,"h":21},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":5,"w":28,"h":22},
+	"spriteSourceSize": {"x":2,"y":6,"w":28,"h":21},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-32-16x16.psd",
-	"frame": {"x":784,"y":660,"w":14,"h":14},
+	"frame": {"x":1681,"y":303,"w":14,"h":13},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":1,"w":14,"h":14},
+	"spriteSourceSize": {"x":1,"y":2,"w":14,"h":13},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-32.psd",
-	"frame": {"x":1352,"y":904,"w":28,"h":26},
+	"frame": {"x":454,"y":890,"w":28,"h":26},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":28,"h":26},
@@ -2396,7 +2648,7 @@
 },
 {
 	"filename": "money-33-16x16.psd",
-	"frame": {"x":1554,"y":144,"w":8,"h":14},
+	"frame": {"x":2038,"y":34,"w":8,"h":14},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":1,"w":8,"h":14},
@@ -2405,7 +2657,7 @@
 },
 {
 	"filename": "money-33.psd",
-	"frame": {"x":1738,"y":848,"w":16,"h":28},
+	"frame": {"x":1930,"y":286,"w":16,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":2,"w":16,"h":28},
@@ -2414,16 +2666,16 @@
 },
 {
 	"filename": "money-34-16x16.psd",
-	"frame": {"x":1434,"y":957,"w":16,"h":14},
+	"frame": {"x":1542,"y":177,"w":15,"h":14},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":14},
+	"spriteSourceSize": {"x":0,"y":1,"w":15,"h":14},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-34.psd",
-	"frame": {"x":1196,"y":870,"w":30,"h":28},
+	"frame": {"x":426,"y":832,"w":30,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":2,"w":30,"h":28},
@@ -2432,7 +2684,7 @@
 },
 {
 	"filename": "money-35-16x16.psd",
-	"frame": {"x":1006,"y":799,"w":16,"h":16},
+	"frame": {"x":618,"y":818,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2441,7 +2693,7 @@
 },
 {
 	"filename": "money-35.psd",
-	"frame": {"x":936,"y":731,"w":32,"h":32},
+	"frame": {"x":380,"y":730,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2450,16 +2702,16 @@
 },
 {
 	"filename": "money-36-16x16.psd",
-	"frame": {"x":1744,"y":749,"w":10,"h":16},
+	"frame": {"x":2036,"y":120,"w":10,"h":15},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":0,"w":10,"h":16},
+	"spriteSourceSize": {"x":3,"y":1,"w":10,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-36.psd",
-	"frame": {"x":1142,"y":539,"w":20,"h":30},
+	"frame": {"x":2026,"y":790,"w":20,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":2,"w":20,"h":30},
@@ -2468,16 +2720,16 @@
 },
 {
 	"filename": "money-37-16x16.psd",
-	"frame": {"x":1006,"y":817,"w":16,"h":16},
+	"frame": {"x":226,"y":860,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-37.psd",
-	"frame": {"x":274,"y":698,"w":32,"h":30},
+	"frame": {"x":1837,"y":708,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2486,16 +2738,16 @@
 },
 {
 	"filename": "money-38-16x16.psd",
-	"frame": {"x":1682,"y":866,"w":16,"h":16},
+	"frame": {"x":186,"y":862,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-38.psd",
-	"frame": {"x":308,"y":698,"w":32,"h":30},
+	"frame": {"x":1887,"y":708,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2504,16 +2756,16 @@
 },
 {
 	"filename": "money-39-16x16.psd",
-	"frame": {"x":784,"y":676,"w":14,"h":14},
+	"frame": {"x":404,"y":870,"w":13,"h":14},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":14},
+	"spriteSourceSize": {"x":1,"y":0,"w":13,"h":14},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-39.psd",
-	"frame": {"x":1382,"y":911,"w":26,"h":28},
+	"frame": {"x":602,"y":912,"w":26,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":26,"h":28},
@@ -2522,16 +2774,16 @@
 },
 {
 	"filename": "money-4-16x16.psd",
-	"frame": {"x":1404,"y":961,"w":16,"h":14},
+	"frame": {"x":334,"y":872,"w":15,"h":14},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":14},
+	"spriteSourceSize": {"x":0,"y":1,"w":15,"h":14},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-4.psd",
-	"frame": {"x":1228,"y":870,"w":30,"h":28},
+	"frame": {"x":458,"y":832,"w":30,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":2,"w":30,"h":28},
@@ -2540,7 +2792,7 @@
 },
 {
 	"filename": "money-40-16x16.psd",
-	"frame": {"x":1682,"y":884,"w":16,"h":16},
+	"frame": {"x":618,"y":836,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2549,7 +2801,7 @@
 },
 {
 	"filename": "money-40.psd",
-	"frame": {"x":970,"y":731,"w":32,"h":32},
+	"frame": {"x":414,"y":742,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2558,7 +2810,7 @@
 },
 {
 	"filename": "money-41-16x16.psd",
-	"frame": {"x":1717,"y":902,"w":16,"h":16},
+	"frame": {"x":618,"y":854,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2567,7 +2819,7 @@
 },
 {
 	"filename": "money-41.psd",
-	"frame": {"x":1004,"y":731,"w":32,"h":32},
+	"frame": {"x":448,"y":764,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2576,16 +2828,16 @@
 },
 {
 	"filename": "money-42-16x16.psd",
-	"frame": {"x":1744,"y":719,"w":12,"h":10},
+	"frame": {"x":1396,"y":475,"w":11,"h":10},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":3,"w":12,"h":10},
+	"spriteSourceSize": {"x":3,"y":3,"w":11,"h":10},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-42.psd",
-	"frame": {"x":1348,"y":962,"w":22,"h":20},
+	"frame": {"x":594,"y":798,"w":22,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":6,"w":22,"h":20},
@@ -2594,7 +2846,7 @@
 },
 {
 	"filename": "money-43-16x16.psd",
-	"frame": {"x":1705,"y":938,"w":16,"h":10},
+	"frame": {"x":370,"y":866,"w":16,"h":10},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":16,"h":10},
@@ -2603,7 +2855,7 @@
 },
 {
 	"filename": "money-43.psd",
-	"frame": {"x":512,"y":698,"w":32,"h":20},
+	"frame": {"x":1507,"y":263,"w":32,"h":20},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":6,"w":32,"h":20},
@@ -2612,16 +2864,16 @@
 },
 {
 	"filename": "money-44-16x16.psd",
-	"frame": {"x":1735,"y":914,"w":16,"h":16},
+	"frame": {"x":204,"y":862,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-44.psd",
-	"frame": {"x":342,"y":698,"w":32,"h":30},
+	"frame": {"x":1921,"y":708,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2630,16 +2882,16 @@
 },
 {
 	"filename": "money-45-16x16.psd",
-	"frame": {"x":1667,"y":940,"w":14,"h":12},
+	"frame": {"x":351,"y":883,"w":13,"h":12},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":14,"h":12},
+	"spriteSourceSize": {"x":1,"y":2,"w":13,"h":12},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-45.psd",
-	"frame": {"x":1284,"y":950,"w":26,"h":24},
+	"frame": {"x":512,"y":916,"w":26,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":26,"h":24},
@@ -2648,7 +2900,7 @@
 },
 {
 	"filename": "money-46-16x16.psd",
-	"frame": {"x":1372,"y":963,"w":16,"h":12},
+	"frame": {"x":280,"y":860,"w":16,"h":12},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":16,"h":12},
@@ -2657,7 +2909,7 @@
 },
 {
 	"filename": "money-46.psd",
-	"frame": {"x":1836,"y":403,"w":32,"h":24},
+	"frame": {"x":108,"y":764,"w":32,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":4,"w":32,"h":24},
@@ -2666,7 +2918,7 @@
 },
 {
 	"filename": "money-47-16x16.psd",
-	"frame": {"x":1717,"y":920,"w":16,"h":16},
+	"frame": {"x":376,"y":830,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2675,7 +2927,7 @@
 },
 {
 	"filename": "money-47.psd",
-	"frame": {"x":1038,"y":731,"w":32,"h":32},
+	"frame": {"x":482,"y":764,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2684,16 +2936,16 @@
 },
 {
 	"filename": "money-48-16x16.psd",
-	"frame": {"x":1683,"y":940,"w":14,"h":12},
+	"frame": {"x":382,"y":880,"w":13,"h":12},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":14,"h":12},
+	"spriteSourceSize": {"x":1,"y":2,"w":13,"h":12},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-48.psd",
-	"frame": {"x":1561,"y":881,"w":26,"h":24},
+	"frame": {"x":540,"y":916,"w":26,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":26,"h":24},
@@ -2702,7 +2954,7 @@
 },
 {
 	"filename": "money-49-16x16.psd",
-	"frame": {"x":1452,"y":957,"w":16,"h":12},
+	"frame": {"x":298,"y":860,"w":16,"h":12},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":16,"h":12},
@@ -2711,7 +2963,7 @@
 },
 {
 	"filename": "money-49.psd",
-	"frame": {"x":1870,"y":403,"w":32,"h":24},
+	"frame": {"x":142,"y":764,"w":32,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":4,"w":32,"h":24},
@@ -2720,7 +2972,7 @@
 },
 {
 	"filename": "money-5-16x16.psd",
-	"frame": {"x":1669,"y":922,"w":16,"h":16},
+	"frame": {"x":376,"y":848,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2729,7 +2981,7 @@
 },
 {
 	"filename": "money-5.psd",
-	"frame": {"x":1072,"y":731,"w":32,"h":32},
+	"frame": {"x":516,"y":764,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2738,7 +2990,7 @@
 },
 {
 	"filename": "money-50-16x16.psd",
-	"frame": {"x":1687,"y":922,"w":16,"h":16},
+	"frame": {"x":640,"y":946,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2747,7 +2999,7 @@
 },
 {
 	"filename": "money-50.psd",
-	"frame": {"x":1106,"y":731,"w":32,"h":32},
+	"frame": {"x":550,"y":764,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2756,16 +3008,16 @@
 },
 {
 	"filename": "money-51-16x16.psd",
-	"frame": {"x":1631,"y":944,"w":14,"h":12},
+	"frame": {"x":397,"y":886,"w":13,"h":12},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":14,"h":12},
+	"spriteSourceSize": {"x":1,"y":2,"w":13,"h":12},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-51.psd",
-	"frame": {"x":1589,"y":881,"w":26,"h":24},
+	"frame": {"x":568,"y":924,"w":26,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":4,"w":26,"h":24},
@@ -2774,7 +3026,7 @@
 },
 {
 	"filename": "money-52-16x16.psd",
-	"frame": {"x":1470,"y":957,"w":16,"h":12},
+	"frame": {"x":316,"y":860,"w":16,"h":12},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":16,"h":12},
@@ -2783,7 +3035,7 @@
 },
 {
 	"filename": "money-52.psd",
-	"frame": {"x":1904,"y":403,"w":32,"h":24},
+	"frame": {"x":176,"y":764,"w":32,"h":24},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":4,"w":32,"h":24},
@@ -2792,7 +3044,7 @@
 },
 {
 	"filename": "money-53-16x16.psd",
-	"frame": {"x":1613,"y":928,"w":16,"h":16},
+	"frame": {"x":534,"y":942,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -2801,7 +3053,7 @@
 },
 {
 	"filename": "money-53.psd",
-	"frame": {"x":1164,"y":742,"w":32,"h":32},
+	"frame": {"x":584,"y":764,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -2810,16 +3062,16 @@
 },
 {
 	"filename": "money-54-16x16.psd",
-	"frame": {"x":2032,"y":277,"w":14,"h":16},
+	"frame": {"x":1681,"y":286,"w":14,"h":15},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":14,"h":16},
+	"spriteSourceSize": {"x":1,"y":0,"w":14,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-54.psd",
-	"frame": {"x":1194,"y":900,"w":28,"h":30},
+	"frame": {"x":34,"y":860,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":30},
@@ -2828,16 +3080,16 @@
 },
 {
 	"filename": "money-55-16x16.psd",
-	"frame": {"x":2032,"y":295,"w":14,"h":16},
+	"frame": {"x":1871,"y":707,"w":14,"h":15},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":14,"h":16},
+	"spriteSourceSize": {"x":1,"y":0,"w":14,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-55.psd",
-	"frame": {"x":1224,"y":900,"w":28,"h":30},
+	"frame": {"x":2,"y":864,"w":28,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":28,"h":30},
@@ -2846,16 +3098,16 @@
 },
 {
 	"filename": "money-6-16x16.psd",
-	"frame": {"x":1744,"y":767,"w":10,"h":16},
+	"frame": {"x":2036,"y":137,"w":10,"h":15},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":0,"w":10,"h":16},
+	"spriteSourceSize": {"x":3,"y":1,"w":10,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-6.psd",
-	"frame": {"x":1142,"y":571,"w":20,"h":30},
+	"frame": {"x":2026,"y":822,"w":20,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":2,"w":20,"h":30},
@@ -2864,16 +3116,16 @@
 },
 {
 	"filename": "money-7-16x16.psd",
-	"frame": {"x":1587,"y":935,"w":16,"h":16},
+	"frame": {"x":244,"y":860,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-7.psd",
-	"frame": {"x":376,"y":698,"w":32,"h":30},
+	"frame": {"x":666,"y":803,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2882,16 +3134,16 @@
 },
 {
 	"filename": "money-8-16x16.psd",
-	"frame": {"x":1554,"y":939,"w":16,"h":16},
+	"frame": {"x":262,"y":860,"w":16,"h":15},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":16,"h":15},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-8.psd",
-	"frame": {"x":410,"y":698,"w":32,"h":30},
+	"frame": {"x":732,"y":851,"w":32,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":32,"h":30},
@@ -2900,16 +3152,16 @@
 },
 {
 	"filename": "money-9-16x16.psd",
-	"frame": {"x":784,"y":692,"w":14,"h":14},
+	"frame": {"x":367,"y":878,"w":13,"h":14},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":14},
+	"spriteSourceSize": {"x":1,"y":0,"w":13,"h":14},
 	"sourceSize": {"w":16,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "money-9.psd",
-	"frame": {"x":1352,"y":932,"w":26,"h":28},
+	"frame": {"x":630,"y":916,"w":26,"h":28},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":26,"h":28},
@@ -2918,61 +3170,61 @@
 },
 {
 	"filename": "nevis-10-271406.psd",
-	"frame": {"x":802,"y":40,"w":648,"h":13},
+	"frame": {"x":801,"y":40,"w":647,"h":13},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":648,"h":13},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":647,"h":13},
 	"sourceSize": {"w":648,"h":13},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "nevis-11-dfefd7.psd",
-	"frame": {"x":802,"y":55,"w":648,"h":13},
+	"frame": {"x":801,"y":55,"w":647,"h":13},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":648,"h":13},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":647,"h":13},
 	"sourceSize": {"w":648,"h":13},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "nevis-12-dfefd7.psd",
-	"frame": {"x":802,"y":22,"w":760,"h":16},
+	"frame": {"x":801,"y":22,"w":759,"h":16},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":760,"h":16},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":759,"h":16},
 	"sourceSize": {"w":760,"h":16},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "nevis-13-271406.psd",
-	"frame": {"x":870,"y":2,"w":858,"h":18},
+	"frame": {"x":869,"y":2,"w":857,"h":18},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":858,"h":18},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":857,"h":18},
 	"sourceSize": {"w":858,"h":18},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "nevis-14-271406.psd",
-	"frame": {"x":2,"y":2,"w":866,"h":18},
+	"frame": {"x":2,"y":2,"w":865,"h":18},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":866,"h":18},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":865,"h":18},
 	"sourceSize": {"w":866,"h":18},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "nevis-9-000000.psd",
-	"frame": {"x":1410,"y":388,"w":590,"h":13},
+	"frame": {"x":1409,"y":318,"w":589,"h":13},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":590,"h":13},
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":589,"h":13},
 	"sourceSize": {"w":590,"h":13},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "newgame-explanation.psd",
-	"frame": {"x":1410,"y":632,"w":216,"h":217},
+	"frame": {"x":1016,"y":730,"w":216,"h":217},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":217},
@@ -2981,16 +3233,16 @@
 },
 {
 	"filename": "newgame-hard-reset-bkg.psd",
-	"frame": {"x":1564,"y":22,"w":163,"h":227},
+	"frame": {"x":1562,"y":22,"w":162,"h":227},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":163,"h":227},
+	"spriteSourceSize": {"x":1,"y":2,"w":162,"h":227},
 	"sourceSize": {"w":165,"h":231},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "newgame-hard-reset-btn-active.psd",
-	"frame": {"x":1756,"y":895,"w":66,"h":32},
+	"frame": {"x":666,"y":539,"w":66,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":32},
@@ -2999,7 +3251,7 @@
 },
 {
 	"filename": "newgame-hard-reset-btn-inactive.psd",
-	"frame": {"x":1862,"y":866,"w":66,"h":32},
+	"frame": {"x":666,"y":573,"w":66,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":32},
@@ -3008,16 +3260,16 @@
 },
 {
 	"filename": "newgame-reset-bkg.psd",
-	"frame": {"x":1410,"y":403,"w":390,"h":227},
+	"frame": {"x":801,"y":451,"w":389,"h":227},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":390,"h":227},
+	"spriteSourceSize": {"x":1,"y":2,"w":389,"h":227},
 	"sourceSize": {"w":392,"h":231},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "newgame-reset-btn-active.psd",
-	"frame": {"x":1554,"y":251,"w":173,"h":32},
+	"frame": {"x":1192,"y":481,"w":173,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":32},
@@ -3026,7 +3278,7 @@
 },
 {
 	"filename": "newgame-reset-btn-inactive.psd",
-	"frame": {"x":1549,"y":285,"w":173,"h":32},
+	"frame": {"x":1192,"y":515,"w":173,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":32},
@@ -3035,7 +3287,7 @@
 },
 {
 	"filename": "particle-critical-1.psd",
-	"frame": {"x":1930,"y":866,"w":64,"h":64},
+	"frame": {"x":734,"y":469,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -3044,7 +3296,7 @@
 },
 {
 	"filename": "particle-whip-1.psd",
-	"frame": {"x":2027,"y":329,"w":19,"h":14},
+	"frame": {"x":1450,"y":177,"w":19,"h":14},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":14},
@@ -3053,7 +3305,7 @@
 },
 {
 	"filename": "particle-whip-2.psd",
-	"frame": {"x":2002,"y":388,"w":23,"h":39},
+	"frame": {"x":2003,"y":483,"w":23,"h":39},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":39},
@@ -3062,7 +3314,7 @@
 },
 {
 	"filename": "particle-whip-3.psd",
-	"frame": {"x":1587,"y":319,"w":24,"h":36},
+	"frame": {"x":2001,"y":640,"w":24,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
@@ -3071,7 +3323,7 @@
 },
 {
 	"filename": "particle-whip-4.psd",
-	"frame": {"x":1142,"y":659,"w":20,"h":26},
+	"frame": {"x":512,"y":942,"w":20,"h":26},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":26},
@@ -3080,7 +3332,7 @@
 },
 {
 	"filename": "particle-whip-5.psd",
-	"frame": {"x":1532,"y":881,"w":27,"h":41},
+	"frame": {"x":1697,"y":251,"w":27,"h":41},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":41},
@@ -3089,7 +3341,7 @@
 },
 {
 	"filename": "progress-end.psd",
-	"frame": {"x":2041,"y":2,"w":3,"h":15},
+	"frame": {"x":2038,"y":77,"w":3,"h":15},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":15},
@@ -3098,7 +3350,7 @@
 },
 {
 	"filename": "progress-init.psd",
-	"frame": {"x":2041,"y":19,"w":3,"h":15},
+	"frame": {"x":2043,"y":77,"w":3,"h":15},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":15},
@@ -3107,7 +3359,7 @@
 },
 {
 	"filename": "ritual-bat-0-inactive.psd",
-	"frame": {"x":1549,"y":319,"w":36,"h":36},
+	"frame": {"x":1608,"y":763,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3116,7 +3368,7 @@
 },
 {
 	"filename": "ritual-bat-0-over.psd",
-	"frame": {"x":1758,"y":632,"w":36,"h":36},
+	"frame": {"x":1646,"y":763,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3125,7 +3377,7 @@
 },
 {
 	"filename": "ritual-bat-0.psd",
-	"frame": {"x":1758,"y":670,"w":36,"h":36},
+	"frame": {"x":1684,"y":763,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3134,7 +3386,7 @@
 },
 {
 	"filename": "ritual-bat-1-inactive.psd",
-	"frame": {"x":1758,"y":708,"w":36,"h":36},
+	"frame": {"x":1722,"y":763,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3143,7 +3395,7 @@
 },
 {
 	"filename": "ritual-bat-1-over.psd",
-	"frame": {"x":1756,"y":746,"w":36,"h":36},
+	"frame": {"x":1608,"y":801,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3152,7 +3404,7 @@
 },
 {
 	"filename": "ritual-bat-1.psd",
-	"frame": {"x":1756,"y":784,"w":36,"h":36},
+	"frame": {"x":1646,"y":801,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3161,7 +3413,7 @@
 },
 {
 	"filename": "ritual-bat-2-inactive.psd",
-	"frame": {"x":1700,"y":788,"w":36,"h":36},
+	"frame": {"x":1684,"y":801,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3170,7 +3422,7 @@
 },
 {
 	"filename": "ritual-bat-2-over.psd",
-	"frame": {"x":1700,"y":826,"w":36,"h":36},
+	"frame": {"x":1722,"y":801,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3179,7 +3431,7 @@
 },
 {
 	"filename": "ritual-bat-2.psd",
-	"frame": {"x":1756,"y":822,"w":36,"h":36},
+	"frame": {"x":1406,"y":804,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3188,7 +3440,7 @@
 },
 {
 	"filename": "ritual-bat-3-inactive.psd",
-	"frame": {"x":1700,"y":864,"w":36,"h":36},
+	"frame": {"x":1333,"y":837,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3197,7 +3449,7 @@
 },
 {
 	"filename": "ritual-bat-3-over.psd",
-	"frame": {"x":2006,"y":794,"w":36,"h":36},
+	"frame": {"x":1264,"y":859,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3206,7 +3458,7 @@
 },
 {
 	"filename": "ritual-bat-3.psd",
-	"frame": {"x":2004,"y":832,"w":36,"h":36},
+	"frame": {"x":1264,"y":897,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3215,7 +3467,7 @@
 },
 {
 	"filename": "ritual-bat-4-inactive.psd",
-	"frame": {"x":1824,"y":860,"w":36,"h":36},
+	"frame": {"x":1444,"y":804,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3224,7 +3476,7 @@
 },
 {
 	"filename": "ritual-bat-4-over.psd",
-	"frame": {"x":1824,"y":898,"w":36,"h":36},
+	"frame": {"x":1482,"y":804,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3233,7 +3485,7 @@
 },
 {
 	"filename": "ritual-bat-4.psd",
-	"frame": {"x":1996,"y":870,"w":36,"h":36},
+	"frame": {"x":1520,"y":804,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3242,7 +3494,7 @@
 },
 {
 	"filename": "ritual-bat-5-inactive.psd",
-	"frame": {"x":1996,"y":908,"w":36,"h":36},
+	"frame": {"x":1558,"y":804,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3251,7 +3503,7 @@
 },
 {
 	"filename": "ritual-bat-5-over.psd",
-	"frame": {"x":1862,"y":900,"w":36,"h":36},
+	"frame": {"x":1760,"y":811,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3260,7 +3512,7 @@
 },
 {
 	"filename": "ritual-bat-5.psd",
-	"frame": {"x":1930,"y":932,"w":36,"h":36},
+	"frame": {"x":1596,"y":839,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3269,7 +3521,7 @@
 },
 {
 	"filename": "ritual-bat-6-inactive.psd",
-	"frame": {"x":1996,"y":946,"w":36,"h":36},
+	"frame": {"x":1634,"y":839,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3278,7 +3530,7 @@
 },
 {
 	"filename": "ritual-bat-6-over.psd",
-	"frame": {"x":1996,"y":984,"w":36,"h":36},
+	"frame": {"x":1672,"y":839,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3287,7 +3539,7 @@
 },
 {
 	"filename": "ritual-bat-6.psd",
-	"frame": {"x":2,"y":470,"w":36,"h":36},
+	"frame": {"x":1710,"y":839,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3296,7 +3548,7 @@
 },
 {
 	"filename": "ritual-bat-7-inactive.psd",
-	"frame": {"x":40,"y":470,"w":36,"h":36},
+	"frame": {"x":1406,"y":842,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3305,7 +3557,7 @@
 },
 {
 	"filename": "ritual-bat-7-over.psd",
-	"frame": {"x":78,"y":470,"w":36,"h":36},
+	"frame": {"x":1332,"y":875,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3314,7 +3566,7 @@
 },
 {
 	"filename": "ritual-bat-7.psd",
-	"frame": {"x":116,"y":470,"w":36,"h":36},
+	"frame": {"x":1264,"y":935,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3323,7 +3575,7 @@
 },
 {
 	"filename": "ritual-demon-0-inactive.psd",
-	"frame": {"x":154,"y":470,"w":36,"h":36},
+	"frame": {"x":1444,"y":842,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3332,7 +3584,7 @@
 },
 {
 	"filename": "ritual-demon-0-over.psd",
-	"frame": {"x":192,"y":470,"w":36,"h":36},
+	"frame": {"x":1482,"y":842,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3341,7 +3593,7 @@
 },
 {
 	"filename": "ritual-demon-0.psd",
-	"frame": {"x":230,"y":470,"w":36,"h":36},
+	"frame": {"x":1520,"y":842,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3350,7 +3602,7 @@
 },
 {
 	"filename": "ritual-demon-1-inactive.psd",
-	"frame": {"x":268,"y":470,"w":36,"h":36},
+	"frame": {"x":1558,"y":842,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3359,7 +3611,7 @@
 },
 {
 	"filename": "ritual-demon-1-over.psd",
-	"frame": {"x":306,"y":470,"w":36,"h":36},
+	"frame": {"x":1798,"y":811,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3368,7 +3620,7 @@
 },
 {
 	"filename": "ritual-demon-1.psd",
-	"frame": {"x":344,"y":470,"w":36,"h":36},
+	"frame": {"x":1836,"y":811,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3377,7 +3629,7 @@
 },
 {
 	"filename": "ritual-demon-2-inactive.psd",
-	"frame": {"x":382,"y":470,"w":36,"h":36},
+	"frame": {"x":1874,"y":811,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3386,7 +3638,7 @@
 },
 {
 	"filename": "ritual-demon-2-over.psd",
-	"frame": {"x":420,"y":470,"w":36,"h":36},
+	"frame": {"x":1912,"y":811,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3395,7 +3647,7 @@
 },
 {
 	"filename": "ritual-demon-2.psd",
-	"frame": {"x":458,"y":470,"w":36,"h":36},
+	"frame": {"x":1950,"y":811,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3404,7 +3656,7 @@
 },
 {
 	"filename": "ritual-demon-3-inactive.psd",
-	"frame": {"x":496,"y":470,"w":36,"h":36},
+	"frame": {"x":1988,"y":814,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3413,7 +3665,7 @@
 },
 {
 	"filename": "ritual-demon-3-over.psd",
-	"frame": {"x":534,"y":470,"w":36,"h":36},
+	"frame": {"x":1748,"y":849,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3422,7 +3674,7 @@
 },
 {
 	"filename": "ritual-demon-3.psd",
-	"frame": {"x":572,"y":470,"w":36,"h":36},
+	"frame": {"x":1596,"y":877,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3431,7 +3683,7 @@
 },
 {
 	"filename": "ritual-demon-4-inactive.psd",
-	"frame": {"x":610,"y":470,"w":36,"h":36},
+	"frame": {"x":1634,"y":877,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3440,7 +3692,7 @@
 },
 {
 	"filename": "ritual-demon-4-over.psd",
-	"frame": {"x":648,"y":470,"w":36,"h":36},
+	"frame": {"x":1672,"y":877,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3449,7 +3701,7 @@
 },
 {
 	"filename": "ritual-demon-4.psd",
-	"frame": {"x":686,"y":470,"w":36,"h":36},
+	"frame": {"x":1710,"y":877,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3458,7 +3710,7 @@
 },
 {
 	"filename": "ritual-demon-5-inactive.psd",
-	"frame": {"x":724,"y":470,"w":36,"h":36},
+	"frame": {"x":1405,"y":880,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3467,7 +3719,7 @@
 },
 {
 	"filename": "ritual-demon-5-over.psd",
-	"frame": {"x":762,"y":470,"w":36,"h":36},
+	"frame": {"x":1332,"y":913,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3476,7 +3728,7 @@
 },
 {
 	"filename": "ritual-demon-5.psd",
-	"frame": {"x":800,"y":507,"w":36,"h":36},
+	"frame": {"x":1443,"y":880,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3485,7 +3737,7 @@
 },
 {
 	"filename": "ritual-demon-6-inactive.psd",
-	"frame": {"x":838,"y":507,"w":36,"h":36},
+	"frame": {"x":1481,"y":880,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3494,7 +3746,7 @@
 },
 {
 	"filename": "ritual-demon-6-over.psd",
-	"frame": {"x":876,"y":507,"w":36,"h":36},
+	"frame": {"x":1519,"y":880,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3503,7 +3755,7 @@
 },
 {
 	"filename": "ritual-demon-6.psd",
-	"frame": {"x":914,"y":507,"w":36,"h":36},
+	"frame": {"x":1557,"y":880,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3512,7 +3764,7 @@
 },
 {
 	"filename": "ritual-demon-7-inactive.psd",
-	"frame": {"x":952,"y":507,"w":36,"h":36},
+	"frame": {"x":1786,"y":849,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3521,7 +3773,7 @@
 },
 {
 	"filename": "ritual-demon-7-over.psd",
-	"frame": {"x":990,"y":507,"w":36,"h":36},
+	"frame": {"x":1824,"y":849,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3530,7 +3782,7 @@
 },
 {
 	"filename": "ritual-demon-7.psd",
-	"frame": {"x":1028,"y":507,"w":36,"h":36},
+	"frame": {"x":1862,"y":849,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3539,7 +3791,7 @@
 },
 {
 	"filename": "ritual-lizardman-0-inactive.psd",
-	"frame": {"x":1066,"y":507,"w":36,"h":36},
+	"frame": {"x":1900,"y":849,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3548,7 +3800,7 @@
 },
 {
 	"filename": "ritual-lizardman-0-over.psd",
-	"frame": {"x":1104,"y":507,"w":36,"h":36},
+	"frame": {"x":1938,"y":849,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3557,7 +3809,7 @@
 },
 {
 	"filename": "ritual-lizardman-0.psd",
-	"frame": {"x":2,"y":508,"w":36,"h":36},
+	"frame": {"x":1976,"y":852,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3566,7 +3818,7 @@
 },
 {
 	"filename": "ritual-lizardman-1-inactive.psd",
-	"frame": {"x":40,"y":508,"w":36,"h":36},
+	"frame": {"x":1748,"y":887,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3575,7 +3827,7 @@
 },
 {
 	"filename": "ritual-lizardman-1-over.psd",
-	"frame": {"x":78,"y":508,"w":36,"h":36},
+	"frame": {"x":1595,"y":915,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3584,7 +3836,7 @@
 },
 {
 	"filename": "ritual-lizardman-1.psd",
-	"frame": {"x":116,"y":508,"w":36,"h":36},
+	"frame": {"x":1633,"y":915,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3593,7 +3845,7 @@
 },
 {
 	"filename": "ritual-lizardman-2-inactive.psd",
-	"frame": {"x":154,"y":508,"w":36,"h":36},
+	"frame": {"x":1671,"y":915,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3602,7 +3854,7 @@
 },
 {
 	"filename": "ritual-lizardman-2-over.psd",
-	"frame": {"x":192,"y":508,"w":36,"h":36},
+	"frame": {"x":1709,"y":915,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3611,7 +3863,7 @@
 },
 {
 	"filename": "ritual-lizardman-2.psd",
-	"frame": {"x":230,"y":508,"w":36,"h":36},
+	"frame": {"x":1786,"y":887,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3620,7 +3872,7 @@
 },
 {
 	"filename": "ritual-lizardman-3-inactive.psd",
-	"frame": {"x":268,"y":508,"w":36,"h":36},
+	"frame": {"x":1824,"y":887,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3629,7 +3881,7 @@
 },
 {
 	"filename": "ritual-lizardman-3-over.psd",
-	"frame": {"x":306,"y":508,"w":36,"h":36},
+	"frame": {"x":1862,"y":887,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3638,7 +3890,7 @@
 },
 {
 	"filename": "ritual-lizardman-3.psd",
-	"frame": {"x":344,"y":508,"w":36,"h":36},
+	"frame": {"x":1900,"y":887,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3647,7 +3899,7 @@
 },
 {
 	"filename": "ritual-lizardman-4-inactive.psd",
-	"frame": {"x":382,"y":508,"w":36,"h":36},
+	"frame": {"x":1938,"y":887,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3656,7 +3908,7 @@
 },
 {
 	"filename": "ritual-lizardman-4-over.psd",
-	"frame": {"x":420,"y":508,"w":36,"h":36},
+	"frame": {"x":1976,"y":890,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3665,7 +3917,7 @@
 },
 {
 	"filename": "ritual-lizardman-4.psd",
-	"frame": {"x":458,"y":508,"w":36,"h":36},
+	"frame": {"x":1404,"y":918,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3674,7 +3926,7 @@
 },
 {
 	"filename": "ritual-lizardman-5-inactive.psd",
-	"frame": {"x":496,"y":508,"w":36,"h":36},
+	"frame": {"x":1332,"y":951,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3683,7 +3935,7 @@
 },
 {
 	"filename": "ritual-lizardman-5-over.psd",
-	"frame": {"x":534,"y":508,"w":36,"h":36},
+	"frame": {"x":1442,"y":918,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3692,7 +3944,7 @@
 },
 {
 	"filename": "ritual-lizardman-5.psd",
-	"frame": {"x":572,"y":508,"w":36,"h":36},
+	"frame": {"x":1480,"y":918,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3701,7 +3953,7 @@
 },
 {
 	"filename": "ritual-lizardman-6-inactive.psd",
-	"frame": {"x":610,"y":508,"w":36,"h":36},
+	"frame": {"x":1518,"y":918,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3710,7 +3962,7 @@
 },
 {
 	"filename": "ritual-lizardman-6-over.psd",
-	"frame": {"x":648,"y":508,"w":36,"h":36},
+	"frame": {"x":1556,"y":918,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3719,7 +3971,7 @@
 },
 {
 	"filename": "ritual-lizardman-6.psd",
-	"frame": {"x":686,"y":508,"w":36,"h":36},
+	"frame": {"x":1747,"y":925,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3728,7 +3980,7 @@
 },
 {
 	"filename": "ritual-lizardman-7-inactive.psd",
-	"frame": {"x":724,"y":508,"w":36,"h":36},
+	"frame": {"x":1594,"y":953,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3737,7 +3989,7 @@
 },
 {
 	"filename": "ritual-lizardman-7-over.psd",
-	"frame": {"x":762,"y":508,"w":36,"h":36},
+	"frame": {"x":1632,"y":953,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3746,7 +3998,7 @@
 },
 {
 	"filename": "ritual-lizardman-7.psd",
-	"frame": {"x":800,"y":545,"w":36,"h":36},
+	"frame": {"x":1670,"y":953,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3755,7 +4007,7 @@
 },
 {
 	"filename": "ritual-mummy-0-inactive.psd",
-	"frame": {"x":838,"y":545,"w":36,"h":36},
+	"frame": {"x":1708,"y":953,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3764,7 +4016,7 @@
 },
 {
 	"filename": "ritual-mummy-0-over.psd",
-	"frame": {"x":876,"y":545,"w":36,"h":36},
+	"frame": {"x":1404,"y":956,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3773,7 +4025,7 @@
 },
 {
 	"filename": "ritual-mummy-0.psd",
-	"frame": {"x":914,"y":545,"w":36,"h":36},
+	"frame": {"x":1332,"y":989,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3782,7 +4034,7 @@
 },
 {
 	"filename": "ritual-mummy-1-inactive.psd",
-	"frame": {"x":952,"y":545,"w":36,"h":36},
+	"frame": {"x":1442,"y":956,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3791,7 +4043,7 @@
 },
 {
 	"filename": "ritual-mummy-1-over.psd",
-	"frame": {"x":990,"y":545,"w":36,"h":36},
+	"frame": {"x":1480,"y":956,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3800,7 +4052,7 @@
 },
 {
 	"filename": "ritual-mummy-1.psd",
-	"frame": {"x":1028,"y":545,"w":36,"h":36},
+	"frame": {"x":1518,"y":956,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3809,7 +4061,7 @@
 },
 {
 	"filename": "ritual-mummy-2-inactive.psd",
-	"frame": {"x":1066,"y":545,"w":36,"h":36},
+	"frame": {"x":1556,"y":956,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3818,7 +4070,7 @@
 },
 {
 	"filename": "ritual-mummy-2-over.psd",
-	"frame": {"x":1104,"y":545,"w":36,"h":36},
+	"frame": {"x":1785,"y":925,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3827,7 +4079,7 @@
 },
 {
 	"filename": "ritual-mummy-2.psd",
-	"frame": {"x":2,"y":546,"w":36,"h":36},
+	"frame": {"x":1823,"y":925,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3836,7 +4088,7 @@
 },
 {
 	"filename": "ritual-mummy-3-inactive.psd",
-	"frame": {"x":40,"y":546,"w":36,"h":36},
+	"frame": {"x":1861,"y":925,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3845,7 +4097,7 @@
 },
 {
 	"filename": "ritual-mummy-3-over.psd",
-	"frame": {"x":78,"y":546,"w":36,"h":36},
+	"frame": {"x":1899,"y":925,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3854,7 +4106,7 @@
 },
 {
 	"filename": "ritual-mummy-3.psd",
-	"frame": {"x":116,"y":546,"w":36,"h":36},
+	"frame": {"x":1937,"y":925,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3863,7 +4115,7 @@
 },
 {
 	"filename": "ritual-mummy-4-inactive.psd",
-	"frame": {"x":154,"y":546,"w":36,"h":36},
+	"frame": {"x":1975,"y":928,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3872,7 +4124,7 @@
 },
 {
 	"filename": "ritual-mummy-4-over.psd",
-	"frame": {"x":192,"y":546,"w":36,"h":36},
+	"frame": {"x":1746,"y":963,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3881,7 +4133,7 @@
 },
 {
 	"filename": "ritual-mummy-4.psd",
-	"frame": {"x":230,"y":546,"w":36,"h":36},
+	"frame": {"x":1594,"y":991,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3890,7 +4142,7 @@
 },
 {
 	"filename": "ritual-mummy-5-inactive.psd",
-	"frame": {"x":268,"y":546,"w":36,"h":36},
+	"frame": {"x":1632,"y":991,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3899,7 +4151,7 @@
 },
 {
 	"filename": "ritual-mummy-5-over.psd",
-	"frame": {"x":306,"y":546,"w":36,"h":36},
+	"frame": {"x":1670,"y":991,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3908,7 +4160,7 @@
 },
 {
 	"filename": "ritual-mummy-5.psd",
-	"frame": {"x":344,"y":546,"w":36,"h":36},
+	"frame": {"x":1708,"y":991,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3917,7 +4169,7 @@
 },
 {
 	"filename": "ritual-mummy-6-inactive.psd",
-	"frame": {"x":382,"y":546,"w":36,"h":36},
+	"frame": {"x":1404,"y":994,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3926,7 +4178,7 @@
 },
 {
 	"filename": "ritual-mummy-6-over.psd",
-	"frame": {"x":420,"y":546,"w":36,"h":36},
+	"frame": {"x":1442,"y":994,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3935,7 +4187,7 @@
 },
 {
 	"filename": "ritual-mummy-6.psd",
-	"frame": {"x":458,"y":546,"w":36,"h":36},
+	"frame": {"x":1480,"y":994,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3944,7 +4196,7 @@
 },
 {
 	"filename": "ritual-mummy-7-inactive.psd",
-	"frame": {"x":496,"y":546,"w":36,"h":36},
+	"frame": {"x":1518,"y":994,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3953,7 +4205,7 @@
 },
 {
 	"filename": "ritual-mummy-7-over.psd",
-	"frame": {"x":534,"y":546,"w":36,"h":36},
+	"frame": {"x":1556,"y":994,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3962,7 +4214,7 @@
 },
 {
 	"filename": "ritual-mummy-7.psd",
-	"frame": {"x":572,"y":546,"w":36,"h":36},
+	"frame": {"x":1784,"y":963,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3971,7 +4223,7 @@
 },
 {
 	"filename": "ritual-research-btn-active.psd",
-	"frame": {"x":1410,"y":252,"w":137,"h":32},
+	"frame": {"x":1887,"y":352,"w":137,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":137,"h":32},
@@ -3980,7 +4232,7 @@
 },
 {
 	"filename": "ritual-research-btn-inactive.psd",
-	"frame": {"x":1410,"y":286,"w":137,"h":32},
+	"frame": {"x":1887,"y":386,"w":137,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":137,"h":32},
@@ -3989,7 +4241,7 @@
 },
 {
 	"filename": "ritual-skeleton-0-inactive.psd",
-	"frame": {"x":610,"y":546,"w":36,"h":36},
+	"frame": {"x":1822,"y":963,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -3998,7 +4250,7 @@
 },
 {
 	"filename": "ritual-skeleton-0-over.psd",
-	"frame": {"x":648,"y":546,"w":36,"h":36},
+	"frame": {"x":1860,"y":963,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4007,7 +4259,7 @@
 },
 {
 	"filename": "ritual-skeleton-0.psd",
-	"frame": {"x":686,"y":546,"w":36,"h":36},
+	"frame": {"x":1898,"y":963,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4016,7 +4268,7 @@
 },
 {
 	"filename": "ritual-skeleton-1-inactive.psd",
-	"frame": {"x":724,"y":546,"w":36,"h":36},
+	"frame": {"x":1936,"y":963,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4025,7 +4277,7 @@
 },
 {
 	"filename": "ritual-skeleton-1-over.psd",
-	"frame": {"x":762,"y":546,"w":36,"h":36},
+	"frame": {"x":1974,"y":966,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4034,7 +4286,7 @@
 },
 {
 	"filename": "ritual-skeleton-1.psd",
-	"frame": {"x":800,"y":583,"w":36,"h":36},
+	"frame": {"x":1746,"y":1001,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4043,7 +4295,7 @@
 },
 {
 	"filename": "ritual-skeleton-2-inactive.psd",
-	"frame": {"x":838,"y":583,"w":36,"h":36},
+	"frame": {"x":1594,"y":1029,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4052,7 +4304,7 @@
 },
 {
 	"filename": "ritual-skeleton-2-over.psd",
-	"frame": {"x":876,"y":583,"w":36,"h":36},
+	"frame": {"x":1632,"y":1029,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4061,7 +4313,7 @@
 },
 {
 	"filename": "ritual-skeleton-2.psd",
-	"frame": {"x":914,"y":583,"w":36,"h":36},
+	"frame": {"x":1670,"y":1029,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4070,7 +4322,7 @@
 },
 {
 	"filename": "ritual-skeleton-3-inactive.psd",
-	"frame": {"x":952,"y":583,"w":36,"h":36},
+	"frame": {"x":1708,"y":1029,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4079,7 +4331,7 @@
 },
 {
 	"filename": "ritual-skeleton-3-over.psd",
-	"frame": {"x":990,"y":583,"w":36,"h":36},
+	"frame": {"x":1784,"y":1001,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4088,7 +4340,7 @@
 },
 {
 	"filename": "ritual-skeleton-3.psd",
-	"frame": {"x":1028,"y":583,"w":36,"h":36},
+	"frame": {"x":1822,"y":1001,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4097,7 +4349,7 @@
 },
 {
 	"filename": "ritual-skeleton-4-inactive.psd",
-	"frame": {"x":1066,"y":583,"w":36,"h":36},
+	"frame": {"x":1860,"y":1001,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4106,7 +4358,7 @@
 },
 {
 	"filename": "ritual-skeleton-4-over.psd",
-	"frame": {"x":1104,"y":583,"w":36,"h":36},
+	"frame": {"x":1898,"y":1001,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4115,7 +4367,7 @@
 },
 {
 	"filename": "ritual-skeleton-4.psd",
-	"frame": {"x":2,"y":584,"w":36,"h":36},
+	"frame": {"x":1936,"y":1001,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4124,7 +4376,7 @@
 },
 {
 	"filename": "ritual-skeleton-5-inactive.psd",
-	"frame": {"x":40,"y":584,"w":36,"h":36},
+	"frame": {"x":1974,"y":1004,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4133,7 +4385,7 @@
 },
 {
 	"filename": "ritual-skeleton-5-over.psd",
-	"frame": {"x":78,"y":584,"w":36,"h":36},
+	"frame": {"x":1746,"y":1039,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4142,7 +4394,7 @@
 },
 {
 	"filename": "ritual-skeleton-5.psd",
-	"frame": {"x":116,"y":584,"w":36,"h":36},
+	"frame": {"x":1784,"y":1039,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4151,7 +4403,7 @@
 },
 {
 	"filename": "ritual-skeleton-6-inactive.psd",
-	"frame": {"x":154,"y":584,"w":36,"h":36},
+	"frame": {"x":1822,"y":1039,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4160,7 +4412,7 @@
 },
 {
 	"filename": "ritual-skeleton-6-over.psd",
-	"frame": {"x":192,"y":584,"w":36,"h":36},
+	"frame": {"x":1860,"y":1039,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4169,7 +4421,7 @@
 },
 {
 	"filename": "ritual-skeleton-6.psd",
-	"frame": {"x":230,"y":584,"w":36,"h":36},
+	"frame": {"x":1898,"y":1039,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4178,7 +4430,7 @@
 },
 {
 	"filename": "ritual-skeleton-7-inactive.psd",
-	"frame": {"x":268,"y":584,"w":36,"h":36},
+	"frame": {"x":1936,"y":1039,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4187,7 +4439,7 @@
 },
 {
 	"filename": "ritual-skeleton-7-over.psd",
-	"frame": {"x":306,"y":584,"w":36,"h":36},
+	"frame": {"x":1974,"y":1042,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4196,7 +4448,7 @@
 },
 {
 	"filename": "ritual-skeleton-7.psd",
-	"frame": {"x":344,"y":584,"w":36,"h":36},
+	"frame": {"x":2,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4205,7 +4457,7 @@
 },
 {
 	"filename": "ritual-slime-0-inactive.psd",
-	"frame": {"x":382,"y":584,"w":36,"h":36},
+	"frame": {"x":40,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4214,7 +4466,7 @@
 },
 {
 	"filename": "ritual-slime-0-over.psd",
-	"frame": {"x":420,"y":584,"w":36,"h":36},
+	"frame": {"x":78,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4223,7 +4475,7 @@
 },
 {
 	"filename": "ritual-slime-0.psd",
-	"frame": {"x":458,"y":584,"w":36,"h":36},
+	"frame": {"x":116,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4232,7 +4484,7 @@
 },
 {
 	"filename": "ritual-slime-1-inactive.psd",
-	"frame": {"x":496,"y":584,"w":36,"h":36},
+	"frame": {"x":154,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4241,7 +4493,7 @@
 },
 {
 	"filename": "ritual-slime-1-over.psd",
-	"frame": {"x":534,"y":584,"w":36,"h":36},
+	"frame": {"x":192,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4250,7 +4502,7 @@
 },
 {
 	"filename": "ritual-slime-1.psd",
-	"frame": {"x":572,"y":584,"w":36,"h":36},
+	"frame": {"x":230,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4259,7 +4511,7 @@
 },
 {
 	"filename": "ritual-slime-2-inactive.psd",
-	"frame": {"x":610,"y":584,"w":36,"h":36},
+	"frame": {"x":268,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4268,7 +4520,7 @@
 },
 {
 	"filename": "ritual-slime-2-over.psd",
-	"frame": {"x":648,"y":584,"w":36,"h":36},
+	"frame": {"x":306,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4277,7 +4529,7 @@
 },
 {
 	"filename": "ritual-slime-2.psd",
-	"frame": {"x":686,"y":584,"w":36,"h":36},
+	"frame": {"x":344,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4286,7 +4538,7 @@
 },
 {
 	"filename": "ritual-slime-3-inactive.psd",
-	"frame": {"x":724,"y":584,"w":36,"h":36},
+	"frame": {"x":382,"y":540,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4295,7 +4547,7 @@
 },
 {
 	"filename": "ritual-slime-3-over.psd",
-	"frame": {"x":762,"y":584,"w":36,"h":36},
+	"frame": {"x":2,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4304,7 +4556,7 @@
 },
 {
 	"filename": "ritual-slime-3.psd",
-	"frame": {"x":800,"y":621,"w":36,"h":36},
+	"frame": {"x":40,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4313,7 +4565,7 @@
 },
 {
 	"filename": "ritual-slime-4-inactive.psd",
-	"frame": {"x":838,"y":621,"w":36,"h":36},
+	"frame": {"x":78,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4322,7 +4574,7 @@
 },
 {
 	"filename": "ritual-slime-4-over.psd",
-	"frame": {"x":876,"y":621,"w":36,"h":36},
+	"frame": {"x":116,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4331,7 +4583,7 @@
 },
 {
 	"filename": "ritual-slime-4.psd",
-	"frame": {"x":914,"y":621,"w":36,"h":36},
+	"frame": {"x":154,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4340,7 +4592,7 @@
 },
 {
 	"filename": "ritual-slime-5-inactive.psd",
-	"frame": {"x":952,"y":621,"w":36,"h":36},
+	"frame": {"x":192,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4349,7 +4601,7 @@
 },
 {
 	"filename": "ritual-slime-5-over.psd",
-	"frame": {"x":990,"y":621,"w":36,"h":36},
+	"frame": {"x":230,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4358,7 +4610,7 @@
 },
 {
 	"filename": "ritual-slime-5.psd",
-	"frame": {"x":1028,"y":621,"w":36,"h":36},
+	"frame": {"x":268,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4367,7 +4619,7 @@
 },
 {
 	"filename": "ritual-slime-6-inactive.psd",
-	"frame": {"x":1066,"y":621,"w":36,"h":36},
+	"frame": {"x":306,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4376,7 +4628,7 @@
 },
 {
 	"filename": "ritual-slime-6-over.psd",
-	"frame": {"x":1104,"y":621,"w":36,"h":36},
+	"frame": {"x":344,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4385,7 +4637,7 @@
 },
 {
 	"filename": "ritual-slime-6.psd",
-	"frame": {"x":2,"y":622,"w":36,"h":36},
+	"frame": {"x":382,"y":578,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4394,7 +4646,7 @@
 },
 {
 	"filename": "ritual-slime-7-inactive.psd",
-	"frame": {"x":40,"y":622,"w":36,"h":36},
+	"frame": {"x":2,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4403,7 +4655,7 @@
 },
 {
 	"filename": "ritual-slime-7-over.psd",
-	"frame": {"x":78,"y":622,"w":36,"h":36},
+	"frame": {"x":40,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4412,7 +4664,7 @@
 },
 {
 	"filename": "ritual-slime-7.psd",
-	"frame": {"x":116,"y":622,"w":36,"h":36},
+	"frame": {"x":78,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4421,7 +4673,7 @@
 },
 {
 	"filename": "ritual-wizard-0-inactive.psd",
-	"frame": {"x":154,"y":622,"w":36,"h":36},
+	"frame": {"x":116,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4430,7 +4682,7 @@
 },
 {
 	"filename": "ritual-wizard-0-over.psd",
-	"frame": {"x":192,"y":622,"w":36,"h":36},
+	"frame": {"x":154,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4439,7 +4691,7 @@
 },
 {
 	"filename": "ritual-wizard-0.psd",
-	"frame": {"x":230,"y":622,"w":36,"h":36},
+	"frame": {"x":192,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4448,7 +4700,7 @@
 },
 {
 	"filename": "ritual-wizard-1-inactive.psd",
-	"frame": {"x":268,"y":622,"w":36,"h":36},
+	"frame": {"x":230,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4457,7 +4709,7 @@
 },
 {
 	"filename": "ritual-wizard-1-over.psd",
-	"frame": {"x":306,"y":622,"w":36,"h":36},
+	"frame": {"x":268,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4466,7 +4718,7 @@
 },
 {
 	"filename": "ritual-wizard-1.psd",
-	"frame": {"x":344,"y":622,"w":36,"h":36},
+	"frame": {"x":306,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4475,7 +4727,7 @@
 },
 {
 	"filename": "ritual-wizard-2-inactive.psd",
-	"frame": {"x":382,"y":622,"w":36,"h":36},
+	"frame": {"x":344,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4484,7 +4736,7 @@
 },
 {
 	"filename": "ritual-wizard-2-over.psd",
-	"frame": {"x":420,"y":622,"w":36,"h":36},
+	"frame": {"x":382,"y":616,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4493,7 +4745,7 @@
 },
 {
 	"filename": "ritual-wizard-2.psd",
-	"frame": {"x":458,"y":622,"w":36,"h":36},
+	"frame": {"x":2,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4502,7 +4754,7 @@
 },
 {
 	"filename": "ritual-wizard-3-inactive.psd",
-	"frame": {"x":496,"y":622,"w":36,"h":36},
+	"frame": {"x":40,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4511,7 +4763,7 @@
 },
 {
 	"filename": "ritual-wizard-3-over.psd",
-	"frame": {"x":534,"y":622,"w":36,"h":36},
+	"frame": {"x":78,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4520,7 +4772,7 @@
 },
 {
 	"filename": "ritual-wizard-3.psd",
-	"frame": {"x":572,"y":622,"w":36,"h":36},
+	"frame": {"x":116,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4529,7 +4781,7 @@
 },
 {
 	"filename": "ritual-wizard-4-inactive.psd",
-	"frame": {"x":610,"y":622,"w":36,"h":36},
+	"frame": {"x":154,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4538,7 +4790,7 @@
 },
 {
 	"filename": "ritual-wizard-4-over.psd",
-	"frame": {"x":648,"y":622,"w":36,"h":36},
+	"frame": {"x":192,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4547,7 +4799,7 @@
 },
 {
 	"filename": "ritual-wizard-4.psd",
-	"frame": {"x":686,"y":622,"w":36,"h":36},
+	"frame": {"x":230,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4556,7 +4808,7 @@
 },
 {
 	"filename": "ritual-wizard-5-inactive.psd",
-	"frame": {"x":724,"y":622,"w":36,"h":36},
+	"frame": {"x":268,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4565,7 +4817,7 @@
 },
 {
 	"filename": "ritual-wizard-5-over.psd",
-	"frame": {"x":762,"y":622,"w":36,"h":36},
+	"frame": {"x":306,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4574,7 +4826,7 @@
 },
 {
 	"filename": "ritual-wizard-5.psd",
-	"frame": {"x":800,"y":659,"w":36,"h":36},
+	"frame": {"x":344,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4583,7 +4835,7 @@
 },
 {
 	"filename": "ritual-wizard-6-inactive.psd",
-	"frame": {"x":838,"y":659,"w":36,"h":36},
+	"frame": {"x":382,"y":654,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4592,7 +4844,7 @@
 },
 {
 	"filename": "ritual-wizard-6-over.psd",
-	"frame": {"x":876,"y":659,"w":36,"h":36},
+	"frame": {"x":448,"y":688,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4601,7 +4853,7 @@
 },
 {
 	"filename": "ritual-wizard-6.psd",
-	"frame": {"x":914,"y":659,"w":36,"h":36},
+	"frame": {"x":486,"y":688,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4610,7 +4862,7 @@
 },
 {
 	"filename": "ritual-wizard-7-inactive.psd",
-	"frame": {"x":952,"y":659,"w":36,"h":36},
+	"frame": {"x":524,"y":688,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4619,7 +4871,7 @@
 },
 {
 	"filename": "ritual-wizard-7-over.psd",
-	"frame": {"x":990,"y":659,"w":36,"h":36},
+	"frame": {"x":562,"y":688,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4628,7 +4880,7 @@
 },
 {
 	"filename": "ritual-wizard-7.psd",
-	"frame": {"x":1028,"y":659,"w":36,"h":36},
+	"frame": {"x":600,"y":688,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4637,7 +4889,7 @@
 },
 {
 	"filename": "ritual-zombie-0-inactive.psd",
-	"frame": {"x":1066,"y":659,"w":36,"h":36},
+	"frame": {"x":666,"y":689,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4646,7 +4898,7 @@
 },
 {
 	"filename": "ritual-zombie-0-over.psd",
-	"frame": {"x":1104,"y":659,"w":36,"h":36},
+	"frame": {"x":732,"y":699,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4655,7 +4907,7 @@
 },
 {
 	"filename": "ritual-zombie-0.psd",
-	"frame": {"x":1164,"y":670,"w":36,"h":36},
+	"frame": {"x":666,"y":727,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4664,7 +4916,7 @@
 },
 {
 	"filename": "ritual-zombie-1-inactive.psd",
-	"frame": {"x":1202,"y":670,"w":36,"h":36},
+	"frame": {"x":732,"y":737,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4673,7 +4925,7 @@
 },
 {
 	"filename": "ritual-zombie-1-over.psd",
-	"frame": {"x":1240,"y":670,"w":36,"h":36},
+	"frame": {"x":732,"y":775,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4682,7 +4934,7 @@
 },
 {
 	"filename": "ritual-zombie-1.psd",
-	"frame": {"x":1278,"y":670,"w":36,"h":36},
+	"frame": {"x":2,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4691,7 +4943,7 @@
 },
 {
 	"filename": "ritual-zombie-2-inactive.psd",
-	"frame": {"x":1316,"y":670,"w":36,"h":36},
+	"frame": {"x":40,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4700,7 +4952,7 @@
 },
 {
 	"filename": "ritual-zombie-2-over.psd",
-	"frame": {"x":2,"y":660,"w":36,"h":36},
+	"frame": {"x":78,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4709,7 +4961,7 @@
 },
 {
 	"filename": "ritual-zombie-2.psd",
-	"frame": {"x":40,"y":660,"w":36,"h":36},
+	"frame": {"x":116,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4718,7 +4970,7 @@
 },
 {
 	"filename": "ritual-zombie-3-inactive.psd",
-	"frame": {"x":78,"y":660,"w":36,"h":36},
+	"frame": {"x":154,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4727,7 +4979,7 @@
 },
 {
 	"filename": "ritual-zombie-3-over.psd",
-	"frame": {"x":116,"y":660,"w":36,"h":36},
+	"frame": {"x":192,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4736,7 +4988,7 @@
 },
 {
 	"filename": "ritual-zombie-3.psd",
-	"frame": {"x":154,"y":660,"w":36,"h":36},
+	"frame": {"x":230,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4745,7 +4997,7 @@
 },
 {
 	"filename": "ritual-zombie-4-inactive.psd",
-	"frame": {"x":192,"y":660,"w":36,"h":36},
+	"frame": {"x":268,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4754,7 +5006,7 @@
 },
 {
 	"filename": "ritual-zombie-4-over.psd",
-	"frame": {"x":230,"y":660,"w":36,"h":36},
+	"frame": {"x":306,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4763,7 +5015,7 @@
 },
 {
 	"filename": "ritual-zombie-4.psd",
-	"frame": {"x":268,"y":660,"w":36,"h":36},
+	"frame": {"x":344,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4772,7 +5024,7 @@
 },
 {
 	"filename": "ritual-zombie-5-inactive.psd",
-	"frame": {"x":306,"y":660,"w":36,"h":36},
+	"frame": {"x":382,"y":692,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4781,7 +5033,7 @@
 },
 {
 	"filename": "ritual-zombie-5-over.psd",
-	"frame": {"x":344,"y":660,"w":36,"h":36},
+	"frame": {"x":448,"y":726,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4790,7 +5042,7 @@
 },
 {
 	"filename": "ritual-zombie-5.psd",
-	"frame": {"x":382,"y":660,"w":36,"h":36},
+	"frame": {"x":486,"y":726,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4799,7 +5051,7 @@
 },
 {
 	"filename": "ritual-zombie-6-inactive.psd",
-	"frame": {"x":420,"y":660,"w":36,"h":36},
+	"frame": {"x":524,"y":726,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4808,7 +5060,7 @@
 },
 {
 	"filename": "ritual-zombie-6-over.psd",
-	"frame": {"x":458,"y":660,"w":36,"h":36},
+	"frame": {"x":562,"y":726,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4817,7 +5069,7 @@
 },
 {
 	"filename": "ritual-zombie-6.psd",
-	"frame": {"x":496,"y":660,"w":36,"h":36},
+	"frame": {"x":600,"y":726,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4826,7 +5078,7 @@
 },
 {
 	"filename": "ritual-zombie-7-inactive.psd",
-	"frame": {"x":534,"y":660,"w":36,"h":36},
+	"frame": {"x":666,"y":765,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4835,7 +5087,7 @@
 },
 {
 	"filename": "ritual-zombie-7-over.psd",
-	"frame": {"x":572,"y":660,"w":36,"h":36},
+	"frame": {"x":732,"y":813,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4844,7 +5096,7 @@
 },
 {
 	"filename": "ritual-zombie-7.psd",
-	"frame": {"x":610,"y":660,"w":36,"h":36},
+	"frame": {"x":2,"y":730,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -4853,10 +5105,10 @@
 },
 {
 	"filename": "tutorial-arrow.psd",
-	"frame": {"x":1410,"y":70,"w":36,"h":40},
+	"frame": {"x":1570,"y":763,"w":36,"h":39},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":3,"w":36,"h":40},
+	"spriteSourceSize": {"x":5,"y":4,"w":36,"h":39},
 	"sourceSize": {"w":48,"h":48},
 	"pivot": {"x":0.5,"y":0.5}
 }],
@@ -4867,6 +5119,6 @@
 	"format": "RGBA8888",
 	"size": {"w":2048,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:8877fb3bf6bbc6dcbe2d7dafae3ddf50:cdc9f78525f51c16d10375476b9ba074:1eabdf11f75e3a4fe3147baf7b5be24b$"
+	"smartupdate": "$TexturePacker:SmartUpdate:a264d31226f44fd67bc5a4aed44ca037:6d3e9688336648dbcf527e0913a47df7:1eabdf11f75e3a4fe3147baf7b5be24b$"
 }
 }
