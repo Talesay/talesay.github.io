@@ -43,21 +43,21 @@
 	},
 	"6": {
 		"name": "Portoa",
-		"hp": 8.9,
+		"hp": 8.7,
 		"currentHp": 0,
 		"reward": 44,
 		"weakness": ["lizardman"]
 	},
 	"7": {
 		"name": "Nebelheim",
-		"hp": 9.2,
+		"hp": 8.8,
 		"currentHp": 0,
 		"reward": 50,
 		"weakness": ["wizard"]
 	},
 	"8": {
 		"name": "Old Castle",
-		"hp": 9.5,
+		"hp": 8.9,
 		"currentHp": 0,
 		"reward": 52,
 		"weakness": ["demon"]
