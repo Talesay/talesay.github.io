@@ -35,8 +35,8 @@
 		"power": 2
 	},
 	"btardsword": {
-		"description": "Muramasa:\n COMING SOON",
+		"description": "Muramasa:\n 25% City HP\n x4 Reward",
 		"cost": 8,
-		"power": 250
+		"power": 4
 	}
 }

@@ -1,119 +1,65 @@
 {
 	"0": {
 		"name": "Dullton",
-		"hp": 1,
-		"reward": 8,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"hp": 4,
+		"currentHp": 0,
+		"reward": 7,
+		"weakness": ["all"]
 	},
 	"1": {
 		"name": "Graveyard",
-		"hp": 2,
+		"hp": 6,
+		"currentHp": 0,
 		"reward": 14,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["skeleton", "zombie"]
 	},
 	"2": {
 		"name": "Ardeal",
-		"hp": 3,
+		"hp": 7,
+		"currentHp": 0,
 		"reward": 20,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["bat"]
 	},
 	"3": {
 		"name": "Lawan Woods",
-		"hp": 4,
+		"hp": 8,
+		"currentHp": 0,
 		"reward": 26,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["slime"]
 	},
 	"4": {
 		"name": "Toltyn",
-		"hp": 5,
+		"hp": 8.3,
+		"currentHp": 0,
 		"reward": 32,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["zombie", "wizard"]
 	},
 	"5": {
 		"name": "Salamand",
-		"hp": 6,
+		"hp": 8.6,
+		"currentHp": 0,
 		"reward": 38,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["mummy", "lizardman"]
 	},
 	"6": {
 		"name": "Portoa",
-		"hp": 7,
+		"hp": 8.9,
+		"currentHp": 0,
 		"reward": 44,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["lizardman"]
 	},
 	"7": {
 		"name": "Nebelheim",
-		"hp": 8,
+		"hp": 9.2,
+		"currentHp": 0,
 		"reward": 50,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["wizard"]
 	},
 	"8": {
 		"name": "Old Castle",
-		"hp": 9,
+		"hp": 9.5,
+		"currentHp": 0,
 		"reward": 52,
-		"skeleton": 1,
-		"bat": 1,
-		"slime": 1,
-		"zombie": 1,
-		"lizardman": 1,
-		"mummy": 1,
-		"wizard": 1,
-		"demon": 1
+		"weakness": ["demon"]
 	}
 }
