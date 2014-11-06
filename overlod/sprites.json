@@ -2368,7 +2368,7 @@
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
-	"filename": "library-btn-slime-active",
+	"filename": "library-btn-skeleton-active",
 	"frame": {"x":1000,"y":870,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
@@ -2377,7 +2377,7 @@
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
-	"filename": "library-btn-slime-inactive",
+	"filename": "library-btn-skeleton-inactive",
 	"frame": {"x":1162,"y":899,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
@@ -2386,7 +2386,7 @@
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
-	"filename": "library-btn-squeleton-active",
+	"filename": "library-btn-slime-active",
 	"frame": {"x":796,"y":900,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
@@ -2395,7 +2395,7 @@
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
-	"filename": "library-btn-squeleton-inactive",
+	"filename": "library-btn-slime-inactive",
 	"frame": {"x":795,"y":935,"w":142,"h":33},
 	"rotated": false,
 	"trimmed": true,
@@ -5434,6 +5434,6 @@
 	"format": "RGBA8888",
 	"size": {"w":2048,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:0e32be8c4b6b54077991c0fbd32529f4:a6ecae7ea8fcb862c99a3de2aca26aed:1eabdf11f75e3a4fe3147baf7b5be24b$"
+	"smartupdate": "$TexturePacker:SmartUpdate:6afd110963828276cde30bc71fbeffdc:82ad83598909c362b40d907fc6f25d87:1eabdf11f75e3a4fe3147baf7b5be24b$"
 }
 }
