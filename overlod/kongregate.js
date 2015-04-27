@@ -1,3 +1,4 @@
+/*global kongregate, kongregateAPI, onComplete*/
 window.kongregate = '';
 kongregateAPI.loadAPI(onComplete);
 
