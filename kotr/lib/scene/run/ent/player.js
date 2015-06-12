@@ -103,7 +103,7 @@ ig.module(
                 }
             }
             if (this.jumped && this.standing) {
-                this.vel.x = 24;
+                this.vel.x = 32;
                 this.accel.x = 32;
                 this.jumped = false;
             }
