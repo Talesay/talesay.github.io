@@ -2,7 +2,7 @@
 ig.module(
     'main'
 ).requires(
-    //'impact.debug.debug',
+    'impact.debug.debug',
     'plugins.require',
     'scene.title',
     'scene.run',
@@ -21,6 +21,7 @@ ig.module(
                     start: ig.LevelStart,
                     end: ig.LevelEnd,
                     pieces: [
+                        ig.LevelOther,
                         ig.LevelSegment00,
                         ig.LevelSegment01,
                         ig.LevelSegment02,

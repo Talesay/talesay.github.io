@@ -28,6 +28,8 @@ ig.module(
         },
         bounceSpeed: 150,
         jumpTime: 1,
+        breakTime: 1,
+        collisionCounter: 0,
         attacked: false,
         jumped: false,
         velGround: 32,
@@ -61,7 +63,7 @@ ig.module(
             this.parent();
         },
         handleAnims: function () {
-            if (this.standing && this.vel.x < 0) {
+            if (this.standing && this.breakTime > 0 || this.standing && this.vel.x < 0) {
                 this.currentAnim = this.anims.backtrack;
             } else if (this.standing && this.vel.x === 0) {
                 this.currentAnim = this.anims.idle;
@@ -76,26 +78,34 @@ ig.module(
             }
         },
         handleJump: function () {
-            if (this.standing) {
-                if (!ig.game.collisionMap.getTile(this.pos.x + this.size.x, this.pos.y + this.size.y)) {
-                    if (this.vel.x > 0) {
-                        this.accel.x = -64;
-                        this.vel.x = this.vel.x * 0.5;
-                    }
+
+            if (this.standing && this.vel.x === 0 && this.collisionCounter === 1) {
+                this.vel.y = -92;
+                this.accel.x = 32;
+                this.jumped = true;
+                this.vel.x = 48;
+                this.collisionCounter = 0;
+                return;
+            } else if (this.standing && this.vel.x === 0) {
+                this.vel.x = -32;
+                this.collisionCounter += 1;
+                return;
+            }
+
+            if (this.standing && !ig.game.collisionMap.getTile(this.pos.x + this.size.x * 0.9, this.pos.y + this.size.y)) {
+                if (this.vel.x > 32 && this.breakTime < 0.25) {
+                    this.friction.x = 160;
+                    this.breakTime += ig.system.tick;
+                    this.accel.x = 0;
+                } else {
+                    this.accel.x = 10;
                 }
-                if (this.vel.x < 0) {
-                    if (this.vel.x <= -24) {
-                        this.accel.x = 0;
-                        this.vel.x = 0;
-                    }
-                    if (!ig.game.collisionMap.getTile(this.pos.x - this.size.x / 2, this.pos.y + this.size.y)) {
-                        this.accel.x = 0;
-                        this.vel.x = 0;
-                    }
-                }
+            } else {
+                this.breakTime = 0;
+                this.friction.x = 0;
+                this.accel.x = 64;
             }
             if (!this.standing && ig.input.pressed('click') && !this.attacked && this.jumped) {
-
                 this.bounceSpeed = -ig.system.height + this.last.y;
                 if (this.bounceSpeed < -90) {
                     this.attacked = true;
@@ -146,6 +156,7 @@ ig.module(
             }
             if (this.vel.y > 0) {
                 this.jumped = true;
+                this.collisionCounter = 0;
                 if (this.accel.x < 0) {
                     this.accel.x = 0;
                 }
@@ -164,6 +175,4 @@ ig.module(
             }
         }
     });
-
-
 });
