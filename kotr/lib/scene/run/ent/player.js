@@ -15,11 +15,11 @@ ig.module(
             y: 3
         },
         maxVel: {
-            x: 64,
+            x: 58,
             y: 400
         },
         vel: {
-            x: 64,
+            x: 58,
             y: 0
         },
         accel: {
@@ -120,7 +120,7 @@ ig.module(
                         }
                     } else {
                         this.vel.y = -110;
-                         this.vel.x = 48;
+                        this.vel.x = 48;
                         this.accel.x = 64;
                         this.jumped = true;
                     }

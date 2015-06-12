@@ -27,7 +27,8 @@ ig.module(
                         ig.LevelSegment03,
                         ig.LevelSegment04,
                         ig.LevelSegment05,
-                        ig.LevelSegment06
+                        ig.LevelSegment06,
+                        ig.LevelSegment07
                     ],
                     length: 25,
                     checkX: true,
