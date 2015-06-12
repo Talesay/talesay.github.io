@@ -10,6 +10,7 @@ ig.module(
     'scene.run.lvl.segment-03',
     'scene.run.lvl.segment-04',
     'scene.run.lvl.segment-05',
+    'scene.run.lvl.segment-06',
     'scene.run.lvl.other',
     'scene.run.lvl.end'
 ).defines(function () {
