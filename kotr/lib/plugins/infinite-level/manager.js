@@ -20,7 +20,6 @@ ig.module(
 		},
 		init: function (options) {
 			ig.merge(this.options, options);
-            console.log(this.options.pieces);
 			ig.game.loadLevel(this.options.start);
 			ig.game.collisionMap.name = 'collision';
 			this.pushBackgroundMaps(this.getLayerNames());

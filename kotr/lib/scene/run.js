@@ -28,7 +28,7 @@ ig.module(
             this.nextCameraPosY = this.player.pos.y / 2.5 - ig.system.height / 2 + this.player.size.y;
             this.nextCameraPosX = this.player.pos.x - ig.system.width / 4;
             this.getCameraPosY(this.nextCameraPosY, this.nextCameraPosY);
-            this.getCameraPosX(this.screen.x, this.nextCameraPosX);
+            this.getCameraPosX(this.nextCameraPosX, this.nextCameraPosX, 1, ig.Interpolation.linear);
         },
         getCameraPosY: function (start, end) {
             var duration = 1,
@@ -41,13 +41,12 @@ ig.module(
         update: function () {
             this.parent();
             this.infiniteLevel.update();
-            if (this.player.vel.x > 32) {
-                this.nextCameraPosX = this.player.pos.x + 48 - ig.system.width / 4;
-                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 0.5, ig.Interpolation.linear);
+            if (this.player.vel.x > 32 && !this.cameraPosX.done) {
+                this.nextCameraPosX = this.player.pos.x + 64 - ig.system.width / 4;
+                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 1, ig.Interpolation.linear);
             } else if (!this.cameraPosX.done) {
                 this.nextCameraPosX = this.player.pos.x + 96 - ig.system.width / 4;
                 this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 2, ig.Interpolation.bounceInOut);
-                console.log('colided');
             }
 
             if (this.player.standing) {
