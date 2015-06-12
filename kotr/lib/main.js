@@ -2,7 +2,7 @@
 ig.module(
     'main'
 ).requires(
-    'impact.debug.debug',
+    //'impact.debug.debug',
     'plugins.require',
     'scene.title',
     'scene.run',
