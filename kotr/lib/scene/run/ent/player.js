@@ -15,11 +15,11 @@ ig.module(
             y: 3
         },
         maxVel: {
-            x: 58,
+            x: 72,
             y: 400
         },
         vel: {
-            x: 58,
+            x: 64,
             y: 0
         },
         accel: {
@@ -96,7 +96,7 @@ ig.module(
             }
             if (!this.standing && ig.input.pressed('click') && !this.attacked && this.jumped) {
 
-                this.bounceSpeed = -ig.system.height + this.pos.y;
+                this.bounceSpeed = -ig.system.height + this.last.y;
                 if (this.bounceSpeed < -90) {
                     this.attacked = true;
                     this.jumped = false;
@@ -104,7 +104,7 @@ ig.module(
             }
             if (this.jumped && this.standing) {
                 this.vel.x = 32;
-                this.accel.x = 32;
+                this.accel.x = 128;
                 this.jumped = false;
             }
             if (this.standing) {
@@ -153,7 +153,7 @@ ig.module(
             if (this.vel.y < 0 && ig.input.state('click')) {
                 this.jumpTime += ig.system.tick;
             }
-            if (this.jumpTime > 0.7) {
+            if (this.jumpTime > 0.67) {
                 if (this.vel.y < 0) {
                     this.accel.y = 0;
                 }
