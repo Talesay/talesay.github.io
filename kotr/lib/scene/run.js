@@ -41,12 +41,18 @@ ig.module(
         update: function () {
             this.parent();
             this.infiniteLevel.update();
-            if (this.player.vel.x > 32 && !this.cameraPosX.done) {
-                this.nextCameraPosX = this.player.pos.x + 64 - ig.system.width / 4;
-                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 1, ig.Interpolation.linear);
-            } else if (!this.cameraPosX.done) {
+            if (this.player.vel.x > 32 && this.player.standing && !this.player.attacked) {
                 this.nextCameraPosX = this.player.pos.x + 96 - ig.system.width / 4;
-                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 2, ig.Interpolation.bounceInOut);
+                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 1, ig.Interpolation.linear);
+                //console.log(this.player.attacked);
+            } else if (this.player.standing){
+                this.nextCameraPosX = this.player.pos.x + 64 - ig.system.width / 4;
+                //this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 2, ig.Interpolation.bounceInOut);
+                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 2, ig.Interpolation.linear);
+            } else {
+                this.nextCameraPosX = this.player.pos.x + 32 - ig.system.width / 4;
+                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 1, ig.Interpolation.linear);
+                //console.log(this.player.attacked);
             }
 
             if (this.player.standing) {
