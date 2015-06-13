@@ -25,6 +25,10 @@ ig.module(
         cameraPosX: {},
         init: function () {
             this.infiniteLevel = new ig.InfiniteLevelManager(this.level);
+            this.initCamera();
+            ig.music.play('04');
+        },
+        initCamera: function () {
             this.nextCameraPosY = this.player.pos.y / 2.5 - ig.system.height / 2 + this.player.size.y;
             this.nextCameraPosX = this.player.pos.x - ig.system.width / 4;
             this.getCameraPosY(this.nextCameraPosY, this.nextCameraPosY);
@@ -76,7 +80,9 @@ ig.module(
             if (this.screen.y < -62) {
                 this.screen.y = -62;
             }
-            this.screen.x = this.cameraPosX.value;
+            if (this.player.pos.y < 50) {
+                this.screen.x = this.cameraPosX.value;
+            }
         },
         draw: function () {
             this.parent();

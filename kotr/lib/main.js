@@ -14,6 +14,12 @@ ig.module(
         init: function () {
             // Initialize your game here; bind keys etc.
             ig.input.bind(ig.KEY.MOUSE1, 'click');
+            this.initMusicTracks();
+        },
+        initMusicTracks: function () {
+            // Background Music definition
+            ig.music.volume = 0.3;
+            ig.musicManager.addTrack('med/msc/04-we-can-do-this', '04');
         },
         update: function () {
             ig.scene.set(ig.SceneRun, {
@@ -32,8 +38,8 @@ ig.module(
                         ig.LevelSegment07
                     ],
                     length: 25,
-                    checkX: true,
-                    checkY: true
+                    checkX: false,
+                    checkY: false
                 }
             });
         }
