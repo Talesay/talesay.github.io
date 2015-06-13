@@ -37,13 +37,11 @@ ig.module(
         velGround: 32,
         velAir: 32,
         deathTimer: false,
-        playFanfarre: false,
         type: ig.Entity.TYPE.A, // Player friendly group
         checkAgainst: ig.Entity.TYPE.NONE,
         collides: ig.Entity.COLLIDES.PASSIVE,
         animSheet: new ig.AnimationSheet('med/spr/player.png', 16, 18),
         deathFallSnd: new ig.Sound('med/sfx/death-fall.*'),
-        defeatSnd: new ig.Sound('med/sfx/defeat.*'),
         backtrackSnd: [
             new ig.Sound('med/sfx/backtrack-00.*'),
             new ig.Sound('med/sfx/backtrack-01.*'),
@@ -98,10 +96,6 @@ ig.module(
             this.handleMovement();
             this.handleAnims();
             if (this.deathTimer) {
-                if (this.deathTimer.delta() > -5.5 && this.playFanfarre) {
-                    this.playFanfarre = false;
-                    this.defeatSnd.play();
-                }
                 if (this.deathTimer.delta() > 0) {
                     this.kill();
                 }
@@ -110,14 +104,13 @@ ig.module(
         },
         handleOffscreen: function () {
             if (this.pos.y > 70) {
-                this.deferredKill(7);
+                this.deferredKill(2.32);
             }
         },
         deferredKill: function (wait) {
             if (!this.deathTimer) {
                 ig.music.fadeOut(1.7);
                 this.deathFallSnd.play();
-                this.playFanfarre = true;
                 this.deathTimer = new ig.Timer(wait);
             }
         },
@@ -264,16 +257,21 @@ ig.module(
             if (this.vel.y < 0 && ig.input.state('click')) {
                 this.jumpTime += ig.system.tick;
             }
-            if (this.jumpTime > 0.67) {
+            if (this.jumpTime > 0.6) {
                 if (this.vel.y < 0) {
-                    this.accel.y = 0;
+                    this.accel.y = 64;
                 }
             } else if (!ig.input.state('click')) {
-                this.accel.y = 32;
+                this.accel.y = 48;
             } else if (this.jumpTime > 0 && ig.input.state('click')) {
                 this.accel.y = -32; //The general acceleration of the jump
             }
-
+			
+			if (!ig.input.state('click') && this.jumpTime < 0.25) {
+				if (this.pos.y < 14) {
+                    this.accel.y = 256;
+                }
+            }
             if (this.pos.y <= -32) {
                 this.accel.y = 72;
                 this.accel.x = 64;

@@ -14,11 +14,12 @@ ig.module(
         init: function () {
             // Initialize your game here; bind keys etc.
             ig.input.bind(ig.KEY.MOUSE1, 'click');
+            ig.input.bind(ig.KEY.UP_ARROW, 'click');
             this.initMusicTracks();
         },
         initMusicTracks: function () {
             // Background Music definition
-            ig.music.volume = 0.3;
+            ig.music.volume = 0.25;
             ig.musicManager.addTrack('med/msc/04-we-can-do-this', '04');
         },
         update: function () {
