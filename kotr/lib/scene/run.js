@@ -41,42 +41,45 @@ ig.module(
         update: function () {
             this.parent();
             this.infiniteLevel.update();
-            if (this.player.vel.x > 32 && this.player.standing && !this.player.attacked) {
-                this.nextCameraPosX = this.player.pos.x + 96 - ig.system.width / 4;
-                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 1, ig.Interpolation.linear);
-                //console.log(this.player.attacked);
-            } else if (this.player.standing){
+            this.camera();
+        },
+        camera: function () {
+            if (this.player.vel.x > 32 && this.player.standing && !this.player.attacked && this.player.standTime > 0.5) {
+                this.nextCameraPosX = this.player.pos.x + 256 - ig.system.width / 4;
+                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 3, ig.Interpolation.exponentialIn);
+            } else if (this.player.standing && this.player.vel.x < 32) {
                 this.nextCameraPosX = this.player.pos.x + 64 - ig.system.width / 4;
-                //this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 2, ig.Interpolation.bounceInOut);
                 this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 2, ig.Interpolation.linear);
             } else {
-                this.nextCameraPosX = this.player.pos.x + 32 - ig.system.width / 4;
-                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 1, ig.Interpolation.linear);
-                //console.log(this.player.attacked);
+                this.nextCameraPosX = this.player.pos.x + 64 - ig.system.width / 4;
+                this.getCameraPosX(this.cameraPosX.value, this.nextCameraPosX, 1.1, ig.Interpolation.linear);
             }
 
             if (this.player.standing) {
-                if (this.player.pos.y <= -14) {
+                if (this.player.pos.y <= -14 && this.player.standTime > 0.1) {
                     this.nextCameraPosY = this.player.pos.y / 5 - ig.system.height / 2 + this.player.size.y;
                     this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
-                } else if (this.player.pos.y <= 2) {
+                } else if (this.player.pos.y <= 2 && this.player.standTime > 0.1) {
                     this.nextCameraPosY = this.player.pos.y / 4 - ig.system.height / 2 + this.player.size.y;
                     this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
-                } else if (this.player.pos.y <= 18) {
+                } else if (this.player.pos.y <= 18 && this.player.standTime > 0.25) {
                     this.nextCameraPosY = this.player.pos.y / 3 - ig.system.height / 2 + this.player.size.y;
                     this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
                 } else if (this.player.pos.y <= 34) {
                     this.nextCameraPosY = this.player.pos.y / 2.5 - ig.system.height / 2 + this.player.size.y;
                     this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
                 }
+            } else {
+                if (this.player.pos.y <= -32) {
+                    this.nextCameraPosY = this.player.pos.y * 0.2 - ig.system.height / 2;
+                    this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
+                } else if (this.player.pos.y <= 2) {
+                    this.nextCameraPosY = this.player.pos.y / 2.5 - ig.system.height / 2 + this.player.size.y;
+                    this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
+                }
             }
-            if (!this.cameraPosY.done) {
-                this.screen.y = this.cameraPosY.value;
-            }
-            if (!this.cameraPosX.done) {
-                this.screen.x = this.cameraPosX.value;
-            }
-
+            this.screen.y = this.cameraPosY.value;
+            this.screen.x = this.cameraPosX.value;
         },
         draw: function () {
             this.parent();

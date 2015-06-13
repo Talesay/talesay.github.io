@@ -28,6 +28,7 @@ ig.module(
         },
         bounceSpeed: 150,
         jumpTime: 1,
+        standTime: 1,
         breakTime: 1,
         collisionCounter: 0,
         attacked: false,
@@ -63,7 +64,7 @@ ig.module(
             this.parent();
         },
         handleAnims: function () {
-            if (this.standing && this.breakTime > 0 || this.standing && this.vel.x < 0) {
+            if ((this.standing && this.breakTime > 0) || (this.standing && this.vel.x < 0)) {
                 this.currentAnim = this.anims.backtrack;
             } else if (this.standing && this.vel.x === 0) {
                 this.currentAnim = this.anims.idle;
@@ -113,8 +114,8 @@ ig.module(
                 }
             }
             if (this.jumped && this.standing) {
-                this.vel.x = 32;
-                this.accel.x = 128;
+                this.vel.x = 48;
+                this.accel.x = 96;
                 this.jumped = false;
             }
             if (this.standing) {
@@ -157,9 +158,12 @@ ig.module(
             if (this.vel.y > 0) {
                 this.jumped = true;
                 this.collisionCounter = 0;
+                this.standTime = 0;
                 if (this.accel.x < 0) {
                     this.accel.x = 0;
                 }
+            } else {
+                this.standTime += ig.system.tick;
             }
             if (this.vel.y < 0 && ig.input.state('click')) {
                 this.jumpTime += ig.system.tick;
@@ -172,6 +176,11 @@ ig.module(
                 this.accel.y = 32;
             } else if (this.jumpTime > 0 && ig.input.state('click')) {
                 this.accel.y = -32; //The general acceleration of the jump
+            }
+
+            if (this.pos.y <= -32) {
+                this.accel.y = 64;
+                this.accel.x = 64;
             }
         }
     });

@@ -110,6 +110,9 @@ ig.module(
             }
             return 0.5 * (-Math.pow(2, -10 * (v - 1)) + 2);
         },
+        logIn: function (v) {
+            return v === 0 ? 0 : Math.pow(10, 10 * (v - 1));
+        },
         circularIn: function (v) {
             return -(Math.sqrt(1 - v * v) - 1);
         },
