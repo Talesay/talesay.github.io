@@ -71,10 +71,10 @@ ig.module(
                 }
             } else {
                 if (this.player.pos.y <= -32) {
-                    this.nextCameraPosY = this.player.pos.y * 0.2 - ig.system.height / 2;
+                    this.nextCameraPosY = this.player.pos.y * 0.2 - ig.system.height / 2 - this.player.size.y / 2;
                     this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
-                } else if (this.player.pos.y <= 2) {
-                    this.nextCameraPosY = this.player.pos.y / 2.5 - ig.system.height / 2 + this.player.size.y;
+                } else {
+                    this.nextCameraPosY = this.player.pos.y / 5 - ig.system.height / 2 + this.player.size.y;
                     this.getCameraPosY(this.cameraPosY.value, this.nextCameraPosY);
                 }
             }

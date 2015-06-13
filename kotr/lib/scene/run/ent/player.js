@@ -179,8 +179,11 @@ ig.module(
             }
 
             if (this.pos.y <= -32) {
-                this.accel.y = 64;
+                this.accel.y = 72;
                 this.accel.x = 64;
+                this.maxVel.x = 78;
+            } else {
+                this.maxVel.x = 72;
             }
         }
     });
