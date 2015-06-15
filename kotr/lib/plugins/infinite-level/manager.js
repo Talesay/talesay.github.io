@@ -80,32 +80,7 @@ ig.module(
 			}
 		},
 		update: function () {
-			this.removeOutOfBoundsEntities();
-		},
-		removeOutOfBoundsTiles: function () {
-			var i,
-				data,
-				j;
-			if (ig.game.screen.x >= ig.game.backgroundMaps[0].tilesize) {
-				for (i = 0; i < ig.game.backgroundMaps.length; i += 1) {
-					data = ig.game.backgroundMaps[i].data;
-					for (j = 0; j < data.length; j += 1) {
-						data[j].shift();
-					}
-					ig.game.backgroundMaps[i].width -= 1;
-				}
-				if (ig.game.collisionMap.data) {
-					for (i = 0; i < ig.game.collisionMap.data.length; i += 1) {
-						ig.game.collisionMap.data[i].shift();
-					}
-
-					ig.game.collisionMap.width -= 1;
-				}
-				for (i = 0; i < ig.game.entities.length; i += 1) {
-					ig.game.entities[i].pos.x -= ig.game.backgroundMaps[0].tilesize;
-				}
-				ig.game.screen.x -= ig.game.backgroundMaps[0].tilesize;
-			}
+			//this.removeOutOfBoundsEntities();
 		},
 		removeOutOfBoundsEntities: function () {
 			var i = 0,

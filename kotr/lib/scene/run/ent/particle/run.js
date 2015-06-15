@@ -31,7 +31,7 @@ ig.module(
 			if (this.timer.delta() > 0) {
 				this.kill();
 			}
-			var alpha = this.timer.delta()
+			var alpha = this.timer.delta();
 			this.currentAnim.alpha = alpha.map(-this.lifetime, 0, 0.25, 0);
 			this.parent();
 		}
