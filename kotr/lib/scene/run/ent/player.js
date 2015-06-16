@@ -63,7 +63,9 @@ ig.module(
             new ig.Sound('med/sfx/critical-02.*'),
             new ig.Sound('med/sfx/critical-03.*'),
             new ig.Sound('med/sfx/critical-04.*'),
-            new ig.Sound('med/sfx/critical-05.*')
+            new ig.Sound('med/sfx/critical-05.*'),
+            new ig.Sound('med/sfx/critical-06.*'),
+            new ig.Sound('med/sfx/critical-07.*')
         ],
         health: 2,
         init: function (x, y, settings) {
@@ -131,15 +133,16 @@ ig.module(
             this.parent();
         },
         crit: function () {
-            if (this.critCounter > 4) {
+            if (this.critCounter > 6) {
                 console.log('crit');
-                this.critSnd[5].play();
+                this.critSnd[7].play();
                 this.critCounter = 0;
             } else {
                 this.critSnd[this.critCounter].play();
                 console.log('crit ' + this.critCounter);
+				this.critCounter += 1;
             }
-            this.critCounter += 1;
+            
             this.critTimer = 0;
 
         },
@@ -162,7 +165,7 @@ ig.module(
         },
         handleMovement: function () {
             this.critTimer += ig.system.tick;
-            if (this.critTimer > 2) {
+            if (this.critTimer > 3) {
                 this.critCounter = 0;
             }
             if (this.currentAnim === this.anims.hurt) {

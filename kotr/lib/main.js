@@ -19,7 +19,7 @@ ig.module(
         },
         initMusicTracks: function () {
             // Background Music definition
-            ig.music.volume = 0.25;
+            ig.music.volume = 0.33;
             ig.musicManager.addTrack('med/msc/04-we-can-do-this', '04');
         },
         update: function () {
