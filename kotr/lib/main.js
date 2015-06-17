@@ -57,7 +57,7 @@ ig.module(
     };
     ig.init.getCanvasScale = function () {
         var canvas = document.getElementById('canvas'),
-            scale = Math.floor(window.innerWidth / 200) - 1;
+            scale = Math.floor(window.innerWidth / 160) - 1;
         if (scale < 1) {
             scale = 1;
         }
