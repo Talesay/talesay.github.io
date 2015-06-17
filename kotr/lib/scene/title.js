@@ -6,7 +6,7 @@ ig.module(
 ).defines(function () {
     'use strict';
     ig.SceneTitle = ig.Game.extend({
-        font: new ig.Font('med/fnt/04b03.font.png'),
+        //font: new ig.Font('med/fnt/04b03.font.png'),
         init: function () {
             // Initialize your game here; bind keys etc.
         },
@@ -23,7 +23,7 @@ ig.module(
             var x = ig.system.width / 2,
                 y = ig.system.height / 2;
 
-            this.font.draw(this.message, x, y, ig.Font.ALIGN.CENTER);
+            //this.font.draw(this.message, x, y, ig.Font.ALIGN.CENTER);
         }
     });
 });

@@ -2,7 +2,7 @@
 ig.module(
     'main'
 ).requires(
-    'impact.debug.debug',
+    //'impact.debug.debug',
     'plugins.require',
     'scene.title',
     'scene.run',
@@ -11,7 +11,9 @@ ig.module(
     'use strict';
     ig.Sound.channels = 2;
     ig.Main = ig.Game.extend({
+        clearColor: '#524848',
         init: function () {
+            ig.init.scaleCanvas();
             // Initialize your game here; bind keys etc.
             ig.input.bind(ig.KEY.MOUSE1, 'click');
             ig.input.bind(ig.KEY.UP_ARROW, 'click');
@@ -35,7 +37,7 @@ ig.module(
                         //ig.LevelSegment03,
                         //ig.LevelSegment04,
                         //ig.LevelSegment05,
-                        ig.LevelSegment06//,
+                        ig.LevelSegment06 //,
                         //ig.LevelSegment07
                     ],
                     length: 25,
@@ -46,17 +48,32 @@ ig.module(
         }
     });
     ig.init = function () {
-        ig.scaleCanvas();
-        ig.main('#canvas', ig.Main, 60, ig.dimensions.width, ig.dimensions.height, 6, ig.Loader);
-        window.addEventListener('resize', ig.scaleCanvas, false);
+        //ig.init.scaleCanvas();
+        ig.main('#canvas', ig.Main, 60, window.innerWidth, window.innerHeight, 1, ig.Loader);
+        window.addEventListener('resize', ig.init.scaleCanvas, false);
     };
-    ig.scaleCanvas = function () {
-        var canvas = ig.$('#canvas'),
-            widthProprotion = (window.innerWidth / ig.dimensions.width),
-            heightProprotion = (window.innerHeight / ig.dimensions.height),
-            ratioConstraint = Math.min(widthProprotion, heightProprotion);
-        canvas.style.width = (ig.dimensions.width * ratioConstraint) + "px";
-        canvas.style.height = (ig.dimensions.height * ratioConstraint) + "px";
+    ig.init.scaleCanvas = function () {
+        var canvas = document.getElementById('canvas'),
+            widthProportion = (window.innerWidth / ig.dimensions.width),
+            heightProportion = (window.innerHeight / ig.dimensions.height),
+            image,
+            i;
+        ig.dimensions.scale = Math.floor(window.innerWidth / 200) - 1;
+        if (ig.dimensions.scale < 1) {
+            ig.dimensions.scale = 1;
+        }
+
+        if (!ig.game) {
+            return;
+        }
+        for (image in ig.Image.cache) {
+            if (ig.Image.cache.hasOwnProperty(image)) {
+                if (!ig.Image.cache[image].data[ig.dimensions.scale]) {
+                    ig.Image.cache[image].resize(ig.dimensions.scale);
+                }
+            }
+        }
+        ig.system.resize((window.innerWidth) / ig.dimensions.scale, (window.innerHeight) / ig.dimensions.scale, ig.dimensions.scale);
     };
     return ig.init();
 });

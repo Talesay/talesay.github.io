@@ -24,6 +24,7 @@ ig.module(
         nextCameraPosX: 0,
         cameraPosY: {},
         cameraPosX: {},
+        clearColor: '#181624',
         init: function () {
             this.infiniteLevel = new ig.InfiniteLevelManager(this.level);
             this.initCamera();

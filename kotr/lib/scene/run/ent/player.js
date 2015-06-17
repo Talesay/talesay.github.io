@@ -235,7 +235,8 @@ ig.module(
                 this.accel.x = 64;
             }
             if (!this.standing && ig.input.pressed('click') && !this.attacked && this.jumped) {
-                this.bounceSpeed = -ig.system.height + this.last.y;
+                //this.bounceSpeed = -ig.system.height + this.last.y;
+                this.bounceSpeed = -112 + this.last.y;
                 if (this.bounceSpeed < -94) {
                     this.attacked = true;
                     this.jumped = false;

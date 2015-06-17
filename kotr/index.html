@@ -11,17 +11,22 @@
             padding: 0;
         }
         #canvas {
-            display: block;
-            margin: 0px auto;
-            border: 0px;
-        }
+			position: absolute;
+			left: 0;
+			top: 0;
+			margin: auto;
+		}
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <script type="text/javascript">
         ImpactMixin = {
             nocache: '?' + Date.now(),
             dimensions: {
-                width: 212,
-                height: 112
+                width: 208,
+                height: 112,
+                scale: 8
             }
         };
     </script>

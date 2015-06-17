@@ -3,6 +3,7 @@ ig.module(
     'plugins.require'
 ).requires(
     'plugins.array.utilities',
+    'plugins.rescale.image',
     'plugins.infinite-level.manager',
     'plugins.clickable.mixin',
     'plugins.domain.utilities',
