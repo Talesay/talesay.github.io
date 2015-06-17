@@ -49,22 +49,34 @@ ig.module(
         }
     });
     ig.init = function () {
-        //ig.init.scaleCanvas();
-        ig.main('#canvas', ig.Main, 60, window.innerWidth, window.innerHeight, 1, ig.Loader);
+        ig.dimensions.scale = ig.init.getCanvasScale();
+        var size = ig.init.getCanvasSize();
+        ig.main('#canvas', ig.Main, 60, size.w, size.h, ig.dimensions.scale, ig.Loader);
         window.addEventListener('resize', ig.init.scaleCanvas, false);
+        window.addEventListener('orientationchange', ig.init.scaleCanvas, false);
+    };
+    ig.init.getCanvasScale = function () {
+        var canvas = document.getElementById('canvas'),
+            scale = Math.floor(window.innerWidth / 200) - 1;
+        if (scale < 1) {
+            scale = 1;
+        }
+        return scale;
+    };
+    ig.init.getCanvasSize = function () {
+        var width = (window.innerWidth) / ig.dimensions.scale,
+            height = (window.innerHeight) / ig.dimensions.scale;
+        return {
+            w: width,
+            h: height
+        };
+
     };
     ig.init.scaleCanvas = function () {
-        var canvas = document.getElementById('canvas'),
-            widthProportion = (window.innerWidth / ig.dimensions.width),
-            heightProportion = (window.innerHeight / ig.dimensions.height),
-            image,
-            i;
-        ig.dimensions.scale = Math.floor(window.innerWidth / 200) - 1;
-        if (ig.dimensions.scale < 1) {
-            ig.dimensions.scale = 1;
-        }
-
-        if (!ig.game) {
+        ig.dimensions.scale = ig.init.getCanvasScale();
+        var size = ig.init.getCanvasSize(),
+            image;
+        if (!ig.game || ig.dimensions.scale === ig.system.scale) {
             return;
         }
         for (image in ig.Image.cache) {
@@ -74,7 +86,7 @@ ig.module(
                 }
             }
         }
-        ig.system.resize((window.innerWidth) / ig.dimensions.scale, (window.innerHeight) / ig.dimensions.scale, ig.dimensions.scale);
+        ig.system.resize(size.w, size.h, ig.dimensions.scale);
     };
     return ig.init();
 });
