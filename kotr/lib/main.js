@@ -10,6 +10,7 @@ ig.module(
 ).defines(function () {
     'use strict';
     ig.Sound.channels = 2;
+    ig.Sound.use[ig.Sound.FORMAT.MP3, ig.Sound.FORMAT.OGG];
     ig.Main = ig.Game.extend({
         clearColor: '#524848',
         init: function () {
