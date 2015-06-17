@@ -4,7 +4,7 @@ ig.module(
 .defines(function(){ "use strict";
 
 ig.Image = ig.Class.extend({
-	data: null,
+	data: {},
 	width: 0,
 	height: 0,
 	loaded: false,
