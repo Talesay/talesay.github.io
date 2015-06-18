@@ -36,6 +36,13 @@ ig.module(
             this.getCameraPosY(this.nextCameraPosY, this.nextCameraPosY);
             this.getCameraPosX(this.nextCameraPosX, this.nextCameraPosX, 1, ig.Interpolation.linear);
         },
+        positionCamera: function () {
+            var lerp = ig.Interpolation.linear;
+            this.nextCameraPosY = this.player.pos.y / 4 - ig.system.height / 2 + this.player.size.y;
+            this.nextCameraPosX = this.player.pos.x - ig.system.width / 3;
+            this.cameraPosY = new ig.Interpolation(this.cameraPosY.value, this.nextCameraPosY, 0.1, lerp, function () {});
+            this.cameraPosX = new ig.Interpolation(this.cameraPosX.value, this.nextCameraPosX, 0.1, lerp, function () {});
+        },
         getCameraPosY: function (start, end) {
             var duration = 1,
                 easing = ig.Interpolation.exponentialOut;

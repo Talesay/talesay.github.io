@@ -66,6 +66,7 @@ ig.module(
     ig.init.getCanvasSize = function () {
         var width = (window.innerWidth) / ig.dimensions.scale,
             height = (window.innerHeight) / ig.dimensions.scale;
+
         return {
             w: width,
             h: height
@@ -87,6 +88,9 @@ ig.module(
             }
         }
         ig.system.resize(size.w, size.h, ig.dimensions.scale);
+        if (ig.game.camera) {
+            ig.game.positionCamera();
+        }
     };
     return ig.init();
 });
