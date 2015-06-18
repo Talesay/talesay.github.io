@@ -1,8 +1,14 @@
 ig.module( 'scene.run.lvl.segment-00' )
-.requires( 'impact.image' )
+.requires( 'impact.image','scene.run.ent.skeleton-02' )
 .defines(function(){
 ig.LevelSegment00=/*JSON[*/{
-	"entities": [],
+	"entities": [
+		{
+			"type": "EntitySkeleton02",
+			"x": 121,
+			"y": 38
+		}
+	],
 	"layer": [
 		{
 			"name": "foreground",

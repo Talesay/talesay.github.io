@@ -33,12 +33,12 @@ ig.module(
                     pieces: [
                         //ig.LevelOther,
                         //ig.LevelSegment00,
-                        //ig.LevelSegment01,
+                        ig.LevelSegment06//,
                         //ig.LevelSegment02,
                         //ig.LevelSegment03,
                         //ig.LevelSegment04,
                         //ig.LevelSegment05,
-                        ig.LevelSegment06 //,
+                        //ig.LevelSegment06//,
                         //ig.LevelSegment07
                     ],
                     length: 25,
@@ -66,7 +66,6 @@ ig.module(
     ig.init.getCanvasSize = function () {
         var width = (window.innerWidth) / ig.dimensions.scale,
             height = (window.innerHeight) / ig.dimensions.scale;
-
         return {
             w: width,
             h: height

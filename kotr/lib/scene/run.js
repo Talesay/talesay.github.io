@@ -4,6 +4,10 @@ ig.module(
 ).requires(
     'impact.game',
     'scene.run.ent.skeleton-01',
+    'scene.run.ent.skeleton-02',
+    'scene.run.ent.skeleton-03',
+    'scene.run.ent.skeleton-04',
+    'scene.run.ent.bat-01',
     'scene.run.lvl.start',
     'scene.run.lvl.segment-00',
     'scene.run.lvl.segment-01',

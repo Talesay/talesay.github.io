@@ -17,11 +17,6 @@ ig.module(
             x: 2,
             y: 2
         },
-        jumpSnd: [
-            new ig.Sound('med/sfx/jump-00.*'),
-            new ig.Sound('med/sfx/jump-01.*'),
-            new ig.Sound('med/sfx/jump-02.*')
-        ],
         hitSnd: [
             new ig.Sound('med/sfx/hit-00.*'),
             new ig.Sound('med/sfx/hit-01.*'),
@@ -30,7 +25,6 @@ ig.module(
         init: function (x, y, settings) {
             this.parent(x, y, settings);
             this.timer = new ig.Timer(this.lifetime);
-            this.jumpSnd.random().play();
             this.animWidth = this.animWidth / 2;
             this.animHeight = this.animHeight / 2;
             this.animSheet = new ig.AnimationSheet(this.newAnimSheet, this.animWidth, this.animHeight);

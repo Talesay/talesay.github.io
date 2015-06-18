@@ -3,6 +3,7 @@ ig.module(
     'scene.run.ent.player'
 ).requires(
     'impact.entity',
+    'scene.run.ent.particle.combo',
     'scene.run.ent.particle.bounce-emitter',
     'scene.run.ent.particle.land-emitter',
     'scene.run.ent.particle.run-emitter',
@@ -41,6 +42,7 @@ ig.module(
         airCollisionCounter: 0,
         critCounter: 0,
         critTimer: 0,
+        critLimit: 2,
         hurtTimer: 0,
         attacked: false,
         jumped: false,
@@ -48,7 +50,7 @@ ig.module(
         velAir: 32,
         deathTimer: false,
         type: ig.Entity.TYPE.A, // Player friendly group
-        checkAgainst: ig.Entity.TYPE.B,
+        checkAgainst: ig.Entity.TYPE.BOTH,
         collides: ig.Entity.COLLIDES.PASSIVE,
         animSheet: new ig.AnimationSheet('med/spr/player.png', 16, 18),
         deathFallSnd: new ig.Sound('med/sfx/death-fall.*'),
@@ -67,7 +69,7 @@ ig.module(
             new ig.Sound('med/sfx/critical-06.*'),
             new ig.Sound('med/sfx/critical-07.*')
         ],
-        health: 2,
+        health: 3,
         init: function (x, y, settings) {
             this.parent(x, y, settings);
 
@@ -79,7 +81,8 @@ ig.module(
             this.addAnim('jump', 1, [5], true);
             this.addAnim('fall', 1, [8], true);
             this.addAnim('attack', 1, [6], true);
-            this.addAnim('hurt', 0.13, [7, 9]);
+            this.addAnim('hurt', 0.13, [7, 11]);
+            this.addAnim('combo', 0.13, [9]);
 
             // Set a reference to the player on the game instance
             ig.game.player = this;
@@ -115,14 +118,14 @@ ig.module(
                     start: ig.LevelStart,
                     end: ig.LevelEnd,
                     pieces: [
-                        //ig.LevelOther,
+                        //   ig.LevelOther,
                         //ig.LevelSegment00,
-                        //ig.LevelSegment01,
+                        ig.LevelSegment01 //,
                         //ig.LevelSegment02,
                         //ig.LevelSegment03,
                         //ig.LevelSegment04,
                         //ig.LevelSegment05,
-                        ig.LevelSegment06 //,
+                        //ig.LevelSegment06//,
                         //ig.LevelSegment07
                     ],
                     length: 25,
@@ -132,22 +135,30 @@ ig.module(
             });
             this.parent();
         },
+        hit: function () {
+            ig.Timer.timerScale -= 0.1;
+            this.hitted = true;
+            this.health -= 1;
+            this.critCounter = 0;
+        },
         crit: function () {
             if (this.critCounter > 6) {
-                console.log('crit');
                 this.critSnd[7].play();
                 this.critCounter = 0;
+                this.health += 1;
+                ig.game.spawnEntity(window.RunParticleCombo, this.pos.x + 7, this.pos.y + 10);
             } else {
                 this.critSnd[this.critCounter].play();
-                console.log('crit ' + this.critCounter);
-				this.critCounter += 1;
+                this.critCounter += 1;
             }
-            
+
             this.critTimer = 0;
 
         },
         handleAnims: function () {
-            if (this.hitted) {
+            if (ig.Timer.timeScale < 1) {
+                this.currentAnim = this.anims.combo;
+            } else if (this.hitted) {
                 this.currentAnim = this.anims.hurt;
             } else if ((this.standing && this.breakTime > 0) || (this.standing && this.vel.x < 0)) {
                 this.currentAnim = this.anims.backtrack;
@@ -164,23 +175,27 @@ ig.module(
             }
         },
         handleMovement: function () {
-            this.critTimer += ig.system.tick;
-            if (this.critTimer > 3) {
+            if (this.attacked) {
+                this.critTimer += ig.system.tick;
+            }
+            if (this.critTimer > this.critLimit) {
                 this.critCounter = 0;
             }
-            if (this.currentAnim === this.anims.hurt) {
+            //if (this.currentAnim === this.anims.hurt) {
+            if (this.hitted) {
                 if (this.hurtTimer === 0) {
                     this.accel.x = 0;
                     this.vel.x = 0;
                     if (this.vel.y < 0) {
                         this.vel.y = 0;
-                        this.accel.y = 0;
+                        this.accel.y = -16;
                     }
                     this.collisionCounter = 1;
                 }
                 this.hurtTimer += ig.system.tick;
                 if (this.hurtTimer > 0.3 && this.health > 0) {
                     this.hitted = false;
+                    this.hurtTimer = 0;
                 } else if (this.hurtTimer > 1 && this.health < 1) {
                     this.kill();
                 }
@@ -220,7 +235,7 @@ ig.module(
 
             if (this.standing && !ig.game.collisionMap.getTile(this.pos.x + this.size.x * 0.9, this.pos.y + this.size.y)) {
                 if (this.vel.x > 32 && this.breakTime < 0.25 && !this.attacked) {
-                    if (this.breakTime === 0) {
+                    if (this.breakTime === 0 && !this.hitted) {
                         ig.game.spawnEntity(window.RunParticleBacktrackEmitter, this.pos.x + 7, this.pos.y + 10);
                     }
                     this.friction.x = 180;
@@ -240,6 +255,7 @@ ig.module(
                 if (this.bounceSpeed < -94) {
                     this.attacked = true;
                     this.jumped = false;
+                    this.critTimer += 1;
                     //this.drawSnd.random().play();
                     ig.game.spawnEntity(window.RunParticleDrawEmitter, this.pos.x + 3, this.pos.y - 4);
                 }
@@ -258,7 +274,6 @@ ig.module(
                 this.dustEmitTime += ig.system.tick;
 
                 if (this.dustEmitTime > 0.36) {
-                    this.critCounter = 0;
                     this.dustEmitTime = 0;
                     ig.game.spawnEntity(window.RunParticleRunEmitter, this.pos.x + (Math.floor(Math.random() * 3) - 3), this.pos.y + 11);
                 }

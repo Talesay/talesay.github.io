@@ -1,22 +1,12 @@
 ig.module( 'scene.run.lvl.segment-06' )
-.requires( 'impact.image','scene.run.ent.skeleton-01' )
+.requires( 'impact.image','scene.run.ent.bat-01' )
 .defines(function(){
 ig.LevelSegment06=/*JSON[*/{
 	"entities": [
 		{
-			"type": "EntitySkeleton01",
-			"x": 64,
-			"y": 38
-		},
-		{
-			"type": "EntitySkeleton01",
-			"x": 104,
-			"y": 38
-		},
-		{
-			"type": "EntitySkeleton01",
-			"x": 31,
-			"y": 38
+			"type": "EntityBat01",
+			"x": 69,
+			"y": 22
 		}
 	],
 	"layer": [
