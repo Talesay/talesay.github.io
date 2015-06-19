@@ -15,9 +15,6 @@ ig.module(
             y: 0
         },
         jumpTimer: 0,
-        bounciness: 0,
-        type: ig.Entity.TYPE.B,
-        checkAgainst: ig.Entity.TYPE.A,
         animSheet: new ig.AnimationSheet('med/spr/enemy/skeleton-03.png', 14, 16),
         health: 1,
         init: function (x, y, settings) {
@@ -36,7 +33,6 @@ ig.module(
         },
         handleMovement: function () {
             if (this.distanceTo(ig.game.player) < 64 && !this.standing && this.jumpTimer === 0) {
-                console.log('close');
                 //this.accel.y = -200;
                 this.vel.y -= 24;
                 //this.jumpTimer = 0;

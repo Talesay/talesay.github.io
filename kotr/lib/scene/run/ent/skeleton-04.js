@@ -16,29 +16,25 @@ ig.module(
         },
         jumpTimer: 0,
         flipTimer: 0,
-        bounciness: 0,
-        type: ig.Entity.TYPE.B,
-        checkAgainst: ig.Entity.TYPE.A,
         animSheet: new ig.AnimationSheet('med/spr/enemy/skeleton-04.png', 14, 16),
         health: 1,
         init: function (x, y, settings) {
             this.parent(x, y, settings);
-            // Add the animations
             var animSeq = [[0, 1], [1, 0]];
             this.addAnim('idle', 0.24, animSeq.random());
             this.addAnim('jump', 0.24, [1]);
         },
         collideWith: function (other, axis) {
-			if (other.type === ig.Entity.TYPE.B) {
+            if (other.type === ig.Entity.TYPE.B) {
                 if (this.pos.x < other.pos.x) {
                     this.vel.x = -32;
                 } else {
                     this.vel.x = 32;
                 }
                 this.currentAnim.flip.x = !this.currentAnim.flip.x;
-			}
+            }
             this.parent(other, axis);
-		},
+        },
         handleAnims: function () {
             if (this.vel.y < 0) {
                 this.currentAnim = this.anims.jump;
@@ -48,10 +44,9 @@ ig.module(
         },
         handleMovement: function () {
             if (this.flipTimer > 0.3 && !ig.game.collisionMap.getTile(
-                    this.pos.x + (this.currentAnim.flip.x ? this.size.x +4 : -2),
+                    this.pos.x + (this.currentAnim.flip.x ? this.size.x + 4 : -2),
                     this.pos.y + this.size.y + 1
                 )) {
-                //this.flip = !this.flip;
                 if (this.standing) {
                     this.vel.x = -this.vel.x;
                 }
@@ -79,7 +74,6 @@ ig.module(
                 }
                 this.jumpTimer += ig.system.tick;
             }
-
         }
     });
 });

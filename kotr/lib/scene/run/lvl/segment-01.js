@@ -1,16 +1,16 @@
 ig.module( 'scene.run.lvl.segment-01' )
-.requires( 'impact.image','scene.run.ent.skeleton-04' )
+.requires( 'impact.image','scene.run.ent.slime-04' )
 .defines(function(){
 ig.LevelSegment01=/*JSON[*/{
 	"entities": [
 		{
-			"type": "EntitySkeleton04",
+			"type": "EntitySlime04",
 			"x": 57,
 			"y": 38
 		},
 		{
-			"type": "EntitySkeleton04",
-			"x": 108,
+			"type": "EntitySlime04",
+			"x": 104,
 			"y": 38
 		}
 	],
@@ -23,7 +23,7 @@ ig.LevelSegment01=/*JSON[*/{
 			"visible": 1,
 			"tilesetName": "med/bkg/tiles.png",
 			"repeat": false,
-			"preRender": false,
+			"preRender": true,
 			"distance": "1",
 			"tilesize": 16,
 			"foreground": false,

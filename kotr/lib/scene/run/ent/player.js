@@ -136,7 +136,6 @@ ig.module(
             this.parent();
         },
         hit: function () {
-            ig.Timer.timerScale -= 0.1;
             this.hitted = true;
             this.health -= 1;
             this.critCounter = 0;
@@ -352,7 +351,8 @@ ig.module(
             } else if (this.pos.y <= -60) {
                 this.accel.y = 84;
             } else {
-                this.maxVel.x = 72;
+                this.maxVel.x = 72 + (this.critCounter * 2);
+                this.vel.x += (this.critCounter * 2);
             }
         }
     });

@@ -16,7 +16,7 @@ ig.module(
             y: 5
         },
         maxVel: {
-            x: 72,
+            x: 200,
             y: 900
         },
         vel: {
@@ -32,29 +32,25 @@ ig.module(
             y: 0
         },
         gravityFactor: 0,
-        type: ig.Entity.TYPE.B, // Player friendly group
+        type: ig.Entity.TYPE.B,
         checkAgainst: ig.Entity.TYPE.A,
         collides: ig.Entity.COLLIDES.ACTIVE,
         animSheet: new ig.AnimationSheet('med/spr/enemy/bat-01.png', 16, 16),
         health: 1,
         init: function (x, y, settings) {
             this.parent(x, y, settings);
-            // Add the animations
             var animSeq = [[0, 1], [1, 0]];
             this.addAnim('idle', 0.09, animSeq.random());
         },
         update: function () {
-            this.handleOffscreen();
-            this.handleMovement();
-            this.handleAnims();
-            this.parent();
-        },
-        handleOffscreen: function () {
-            if (ig.game.player.pos.x < this.pos.x - 84) {
+            if (ig.game.player.pos.x < this.pos.x - 196) {
                 return;
             } else if (ig.game.player.pos.x > this.pos.x + 96) {
                 ig.game.removeEntity(this);
             }
+            this.handleMovement();
+            this.handleAnims();
+            this.parent();
         },
         collideWith: function (other, axis) {
             if (other.attacked && other.type === ig.Entity.TYPE.A) {
