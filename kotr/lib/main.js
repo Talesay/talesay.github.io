@@ -9,7 +9,7 @@ ig.module(
     'impact.game'
 ).defines(function () {
     'use strict';
-    ig.Sound.channels = 2;
+    ig.Sound.channels = 1;
     ig.Sound.use = [ig.Sound.FORMAT.MP3, ig.Sound.FORMAT.OGG];
     ig.Main = ig.Game.extend({
         clearColor: '#524848',
@@ -31,17 +31,25 @@ ig.module(
                     start: ig.LevelStart,
                     end: ig.LevelEnd,
                     pieces: [
-                        //ig.LevelOther,
-                        //ig.LevelSegment00,
-                        ig.LevelSegment06//,
-                        //ig.LevelSegment02,
-                        //ig.LevelSegment03,
-                        //ig.LevelSegment04,
-                        //ig.LevelSegment05,
-                        //ig.LevelSegment06//,
-                        //ig.LevelSegment07
+                        ig.LevelA00,
+                        ig.LevelA01,
+                        ig.LevelA02,
+                        ig.LevelA03,
+                        ig.LevelA03,
+                        ig.LevelA04,
+                        ig.LevelA05,
+                        ig.LevelA06,
+                        ig.LevelA07,
+                        ig.LevelA08,
+                        ig.LevelA09,
+                        ig.LevelA10,
+                        ig.LevelA11,
+                        ig.LevelA12,
+                        ig.LevelA13,
+                        ig.LevelA14,
+                        ig.LevelA15
                     ],
-                    length: 25,
+                    length: 41,
                     checkX: false,
                     checkY: false
                 }
@@ -57,9 +65,9 @@ ig.module(
     };
     ig.init.getCanvasScale = function () {
         var canvas = document.getElementById('canvas'),
-            scale = Math.floor(window.innerWidth / 160) - 1;
-        if (scale < 1) {
-            scale = 1;
+            scale = Math.floor(window.innerWidth / 160) - 2;
+        if (scale < 2) {
+            scale = 2;
         }
         return scale;
     };

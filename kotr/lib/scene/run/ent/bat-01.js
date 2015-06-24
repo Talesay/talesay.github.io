@@ -43,9 +43,9 @@ ig.module(
             this.addAnim('idle', 0.09, animSeq.random());
         },
         update: function () {
-            if (ig.game.player.pos.x < this.pos.x - 196) {
+            if (ig.game.player.pos.x < this.pos.x - ig.system.width) {
                 return;
-            } else if (ig.game.player.pos.x > this.pos.x + 96) {
+            } else if (this.pos.x + this.size.x < ig.game.screen.x || this.pos.y > 80 || this.pos.y < -80) {
                 ig.game.removeEntity(this);
             }
             this.handleMovement();

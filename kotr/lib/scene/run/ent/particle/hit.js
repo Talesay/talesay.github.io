@@ -17,6 +17,7 @@ ig.module(
 			x: 0,
 			y: 0
 		},
+		drawScale: 1,
 		animSheet: new ig.AnimationSheet('med/spr/run/particle/hit.png', 32, 32),
 		init: function (x, y, settings) {
 			this.parent(x, y, settings);
@@ -32,6 +33,7 @@ ig.module(
 			}
 			var alpha = this.timer.delta();
 			this.currentAnim.alpha = alpha.map(-this.lifetime, 0, 0.5, 0);
+			this.drawScale = alpha.map(-this.lifetime, 0, 1, 0);
 			this.parent();
 		}
 	});

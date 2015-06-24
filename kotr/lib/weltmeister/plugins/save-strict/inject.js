@@ -6,7 +6,7 @@ ig.module(
 ).defines(function () {
     'use strict';
     wm.Weltmeister.inject({
-
+        saveExtra: function ( ) {},
         save: function (dialog, path) {
             if (!path.match(/\.js$/)) {
                 path += '.js';
@@ -17,7 +17,7 @@ ig.module(
             var data = this.levelData;
             data.entities = this.entities.getSaveData();
             data.layer = [];
-
+            this.saveExtra( data );
             var resources = [],
                 i;
             for (i = 0; i < this.layers.length; i++) {

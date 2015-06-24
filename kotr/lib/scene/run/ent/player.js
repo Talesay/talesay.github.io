@@ -118,17 +118,25 @@ ig.module(
                     start: ig.LevelStart,
                     end: ig.LevelEnd,
                     pieces: [
-                        //   ig.LevelOther,
-                        //ig.LevelSegment00,
-                        ig.LevelSegment01 //,
-                        //ig.LevelSegment02,
-                        //ig.LevelSegment03,
-                        //ig.LevelSegment04,
-                        //ig.LevelSegment05,
-                        //ig.LevelSegment06//,
-                        //ig.LevelSegment07
+                        ig.LevelA00,
+                        ig.LevelA01,
+                        ig.LevelA02,
+                        ig.LevelA03,
+                        ig.LevelA03,
+                        ig.LevelA04,
+                        ig.LevelA05,
+                        ig.LevelA06,
+                        ig.LevelA07,
+                        ig.LevelA08,
+                        ig.LevelA09,
+                        ig.LevelA10,
+                        ig.LevelA11,
+                        ig.LevelA12,
+                        ig.LevelA13,
+                        ig.LevelA14,
+                        ig.LevelA15
                     ],
-                    length: 25,
+                    length: 41,
                     checkX: false,
                     checkY: false
                 }
@@ -153,6 +161,12 @@ ig.module(
 
             this.critTimer = 0;
 
+        },
+        collideWith: function (other, axis) {
+            if (this.hitted && other.type === ig.Entity.TYPE.B) {
+                other.kill(false);
+                return;
+            }
         },
         handleAnims: function () {
             if (ig.Timer.timeScale < 1) {
@@ -250,8 +264,10 @@ ig.module(
             }
             if (!this.standing && ig.input.pressed('click') && !this.attacked && this.jumped) {
                 //this.bounceSpeed = -ig.system.height + this.last.y;
+                //this.bounceSpeed = -112 + this.last.y;
                 this.bounceSpeed = -112 + this.last.y;
-                if (this.bounceSpeed < -94) {
+                //if (this.bounceSpeed < -94) {
+                if (this.bounceSpeed < -88) {
                     this.attacked = true;
                     this.jumped = false;
                     this.critTimer += 1;
@@ -278,18 +294,17 @@ ig.module(
                 }
                 if (ig.input.pressed('click') && !this.attacked) {
                     if (this.vel.x > 0) {
-                        this.vel.y = -138;
                         this.accel.x = 32;
-                        this.jumped = true;
                         if (this.vel.x < 48) {
                             this.vel.x = 48;
                         }
                     } else {
-                        this.vel.y = -110;
                         this.vel.x = 48;
                         this.accel.x = 64;
-                        this.jumped = true;
                     }
+                    //this.vel.y = -134; test
+                    this.vel.y = -134;
+                    this.jumped = true;
                     //this.jumpSnd.random().play();
                     ig.game.spawnEntity(window.RunParticleJumpEmitter, this.pos.x + 7, this.pos.y + 10);
                 }
@@ -298,7 +313,7 @@ ig.module(
                     this.attacked = false;
                     this.jumped = true;
                     this.accel.x = 32;
-                    this.vel.y = (this.bounceSpeed * 1.2).limit(-145, 0);
+                    this.vel.y = (this.bounceSpeed * 1.2).limit(-135, 0);
                     if (this.vel.x < 48) {
                         this.vel.x = 48;
                     }
@@ -326,33 +341,37 @@ ig.module(
             } else {
                 this.standTime += ig.system.tick;
             }
+            if (this.jumpTime > 0 && this.jumpTime < 0.2 && !ig.input.state('click')) {
+                this.jumpTime = 0.6;
+                this.vel.y = -64;
+                //this.accel.y = 128;
+            }
             if (this.vel.y < 0 && ig.input.state('click')) {
                 this.jumpTime += ig.system.tick;
             }
-            if (this.jumpTime > 0.6) {
+            if (this.jumpTime > 0.6 || !ig.input.state('click')) {
                 if (this.vel.y < 0) {
-                    this.accel.y = 64;
+                    this.accel.y = 62;
                 }
-            } else if (!ig.input.state('click')) {
-                this.accel.y = 48;
             } else if (this.jumpTime > 0 && ig.input.state('click')) {
-                this.accel.y = -32; //The general acceleration of the jump
+                //this.accel.y = -32; //The general acceleration of the jump
+                this.accel.y = -34; //The general acceleration of the jump
             }
+
 
             if (!ig.input.state('click') && this.jumpTime < 0.25) {
                 if (this.pos.y < 14) {
                     this.accel.y = 256;
                 }
             }
-            if (this.pos.y <= -32) {
-                this.accel.y = 72;
+            if (this.pos.y <= -50) {
+                this.accel.y = 128;
+            } else if (this.pos.y <= -32) {
+                this.accel.y = 96;
                 this.accel.x = 64;
                 this.maxVel.x = 78;
-            } else if (this.pos.y <= -60) {
-                this.accel.y = 84;
             } else {
-                this.maxVel.x = 72 + (this.critCounter * 2);
-                this.vel.x += (this.critCounter * 2);
+                this.maxVel.x = 72;
             }
         }
     });

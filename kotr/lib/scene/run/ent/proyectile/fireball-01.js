@@ -3,7 +3,7 @@ ig.module(
     'scene.run.ent.proyectile.fireball-01'
 ).requires(
     'impact.entity',
-    'scene.run.ent.particle.enemy-emitter'
+    'scene.run.ent.particle.fireball-hit'
 ).defines(function () {
     'use strict';
     window.EntityFireball01 = ig.Entity.extend({
@@ -27,6 +27,11 @@ ig.module(
             x: -128,
             y: 0
         },
+        hitSnd: [
+            new ig.Sound('med/sfx/hit-00.*'),
+            new ig.Sound('med/sfx/hit-01.*'),
+            new ig.Sound('med/sfx/hit-02.*')
+        ],
         gravityFactor: 0,
         type: ig.Entity.TYPE.B,
         checkAgainst: ig.Entity.TYPE.A,
@@ -52,13 +57,25 @@ ig.module(
         },
         collideWith: function (other, axis) {
             if (other.type === ig.Entity.TYPE.A) {
+                this.hitSnd.random().play();
                 other.hit();
+                this.kill();
                 this.collides = ig.Entity.COLLIDES.NEVER;
                 this.vel.x = -96;
             } else {
+                this.kill();
+                other.kill();
                 this.collides = ig.Entity.COLLIDES.NEVER;
                 this.vel.x = -96;
             }
+        },
+        kill: function () {
+            ig.game.spawnEntity(
+                window.RunParticleFireballHit,
+                this.pos.x - 8,
+                this.pos.y - 2
+            );
+            this.parent();
         },
         handleAnims: function () {},
         handleMovement: function () {}

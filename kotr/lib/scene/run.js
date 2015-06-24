@@ -3,27 +3,7 @@ ig.module(
     'scene.run'
 ).requires(
     'impact.game',
-    'scene.run.ent.bat-01',
-    'scene.run.ent.bat-02',
-    'scene.run.ent.bat-03',
-    'scene.run.ent.bat-04',
-    'scene.run.ent.skeleton-01',
-    'scene.run.ent.skeleton-02',
-    'scene.run.ent.skeleton-03',
-    'scene.run.ent.skeleton-04',
-    'scene.run.ent.slime-01',
-    'scene.run.ent.slime-02',
-    'scene.run.lvl.start',
-    'scene.run.lvl.segment-00',
-    'scene.run.lvl.segment-01',
-    'scene.run.lvl.segment-02',
-    'scene.run.lvl.segment-03',
-    'scene.run.lvl.segment-04',
-    'scene.run.lvl.segment-05',
-    'scene.run.lvl.segment-06',
-    'scene.run.lvl.segment-07',
-    'scene.run.lvl.other',
-    'scene.run.lvl.end'
+    'scene.run.levels'
 ).defines(function () {
     'use strict';
     ig.SceneRun = ig.Game.extend({
@@ -98,9 +78,10 @@ ig.module(
                 }
             }
             this.screen.y = this.cameraPosY.value;
-            if (this.screen.y < -62) {
-                this.screen.y = -62;
+            if (this.screen.y < -57) {
+                this.screen.y = -57;
             }
+
             if (this.player.pos.y < 50) {
                 this.screen.x = this.cameraPosX.value;
             }

@@ -32,14 +32,14 @@ wm.config = {
 	
 	
 	// Plugins for Weltmeister: an array of module names to load
-	plugins: ['weltmeister.plugins.save-strict.inject'],
+	plugins: ['weltmeister.plugins.save-strict.inject', 'weltmeister.plugins.level-properties.inject'],
 	
 	
 	// Default settings when creating new layers in Weltmeister. Change these
 	// as you like
 	'layerDefaults': {
-		'width': 20,
-		'height': 11,
+		'width': 9,
+		'height': 4,
 		'tilesize': 16
 	},
 	
@@ -50,7 +50,7 @@ wm.config = {
 	'loadLastLevel': true,
 	
 	// Size of the "snap" grid when moving entities
-	'entityGrid': 1,
+	'entityGrid': 16,
 	
 	// Number of undo levels. You may want to increase this if you use 'undo'
 	// frequently.
@@ -84,9 +84,9 @@ wm.config = {
 	// View settings. You can change the default Zoom level and whether
 	// to show the grid on startup here.
 	'view': {
-		'zoom': 2,
-		'zoomMax': 8,
-		'zoomMin': 0.125,
+		'zoom': 6,
+		'zoomMax': 6,
+		'zoomMin': 6,
 		'grid': true
 	},
 	

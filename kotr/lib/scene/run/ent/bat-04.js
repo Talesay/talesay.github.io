@@ -3,7 +3,8 @@ ig.module(
     'scene.run.ent.bat-04'
 ).requires(
     'scene.run.ent.bat-01',
-    'scene.run.ent.proyectile.fireball-01'
+    'scene.run.ent.proyectile.fireball-01',
+    'scene.run.ent.particle.fireball-shoot'
 ).defines(function () {
     'use strict';
     window.EntityBat04 = window.EntityBat01.extend({
@@ -18,6 +19,11 @@ ig.module(
         animSheet: new ig.AnimationSheet('med/spr/enemy/bat-04.png', 16, 16),
         health: 1,
         shootTimer: 0,
+        shootSnd: [
+            new ig.Sound('med/sfx/fireball-00.*'),
+            new ig.Sound('med/sfx/fireball-01.*'),
+            new ig.Sound('med/sfx/fireball-02.*')
+        ],
         init: function (x, y, settings) {
             this.parent(x, y, settings);
             var animSeq = [[0, 1], [1, 0]];
@@ -34,7 +40,9 @@ ig.module(
             }
             if (this.shootTimer > 1 && this.currentAnim.loopCount % 3 === 0) {
                 this.currentAnim = this.anims.shoot;
-                ig.game.spawnEntity(window.EntityFireball01, this.pos.x - 2, this.pos.y -2);
+                this.shootSnd.random().play();
+                ig.game.spawnEntity(window.RunParticleFireballShoot, this.pos.x - 4, this.pos.y - 7);
+                ig.game.spawnEntity(window.EntityFireball01, this.pos.x - 2, this.pos.y - 2);
                 this.shootTimer = 0;
             } else {
                 this.shootTimer += ig.system.tick;
