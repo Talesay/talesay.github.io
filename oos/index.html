@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Car Thrash</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <style type="text/css">
+        html,
+        body {
+            background-color: #ccc;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .valign {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            /* bring your own prefixes */
+            transform: perspective(1px)translate(-50%, -50%);
+        }
+        
+        #canvas {
+            display: block;
+            margin: 0px auto;
+            border: 0px;
+        }
+    </style>
+    <script type="text/javascript">
+        ImpactMixin = {
+            nocache: '?' + Date.now(),
+            dimensions: {
+                width: 398,
+                height: 224,
+                scale: 4
+            }
+        };
+    </script>
+    <script type="text/javascript" src="lib/impact/impact.js"></script>
+    <script type="text/javascript" src="lib/main.js"></script>
+</head>
+
+<body>
+    <canvas id="canvas" class="valign" oncontextmenu="return false"></canvas>
+</body>
+
+</html>
