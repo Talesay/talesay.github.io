@@ -23,9 +23,11 @@ ig.module(
             this.list[id] = data;
         },
         set: function (id) {
+
             this.load(this.list[id]);
         },
         load: function (scene) {
+
             ig.system.setGame(scene);
         }
     });

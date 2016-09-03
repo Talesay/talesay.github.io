@@ -3,12 +3,11 @@
 ig.module(
     'scene.entry'
 ).requires(
-    'impact.game',
-    'mixin.draw-flat-background'
+    'impact.game'
 ).defines(function () {
     'use strict';
     ig.SceneEntry = ig.Game.extend({
-        id: 'game',
+        id: 'entry',
         start: false,
         //gfx
         background: new ig.Image('med/bkg/entry.png'),
@@ -26,6 +25,11 @@ ig.module(
             y: 0
         },
         init: function () {
+            //Reset Context
+            var context = ig.system.context;
+            context.globalCompositeOperation = "source-over";
+            context.globalAlpha = 1;
+
             this.alphaFlash = new ig.Interpolation(1, 0, 5, ig.Interpolation.quarticOut);
             this.logoFlash = new ig.Interpolation(-1, 1, 5, ig.Interpolation.exponentialIn);
             this.omenOfSorrow.play();
@@ -55,7 +59,7 @@ ig.module(
                 this.backgroundPos.y += 1024 * ig.system.tick;
             }
             if (this.backgroundPos.y > 224) {
-                var scene = ig.scene.set('entry');
+                var scene = ig.scene.set('input');
             }
             this.parent();
         },

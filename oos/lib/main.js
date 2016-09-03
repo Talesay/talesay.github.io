@@ -5,10 +5,11 @@ ig.module(
     'impact.game',
     'scene.entry',
     'scene.game',
+    'scene.input',
     'plugins.scene.manager',
     'plugins.interpolation.manager',
-    'mixin.draw-flat-background'
-    //'impact.debug.debug',
+    'mixin.draw-flat-background',
+    'impact.debug.debug'
 ).defines(function () {
     'use strict';
     ig.System.drawMode = ig.System.DRAW.SMOOTH;
@@ -16,6 +17,7 @@ ig.module(
         init: function () {
             ig.input.bind(ig.KEY.MOUSE1, 'click');
             ig.scene.add('entry', ig.SceneEntry);
+            ig.scene.add('input', ig.SceneInput);
             ig.scene.add('game', ig.SceneGame);
             //Music
             ig.music.add('med/msc/entry.*', 'entry-msc');
