@@ -8,14 +8,14 @@ ig.module(
     'scene.input',
     'plugins.scene.manager',
     'plugins.interpolation.manager',
-    'mixin.draw-flat-background',
-    'impact.debug.debug'
+    'mixin.draw-flat-background'
 ).defines(function () {
     'use strict';
     ig.System.drawMode = ig.System.DRAW.SMOOTH;
     ig.Main = ig.Game.extend({
         init: function () {
             ig.input.bind(ig.KEY.MOUSE1, 'click');
+            ig.input.bindTouch('#canvas', 'click');
             ig.scene.add('entry', ig.SceneEntry);
             ig.scene.add('input', ig.SceneInput);
             ig.scene.add('game', ig.SceneGame);
@@ -39,6 +39,7 @@ ig.module(
             ratioConstraint = Math.min(widthProprotion, heightProprotion),
             nsWidth = (ig.dimensions.width * ratioConstraint) + "px",
             nsHeight = (ig.dimensions.height * ratioConstraint) + "px";
+        ig.dimensions.ratioConstraint = ratioConstraint;
         // Scale the canvas
         canvas.style.width = nsWidth;
         canvas.style.height = nsHeight;
