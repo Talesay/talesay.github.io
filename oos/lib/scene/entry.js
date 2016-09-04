@@ -50,7 +50,7 @@ ig.module(
                 this.pressStartAnimation.update();
                 //Animate Super Sprite
                 this.superAnimation.update();
-                if (ig.input.pressed('click') && !this.start) {
+                if (ig.input.released('click') && !this.start) {
                     this.start = true;
                     this.click.play();
                 }
