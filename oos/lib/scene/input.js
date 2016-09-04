@@ -18,6 +18,12 @@ ig.module(
         },
         update: function () {
             this.parent();
+            if (ig.input.state('click')) {
+                this.accumulator += ig.system.tick;
+                if (this.accumulator > 0.3) {
+                    ig.game.inputText = 'hold';
+                }
+            }
             // Each time player clicks, record click X and Y coordinates
             if (ig.input.pressed('click')) {
                 this.gestureStartX = ig.input.mouse.x;
@@ -27,6 +33,7 @@ ig.module(
                 this.gestureEndX = ig.input.mouse.x;
                 this.gestureEndY = ig.input.mouse.y;
                 this.evaluateGesture();
+                this.accumulator = 0;
             }
 
         },
@@ -39,12 +46,13 @@ ig.module(
                 x2 = this.gestureEndX,
                 y1 = this.gestureStartY,
                 y2 = this.gestureEndY,
+                distance = this.distanceTo(x1, y1, x2, y2),
                 angle;
-            if (this.distanceTo(x1, y1, x2, y2) < swipeDistance) {
+            if (distance < swipeDistance && this.accumulator <= 0.3) {
                 //taping
                 ig.game.inputText = 'tap';
                 this.clearGesture();
-            } else if (this.distanceTo(x1, y1, x2, y2) >= swipeDistance) {
+            } else if (distance >= swipeDistance && this.accumulator <= 0.5) {
                 //swiping
                 angle = this.angleTo(x1, y1, x2, y2);
 
@@ -88,7 +96,6 @@ ig.module(
             this.gestureStartX = undefined;
             this.gestureStartY = undefined;
             this.gestureEndY = undefined;
-            this.accumulator = 0;
         },
         draw: function () {
             // Draw all entities and backgroundMaps
