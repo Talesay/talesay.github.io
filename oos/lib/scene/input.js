@@ -26,8 +26,9 @@ ig.module(
             if (ig.input.released('click')) {
                 this.gestureEndX = ig.input.mouse.x;
                 this.gestureEndY = ig.input.mouse.y;
+                this.evaluateGesture();
             }
-            this.evaluateGesture();
+
         },
         evaluateGesture: function () {
             // Check to make sure swipe was left to right & long enough
