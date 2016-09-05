@@ -7,6 +7,8 @@ ig.module(
     'scene.game',
     'scene.input',
     'plugins.scene.manager',
+    'plugins.touch.manager',
+    'plugins.keyboard.manager',
     'plugins.interpolation.manager',
     'mixin.draw-flat-background'
 ).defines(function () {
@@ -14,13 +16,27 @@ ig.module(
     ig.System.drawMode = ig.System.DRAW.SMOOTH;
     ig.Main = ig.Game.extend({
         init: function () {
+            //Mouse
             ig.input.bind(ig.KEY.MOUSE1, 'click');
-            ig.input.bindTouch('#canvas', 'click');
+            this.initKeyboard();
+            this.initTouch();
             ig.scene.add('entry', ig.SceneEntry);
             ig.scene.add('input', ig.SceneInput);
             ig.scene.add('game', ig.SceneGame);
             //Music
             ig.music.add('med/msc/entry.*', 'entry-msc');
+        },
+        initKeyboard: function () {
+            //Keyboard
+            ig.input.bind(ig.KEY.UP_ARROW, 'up');
+            ig.input.bind(ig.KEY.DOWN_ARROW, 'down');
+            ig.input.bind(ig.KEY.RIGHT_ARROW, 'right');
+            ig.input.bind(ig.KEY.LEFT_ARROW, 'left');
+
+        },
+        initTouch: function () {
+            //Touch
+            ig.input.bindTouch('#canvas', 'click');
         },
         update: function () {
             var scene = ig.scene.set('entry');
@@ -37,8 +53,8 @@ ig.module(
             widthProprotion = (window.innerWidth / ig.dimensions.width),
             heightProprotion = (window.innerHeight / ig.dimensions.height),
             ratioConstraint = Math.min(widthProprotion, heightProprotion),
-            nsWidth = (ig.dimensions.width * ratioConstraint) + "px",
-            nsHeight = (ig.dimensions.height * ratioConstraint) + "px";
+            nsWidth = Math.ceil(ig.dimensions.width * ratioConstraint) + 1 + "px",
+            nsHeight = Math.ceil(ig.dimensions.height * ratioConstraint) + 1 + "px";
         ig.dimensions.ratioConstraint = ratioConstraint;
         // Scale the canvas
         canvas.style.width = nsWidth;

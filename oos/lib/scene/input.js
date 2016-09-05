@@ -9,102 +9,85 @@ ig.module(
     ig.SceneInput = ig.Game.extend({
         font: new ig.Font('med/04b03.font.png'),
         inputText: 'not working',
-        accumulator: 0,
+        seaAnimSheet: new ig.AnimationSheet('med/spr/crush/sea.png', 398, 75),
+        skyAnimSheet: new ig.AnimationSheet('med/spr/crush/sky2.png', 398, 112),
+        pier: new ig.Image('med/spr/crush/pier2.png'),
+        flashCounter: 0,
+        flashTreshold: 3,
+        thunder: [
+            new ig.Sound('med/sfx/crush/thunder-01.*'),
+            new ig.Sound('med/sfx/crush/thunder-02.*'),
+            new ig.Sound('med/sfx/crush/thunder-03.*')
+        ],
+        backgroundPos: {
+            x1: 0,
+            x2: 394
+        },
         init: function () {
             //Reset Context
             var context = ig.system.context;
             context.globalCompositeOperation = "source-over";
             context.globalAlpha = 1;
+            //anims
+            this.seaAnimation = new ig.Animation(this.seaAnimSheet, 0.16, [0, 1, 2, 3, 4, 5, 6, 7]);
+            this.skyAnimation = new ig.Animation(this.skyAnimSheet, 1, [0]);
+            this.flashAnimation = new ig.Animation(this.skyAnimSheet, 0.016, [1, 2, 3, 2, 1]);
+            //flash
+            this.alphaFlash = new ig.Interpolation(0.5, 0, 0.048, ig.Interpolation.quarticOut);
         },
         update: function () {
             this.parent();
-            if (ig.input.state('click')) {
-                this.accumulator += ig.system.tick;
-                if (this.accumulator > 0.3) {
-                    ig.game.inputText = 'hold';
-                }
-            }
-            // Each time player clicks, record click X and Y coordinates
-            if (ig.input.pressed('click')) {
-                this.gestureStartX = ig.input.mouse.x;
-                this.gestureStartY = ig.input.mouse.y;
-            }
-            if (ig.input.released('click')) {
-                this.gestureEndX = ig.input.mouse.x;
-                this.gestureEndY = ig.input.mouse.y;
-                this.evaluateGesture();
-                this.accumulator = 0;
+            ig.touch.update();
+            ig.keyboard.update();
+            ig.game.inputText = ig.keyboard.status || ig.touch.status;
+            this.seaAnimation.update();
+            this.backgroundPos.x1 -= 16 * ig.system.tick;
+            this.backgroundPos.x2 -= 16 * ig.system.tick;
+            if (this.backgroundPos.x1 <= -394) {
+                this.backgroundPos.x1 = 0;
+                this.backgroundPos.x2 = 394;
             }
 
-        },
-        evaluateGesture: function () {
-            // Check to make sure swipe was left to right & long enough
-            // By subtracting end/release coordinates from start coordinates
-            // And run any other checks for your action
-            var swipeDistance = 12 * ig.dimensions.ratioConstraint,
-                x1 = this.gestureStartX,
-                x2 = this.gestureEndX,
-                y1 = this.gestureStartY,
-                y2 = this.gestureEndY,
-                distance = this.distanceTo(x1, y1, x2, y2),
-                angle;
-            if (distance < swipeDistance && this.accumulator <= 0.3) {
-                //taping
-                ig.game.inputText = 'tap';
-                this.clearGesture();
-            } else if (distance >= swipeDistance && this.accumulator <= 0.5) {
-                //swiping
-                angle = this.angleTo(x1, y1, x2, y2);
-
-                ig.game.inputText = angle + ' ';
-
-                if (angle <= -100 && angle >= -170) {
-                    ig.game.inputText += 'izquierda arriba';
-                } else if (angle < -80 && angle > -100) {
-                    ig.game.inputText += 'arriba';
-                } else if (angle >= -80 && angle <= -10) {
-                    ig.game.inputText += 'derecha arriba';
-                } else if (angle > -10 && angle < 10) {
-                    ig.game.inputText += 'derecha';
-                } else if (angle >= 10 && angle <= 80) {
-                    ig.game.inputText += 'derecha abajo';
-                } else if (angle > 80 && angle < 100) {
-                    ig.game.inputText += 'abajo';
-                } else if (angle >= 100 && angle <= 170) {
-                    ig.game.inputText += 'izquierda abajo';
-                } else {
-                    ig.game.inputText += 'izquierda';
-                }
-
-                this.clearGesture();
+            this.flashCounter += Math.random() * ig.system.tick;
+            if (this.flashCounter > this.flashTreshold) {
+                this.flashTreshold = 6 + Math.random() * 4;
+                this.flashCounter = 0;
+                this.flashAnimation.rewind();
+                this.alphaFlash.reset();
+                this.thunder.random().play();
+            } else {
+                this.skyAnimation.draw(this.backgroundPos.x1, 0);
+                this.skyAnimation.draw(this.backgroundPos.x2, 0);
             }
 
-        },
-        distanceTo: function (x1, y1, x2, y2) {
-            var xd = x1 - x2,
-                yd = y1 - y2;
-            return Math.sqrt(xd * xd + yd * yd);
-        },
-        angleTo: function (x1, y1, x2, y2) {
-            return Math.atan2(
-                y2 - y1,
-                x2 - x1
-            ).toDeg();
-        },
-        clearGesture: function () {
-            this.gestureEndX = undefined;
-            this.gestureStartX = undefined;
-            this.gestureStartY = undefined;
-            this.gestureEndY = undefined;
+
+            this.skyAnimation.update();
+            this.flashAnimation.update();
+
         },
         draw: function () {
             // Draw all entities and backgroundMaps
             this.parent();
-            // Add your own drawing code here
-            var x = ig.system.width / 2,
-                y = ig.system.height / 2;
+            this.seaAnimation.draw(0, 96);
+            if (this.flashAnimation.loopCount < 1) {
+                this.flashAnimation.draw(this.backgroundPos.x1, 0);
+                this.flashAnimation.draw(this.backgroundPos.x2, 0);
+                this.pier.draw(0, 160);
+                //Draw Thunder
+                ig.system.context.fillStyle = 'rgba(255, 255, 255,' + this.alphaFlash.value + ')';
+                ig.system.context.fillRect(0, 0, ig.system.realWidth, ig.system.realHeight);
+            } else {
+                this.skyAnimation.draw(this.backgroundPos.x1, 0);
+                this.skyAnimation.draw(this.backgroundPos.x2, 0);
+                this.pier.draw(0, 160);
+                // Add your own drawing code here
+                var x = 100,
+                    y = 100;
+                if (ig.game.inputText) {
+                    this.font.draw(ig.game.inputText, x, y, ig.Font.ALIGN.CENTER);
+                }
+            }
 
-            this.font.draw(ig.game.inputText, x, y, ig.Font.ALIGN.CENTER);
         }
     });
 });
