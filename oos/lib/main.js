@@ -47,6 +47,7 @@ ig.module(
         ig.Sound.channels = 2;
         ig.main('#canvas', ig.Main, 60, ig.dimensions.width, ig.dimensions.height, ig.dimensions.scale);
         window.addEventListener('resize', ig.init.scaleCanvas, false);
+        window.addEventListener('click', ig.init.fullscreen, false);
     };
     ig.init.scaleCanvas = function () {
         var canvas = document.getElementById('canvas'),
@@ -59,6 +60,20 @@ ig.module(
         // Scale the canvas
         canvas.style.width = nsWidth;
         canvas.style.height = nsHeight;
+    };
+    ig.init.fullscreen = function () {
+        var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !== null) || // alternative standard method  
+            (document.mozFullScreen || document.webkitIsFullScreen),
+            docElm = document.documentElement;
+        if (!isInFullScreen) {
+            if (docElm.requestFullscreen) {
+                docElm.requestFullscreen();
+            } else if (docElm.mozRequestFullScreen) {
+                docElm.mozRequestFullScreen();
+            } else if (docElm.webkitRequestFullScreen) {
+                docElm.webkitRequestFullScreen();
+            }
+        }
     };
     return ig.init();
 });
