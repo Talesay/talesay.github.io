@@ -3,7 +3,9 @@
 ig.module(
     'scene.input'
 ).requires(
-    'impact.game'
+    'impact.game',
+    'scene.crush.countdown',
+    'scene.crush.player'
 ).defines(function () {
     'use strict';
     ig.SceneInput = ig.Game.extend({
@@ -34,6 +36,9 @@ ig.module(
             this.flashAnimation = new ig.Animation(this.skyAnimSheet, 0.016, [1, 2, 3, 2, 1]);
             //flash
             this.alphaFlash = new ig.Interpolation(0.5, 0, 0.048, ig.Interpolation.quarticOut);
+            //Countdown
+            this.countdown = ig.game.spawnEntity('EntityCountdown', ig.system.width / 2, 8);
+            this.player = ig.game.spawnEntity('EntityPlayer', 60, 98);
         },
         update: function () {
             this.parent();
@@ -81,13 +86,14 @@ ig.module(
                 this.skyAnimation.draw(this.backgroundPos.x2, 0);
                 this.pier.draw(0, 160);
                 // Add your own drawing code here
-                var x = 100,
+                var x = 150,
                     y = 100;
                 if (ig.game.inputText) {
                     this.font.draw(ig.game.inputText, x, y, ig.Font.ALIGN.CENTER);
                 }
             }
-
+            this.player.draw();
+            this.countdown.draw();
         }
     });
 });

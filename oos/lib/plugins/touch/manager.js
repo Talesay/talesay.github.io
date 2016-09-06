@@ -7,7 +7,9 @@ ig.module(
     'use strict';
     ig.TouchManager = ig.Class.extend({
         accumulator: 0,
-        status: undefined,
+        status: 'idle',
+        previousStatus: undefined,
+        statusExpires: 0,
         staticInstantiate: function (ignore) {
             this.alias('touch');
             return ig.TouchManager.instance || null;
@@ -18,12 +20,7 @@ ig.module(
             });
         },
         update: function () {
-            if (ig.input.state('click')) {
-                this.accumulator += ig.system.tick;
-                if (this.accumulator > 0.3) {
-                    this.status = 'hold';
-                }
-            }
+            this.previousStatus = this.status;
             // Each time player clicks, record click X and Y coordinates
             if (ig.input.pressed('click')) {
                 this.gestureStartX = ig.input.mouse.x;
@@ -35,6 +32,16 @@ ig.module(
                 this.evaluateGesture();
                 this.accumulator = 0;
             }
+            if (this.status === this.previousStatus) {
+                this.status = 'idle';
+            }
+            if (ig.input.state('click')) {
+                this.accumulator += ig.system.tick;
+                if (this.accumulator > 0.3) {
+                    this.status = 'hold';
+                }
+            }
+
         },
         evaluateGesture: function () {
             // Check to make sure swipe was left to right & long enough
@@ -55,21 +62,21 @@ ig.module(
                 //Swiping
                 angle = this.angleTo(x1, y1, x2, y2);
                 if (angle <= -100 && angle >= -170) {
-                    this.status = 'swipe-up-left';
+                    this.status = 'swipeUpLeft';
                 } else if (angle < -80 && angle > -100) {
-                    this.status = 'swipe-up';
+                    this.status = 'swipeUp';
                 } else if (angle >= -80 && angle <= -10) {
-                    this.status = 'swipe-up-right';
+                    this.status = 'swipeUpRight';
                 } else if (angle > -10 && angle < 10) {
-                    this.status = 'swipe-right';
+                    this.status = 'swipeRight';
                 } else if (angle >= 10 && angle <= 80) {
-                    this.status = 'swipe-down-right';
+                    this.status = 'swipeDownRight';
                 } else if (angle > 80 && angle < 100) {
-                    this.status = 'swipe-down';
+                    this.status = 'swipeDown';
                 } else if (angle >= 100 && angle <= 170) {
-                    this.status = 'swipe-down-left';
+                    this.status = 'swipeDownLeft';
                 } else {
-                    this.status = 'swipe-left';
+                    this.status = 'swipeLeft';
                 }
 
                 this.clearGesture();
@@ -87,7 +94,7 @@ ig.module(
                 x2 - x1
             ).toDeg();
         },
-        clearGesture: function () {
+        clearGesture: function (time) {
             this.gestureEndX = undefined;
             this.gestureStartX = undefined;
             this.gestureStartY = undefined;
